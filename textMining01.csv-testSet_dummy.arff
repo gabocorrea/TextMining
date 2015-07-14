@@ -1,0 +1,17 @@
+@relation 'textMining01.csv-testSet_dummy'
+
+@attribute text STRING
+@attribute __directive_class__ {directive,non-directive}
+
+@data
+'may fdkfjalfnf',directive
+'may',directive
+'must path a',directive
+'a path must',directive
+'must',directive
+'path must',non-directive
+'path must may',directive
+'called',directive
+'concurrent',directive
+'note',directive
+'only note',directive

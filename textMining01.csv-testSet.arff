@@ -1,7 +1,7 @@
 @relation 'textMining01.csv-testSet'
 
 @attribute text STRING
-@attribute is_directive {directive,non-directive}
+@attribute __directive_class__ {directive,non-directive}
 
 @data
 '@version $Revision: 815026 $ $Date: 2009-09-15 07:54:23 +0200 (Tue, 15 Sep 2009) $\n\n ',non-directive

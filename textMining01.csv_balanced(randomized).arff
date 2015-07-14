@@ -1,7 +1,7 @@
 @relation 'textMining01.csv_balanced(randomized)'
 
 @attribute text string
-@attribute is_directive {directive,non-directive}
+@attribute __directive_class__ {directive,non-directive}
 
 @data
 '@return The button labels to used; never <code>null</code>.\n',directive

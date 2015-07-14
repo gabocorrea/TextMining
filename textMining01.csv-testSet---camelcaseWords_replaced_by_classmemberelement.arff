@@ -1,0 +1,206 @@
+@relation 'textMining01.csv-testSet'
+
+@attribute text STRING
+@attribute __directive_class__ {directive,non-directive}
+
+@data
+'@version $Revision: 815026 $ $Date: 2009-09-15 07:54:23 +0200 (Tue, 15 Sep 2009) $   ',non-directive
+'@author Stephen Colebourne ',non-directive
+' Returns true if this map is full and no new elements can be added.   @return <code>true</code> if the map is full ',non-directive
+' Returns true if this map is full and no new elements can be added.   ',non-directive
+'@return <code>true</code> if the map is full ',non-directive
+' Gets the maximum size of the map (the bound).   @return the maximum number of elements the map can hold ',non-directive
+' Gets the maximum size of the map (the bound).   ',non-directive
+'@return the maximum number of elements the map can hold ',non-directive
+' Defines a simple key value pair.  <p>  A Map Entry has considerable additional semantics over and above a simple  key-value pair. This interface defines the minimum key value, with just the  two get methods.   @param <K> the type of the key  @param <V> the type of the value  @since Commons Collections _ClassPathElement_  @version $Revision: 815006 $ $Date: 2009-09-15 07:44:36 +0200 (Tue, 15 Sep 2009) $   @author Stephen Colebourne ',directive
+' Defines a simple key value pair.  ',non-directive
+'<p>  A Map Entry has considerable additional semantics over and above a simple  key-value pair. ',directive
+'This interface defines the minimum key value, with just the  two get methods.   ',non-directive
+'@param <K> the type of the key  ',non-directive
+'@param <V> the type of the value  ',non-directive
+'@since Commons Collections _ClassPathElement_  ',non-directive
+'@version $Revision: 815006 $ $Date: 2009-09-15 07:44:36 +0200 (Tue, 15 Sep 2009) $   ',non-directive
+'@author Stephen Colebourne ',non-directive
+' Gets the key from the pair.   @return the key  ',non-directive
+' Gets the key from the pair.   ',non-directive
+'@return the key  ',non-directive
+' Gets the value from the pair.   @return the value ',non-directive
+' Gets the value from the pair.   ',non-directive
+'@return the value ',non-directive
+' The _ClassElement_ is used when the buffer is already empty.  <p>  NOTE: From version _ClassPathElement_, this exception extends _ClassElement_.   @since Commons Collections _ClassPathElement_  @version $Revision: 956279 $ $Date: 2010-06-19 21:47:48 +0200 (Sat, 19 Jun 2010) $   @author Avalon  @author Berin Loritsch  @author Jeff Turner  @author Paul Jack  @author Stephen Colebourne ',directive
+' The _ClassElement_ is used when the buffer is already empty.  ',non-directive
+'<p>  NOTE: From version _ClassPathElement_, this exception extends _ClassElement_.   ',directive
+'@since Commons Collections _ClassPathElement_  ',non-directive
+'@version $Revision: 956279 $ $Date: 2010-06-19 21:47:48 +0200 (Sat, 19 Jun 2010) $   ',non-directive
+'@author Avalon  ',non-directive
+'@author Berin Loritsch  ',non-directive
+'@author Jeff Turner  ',non-directive
+'@author Paul Jack  ',non-directive
+'@author Stephen Colebourne ',non-directive
+' Constructs a new <code>_ClassElement_</code>. ',non-directive
+' Constructs a new <code>_ClassElement_</code>. ',non-directive
+'  Construct a new <code>_ClassElement_</code>.    @param message  the detail message for this exception ',non-directive
+'  Construct a new <code>_ClassElement_</code>.   ',non-directive
+?,non-directive
+'@param message  the detail message for this exception ',non-directive
+'  Construct a new <code>_ClassElement_</code>.    @param message  the detail message for this exception  @param exception  the root cause of the exception ',non-directive
+'  Construct a new <code>_ClassElement_</code>.   ',non-directive
+?,non-directive
+'@param message  the detail message for this exception  ',non-directive
+'@param exception  the root cause of the exception ',non-directive
+' Defines a collection that counts the number of times an object appears in  the collection.  <p>  Suppose you have a Bag that contains <code>{a, a, b, c}</code>.  Calling {@link #_ClassElement_(Object)} on <code>a</code> would return 2, while  calling {@link #_ClassElement_()} would return <code>{a, b, c}</code>.  <p>  <i>NOTE: This interface violates the {@link Collection} contract.</i>   The behavior specified in many of these methods is <i>not</i> the same  as the behavior specified by <code>Collection</code>.  The noncompliant methods are clearly marked with \"(Violation)\".  Exercise caution when using a bag as a <code>Collection</code>.  <p>  This violation resulted from the original specification of this interface.  In an ideal world, the interface would be changed to fix the problems, however  it has been decided to maintain backwards compatibility instead.   @param <E> the type held in the bag  @since Commons Collections _ClassPathElement_  @version $Revision: 815019 $ $Date: 2009-09-15 07:54:10 +0200 (Tue, 15 Sep 2009) $   @author Chuck Burdick  @author Stephen Colebourne ',directive
+' Defines a collection that counts the number of times an object appears in  the collection.  ',non-directive
+'<p>  Suppose you have a Bag that contains <code>{a, a, b, c}</code>.  ',non-directive
+'Calling {',directive
+'@link #_ClassElement_(Object)} on <code>a</code> would return 2, while  calling {',directive
+'@link #_ClassElement_()} would return <code>{a, b, c}</code>.  ',non-directive
+'<p>  <i>NOTE: This interface violates the {',directive
+'@link Collection} contract.</i>   The behavior specified in many of these methods is <i>not</i> the same  as the behavior specified by <code>Collection</code>.  ',non-directive
+'The noncompliant methods are clearly marked with \"(Violation)\".  ',non-directive
+'Exercise caution when using a bag as a <code>Collection</code>.  ',non-directive
+'<p>  This violation resulted from the original specification of this interface.  ',non-directive
+'In an ideal world, the interface would be changed to fix the problems, however  it has been decided to maintain backwards compatibility instead.   ',non-directive
+'@param <E> the type held in the bag  ',non-directive
+'@since Commons Collections _ClassPathElement_  ',non-directive
+'@version $Revision: 815019 $ $Date: 2009-09-15 07:54:10 +0200 (Tue, 15 Sep 2009) $   ',non-directive
+'@author Chuck Burdick  ',non-directive
+'@author Stephen Colebourne ',non-directive
+' Returns the number of occurrences (cardinality) of the given  object currently in the bag. If the object does not exist in the  bag, return 0.    @param object  the object to search for  @return the number of occurrences of the object, zero if not found ',non-directive
+' Returns the number of occurrences (cardinality) of the given  object currently in the bag. ',non-directive
+'If the object does not exist in the  bag, return 0.   ',non-directive
+?,non-directive
+'@param object  the object to search for  ',non-directive
+'@return the number of occurrences of the object, zero if not found ',non-directive
+' Adds <code>_ClassElement_</code> copies of the specified object to the Bag.  <p>  If the object is already in the {@link #_ClassElement_()} then increment its  count as reported by {@link #_ClassElement_(Object)}. Otherwise add it to the  {@link #_ClassElement_()} and report its count as <code>_ClassElement_</code>.    @param object  the object to add  @param _ClassElement_  the number of copies to add  @return <code>true</code> if the object was not already in the <code>_ClassElement_</code> ',non-directive
+' Adds <code>_ClassElement_</code> copies of the specified object to the Bag.  ',non-directive
+'<p>  If the object is already in the {',non-directive
+'@link #_ClassElement_()} then increment its  count as reported by {',non-directive
+'@link #_ClassElement_(Object)}. ',non-directive
+'Otherwise add it to the  {',non-directive
+'@link #_ClassElement_()} and report its count as <code>_ClassElement_</code>.   ',non-directive
+?,non-directive
+'@param object  the object to add  ',non-directive
+'@param _ClassElement_  the number of copies to add  ',non-directive
+'@return <code>true</code> if the object was not already in the <code>_ClassElement_</code> ',non-directive
+' Returns a {@link Set} of unique elements in the Bag.  <p>  Uniqueness constraints are the same as those in {@link _ClassPathElement_}.    @return the Set of unique Bag elements ',non-directive
+' Returns a {',non-directive
+'@link Set} of unique elements in the Bag.  ',non-directive
+'<p>  Uniqueness constraints are the same as those in {',non-directive
+'@link _ClassPathElement_}.   ',non-directive
+?,non-directive
+'@return the Set of unique Bag elements ',non-directive
+' Returns the total number of items in the bag across all types.    @return the total size of the Bag ',non-directive
+' Returns the total number of items in the bag across all types.   ',non-directive
+?,non-directive
+'@return the total size of the Bag ',non-directive
+' <i>(Violation)</i>  Returns <code>true</code> if the bag contains all elements in  the given collection, respecting cardinality.  That is, if the  given collection <code>coll</code> contains <code>n</code> copies  of a given object, calling {@link #_ClassElement_(Object)} on that object must  be <code>&gt;= n</code> for all <code>n</code> in <code>coll</code>.  <p>  The {@link Collection#_ClassElement_(Collection)} method specifies  that cardinality should <i>not</i> be respected; this method should  return true if the bag contains at least one of every object contained  in the given collection.    @param coll  the collection to check against  @return <code>true</code> if the Bag contains all the collection ',directive
+' <i>(Violation)</i>  Returns <code>true</code> if the bag contains all elements in  the given collection, respecting cardinality.  ',non-directive
+'That is, if the  given collection <code>coll</code> contains <code>n</code> copies  of a given object, calling {',directive
+'@link #_ClassElement_(Object)} on that object must  be <code>&gt;= n</code> for all <code>n</code> in <code>coll</code>.  ',directive
+'<p>  The {',non-directive
+'@link Collection#_ClassElement_(Collection)} method specifies  that cardinality should <i>not</i> be respected; this method should  return true if the bag contains at least one of every object contained  in the given collection.   ',directive
+?,non-directive
+'@param coll  the collection to check against  ',non-directive
+'@return <code>true</code> if the Bag contains all the collection ',non-directive
+' <i>(Violation)</i>  Remove all elements represented in the given collection,  respecting cardinality.  That is, if the given collection  <code>coll</code> contains <code>n</code> copies of a given object,  the bag will have <code>n</code> fewer copies, assuming the bag  had at least <code>n</code> copies to begin with.   <P>The {@link Collection#_ClassElement_(Collection)} method specifies  that cardinality should <i>not</i> be respected; this method should  remove <i>all</i> occurrences of every object contained in the   given collection.   @param coll  the collection to remove  @return <code>true</code> if this call changed the collection ',directive
+' <i>(Violation)</i>  Remove all elements represented in the given collection,  respecting cardinality.  ',non-directive
+'That is, if the given collection  <code>coll</code> contains <code>n</code> copies of a given object,  the bag will have <code>n</code> fewer copies, assuming the bag  had at least <code>n</code> copies to begin with.   ',directive
+'<P>The {',non-directive
+'@link Collection#_ClassElement_(Collection)} method specifies  that cardinality should <i>not</i> be respected; this method should  remove <i>all</i> occurrences of every object contained in the   given collection.   ',directive
+'@param coll  the collection to remove  ',non-directive
+'@return <code>true</code> if this call changed the collection ',directive
+' Returns an {@link Iterator} over the entire set of members,  including copies due to cardinality. This iterator is fail-fast  and will not tolerate concurrent modifications.    @return iterator over all elements in the Bag ',directive
+' Returns an {',non-directive
+'@link Iterator} over the entire set of members,  including copies due to cardinality. ',non-directive
+'This iterator is fail-fast  and will not tolerate concurrent modifications.   ',directive
+?,non-directive
+'@return iterator over all elements in the Bag ',non-directive
+' The \"read\" subset of the {@link Map} interface.  @since Commons Collections 5  @TODO fix version  @version $Revision: 815056 $ $Date: 2009-09-15 07:55:23 +0200 (Tue, 15 Sep 2009) $  @see Put  @author Matt Benson ',non-directive
+' The \"read\" subset of the {',non-directive
+'@link Map} interface.  ',non-directive
+'@since Commons Collections 5  @TODO fix version  ',non-directive
+'@version $Revision: 815056 $ $Date: 2009-09-15 07:55:23 +0200 (Tue, 15 Sep 2009) $  ',non-directive
+'@see Put  ',non-directive
+'@author Matt Benson ',non-directive
+' <code>_ClassElement_</code> provides reference implementations and   utilities for the Transformer functor interface. The supplied transformers are:  <ul>  <li>Invoker - returns the result of a method call on the input object  <li>Clone - returns a clone of the input object  <li>Constant - always returns the same object  <li>Closure - performs a Closure and returns the input object  <li>Predicate - returns the result of the predicate as a Boolean  <li>Factory - returns a new object from a factory  <li>Chained - chains two or more transformers together  <li>Switch - calls one transformer based on one or more predicates  <li>_ClassElement_ - calls one transformer looked up from a Map  <li>Instantiate - the Class input object is instantiated  <li>Map - returns an object from a supplied Map  <li>Null - always returns null  <li>NOP - returns the input object, which should be immutable  <li>Exception - always throws an exception  <li>_ClassElement_ - returns a <code>_ClassPathElement_</code> representation of the input object  </ul>  All the supplied transformers are Serializable.   @since Commons Collections _ClassPathElement_  @version $Revision: 815106 $ $Date: 2009-09-15 07:56:51 +0200 (Tue, 15 Sep 2009) $   @author Stephen Colebourne  @author James Carman ',directive
+' <code>_ClassElement_</code> provides reference implementations and   utilities for the Transformer functor interface. ',non-directive
+'The supplied transformers are:  <ul>  ',non-directive
+'<li>Invoker - returns the result of a method call on the input object  ',directive
+'<li>Clone - returns a clone of the input object  ',non-directive
+'<li>Constant - always returns the same object  ',non-directive
+'<li>Closure - performs a Closure and returns the input object  ',non-directive
+'<li>Predicate - returns the result of the predicate as a Boolean  ',non-directive
+'<li>Factory - returns a new object from a factory  ',non-directive
+'<li>Chained - chains two or more transformers together  ',non-directive
+'<li>Switch - calls one transformer based on one or more predicates  ',directive
+'<li>_ClassElement_ - calls one transformer looked up from a Map  ',directive
+'<li>Instantiate - the Class input object is instantiated  ',non-directive
+'<li>Map - returns an object from a supplied Map  ',non-directive
+'<li>Null - always returns null  ',non-directive
+'<li>NOP - returns the input object, which should be immutable  ',directive
+'<li>Exception - always throws an exception  ',non-directive
+'<li>_ClassElement_ - returns a <code>_ClassPathElement_</code> representation of the input object  </ul>  ',non-directive
+'All the supplied transformers are Serializable.   ',non-directive
+'@since Commons Collections _ClassPathElement_  ',non-directive
+'@version $Revision: 815106 $ $Date: 2009-09-15 07:56:51 +0200 (Tue, 15 Sep 2009) $   ',non-directive
+'@author Stephen Colebourne  ',non-directive
+'@author James Carman ',non-directive
+' Gets a transformer that always throws an exception.  This could be useful during testing as a placeholder.    @see _ClassPathElement_    @return the transformer ',non-directive
+' Gets a transformer that always throws an exception.  ',non-directive
+'This could be useful during testing as a placeholder.   ',non-directive
+?,non-directive
+'@see _ClassPathElement_    ',non-directive
+'@return the transformer ',non-directive
+' Gets a transformer that always returns null.    @see _ClassPathElement_    @return the transformer ',non-directive
+' Gets a transformer that always returns null.   ',non-directive
+?,non-directive
+'@see _ClassPathElement_    ',non-directive
+'@return the transformer ',non-directive
+' Gets a transformer that returns a clone of the input  object. The input object will be cloned using one of these  techniques (in order):  <ul>  <li>public clone method  <li>public copy constructor  <li>serialization clone  <ul>    @see _ClassPathElement_    @return the transformer ',non-directive
+' Gets a transformer that returns a clone of the input  object. ',non-directive
+'The input object will be cloned using one of these  techniques (in order):  <ul>  ',non-directive
+'<li>public clone method  ',non-directive
+'<li>public copy constructor  ',non-directive
+'<li>serialization clone  <ul>    ',non-directive
+'@see _ClassPathElement_    ',non-directive
+'@return the transformer ',non-directive
+' Creates a Transformer that will return the same object each time the   transformer is used.   @see _ClassPathElement_    @param constantToReturn  the constant object to return each time in the transformer  @return the transformer. ',non-directive
+' Creates a Transformer that will return the same object each time the   transformer is used.   ',non-directive
+'@see _ClassPathElement_    ',non-directive
+'@param constantToReturn  the constant object to return each time in the transformer  ',non-directive
+'@return the transformer. ',non-directive
+' Create a new Transformer that calls two transformers, passing the result of  the first into the second.    @see _ClassPathElement_    @param transformer1  the first transformer  @param transformer2  the second transformer  @return the transformer  @throws _ClassElement_ if either transformer is null ',directive
+' Create a new Transformer that calls two transformers, passing the result of  the first into the second.   ',directive
+?,non-directive
+'@see _ClassPathElement_    ',non-directive
+'@param transformer1  the first transformer  ',non-directive
+'@param transformer2  the second transformer  ',non-directive
+'@return the transformer  ',non-directive
+'@throws _ClassElement_ if either transformer is null ',non-directive
+' Create a new Transformer that calls each transformer in turn, passing the   result into the next transformer.    @see _ClassPathElement_    @param transformers  an array of transformers to chain  @return the transformer  @throws _ClassElement_ if the transformers array is null  @throws _ClassElement_ if any transformer in the array is null ',directive
+' Create a new Transformer that calls each transformer in turn, passing the   result into the next transformer.   ',directive
+?,non-directive
+'@see _ClassPathElement_    ',non-directive
+'@param transformers  an array of transformers to chain  ',non-directive
+'@return the transformer  ',non-directive
+'@throws _ClassElement_ if the transformers array is null  ',non-directive
+'@throws _ClassElement_ if any transformer in the array is null ',non-directive
+' Create a new Transformer that calls each transformer in turn, passing the   result into the next transformer. The ordering is that of the iterator()  method on the collection.    @see _ClassPathElement_    @param transformers  a collection of transformers to chain  @return the transformer  @throws _ClassElement_ if the transformers collection is null  @throws _ClassElement_ if any transformer in the collection is null ',directive
+' Create a new Transformer that calls each transformer in turn, passing the   result into the next transformer. ',directive
+'The ordering is that of the iterator()  method on the collection.   ',non-directive
+?,non-directive
+'@see _ClassPathElement_    ',non-directive
+'@param transformers  a collection of transformers to chain  ',non-directive
+'@return the transformer  ',non-directive
+'@throws _ClassElement_ if the transformers collection is null  ',non-directive
+'@throws _ClassElement_ if any transformer in the collection is null ',non-directive
+' Create a new Transformer that calls one of two transformers depending   on the specified predicate.    @see _ClassPathElement_    @param predicate  the predicate to switch on  @param _ClassElement_  the transformer called if the predicate is true  @param _ClassElement_  the transformer called if the predicate is false  @return the transformer  @throws _ClassElement_ if the predicate is null  @throws _ClassElement_ if either transformer is null ',directive
+' Create a new Transformer that calls one of two transformers depending   on the specified predicate.   ',directive
+?,non-directive
+'@see _ClassPathElement_    ',non-directive
+'@param predicate  the predicate to switch on  ',non-directive
+'@param _ClassElement_  the transformer called if the predicate is true  ',directive
+'@param _ClassElement_  the transformer called if the predicate is false  ',directive
+'@return the transformer  ',non-directive
+'@throws _ClassElement_ if the predicate is null  ',non-directive
+'@throws _ClassElement_ if either transformer is null ',non-directive
