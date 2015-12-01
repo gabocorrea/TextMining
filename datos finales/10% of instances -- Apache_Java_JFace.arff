@@ -1,0 +1,601 @@
+% first Apache(163 lines) then is Java(237 lines) and lastly is JFace(191 lines)
+% 2 clases
+% null-directive and semi-directive instances were taken as directive class
+
+@RELATION "Apache_Java_JFace (10% of instances).arff"
+
+@ATTRIBUTE text string
+@ATTRIBUTE comment__class {directive,non-directive}
+
+@DATA
+" Create an {@link IndexedCollection} for a unique index.\n\n ",non-directive
+"@param <K> the index object type.\n ",non-directive
+"@param <C> the collection type.\n ",non-directive
+"@param coll the decorated {@link Collection}.\n ",non-directive
+"@param keyTransformer the {@link Transformer} for generating index keys.\n ",non-directive
+"@return the created {@link IndexedCollection}.\n",non-directive
+" Get the element associated with the given key.\n ",non-directive
+"@param key to look up\n ",non-directive
+"@return element found\n",non-directive
+" Create a {@link IndexedCollection} for a unique index.\n\n ",non-directive
+"@param coll the decorated {@link Collection}.\n ",non-directive
+"@param keyTransformer the {@link Transformer} for generating index keys.\n",non-directive
+" Returns the sum of the given lists.  ",non-directive
+"This is their intersection\n subtracted from their union.\n\n ",non-directive
+"@param list1  the first list \n ",non-directive
+"@param list2  the second list\n ",non-directive
+"@return  a new list containing the sum of those lists\n ",non-directive
+" Returns a new list containing the second list appended to the\n first list.  ",non-directive
+"The {@link List#addAll(Collection)} operation is\n used to append the two given lists into a new list.\n\n ",non-directive
+"@param list1  the first list \n ",non-directive
+"@param list2  the second list\n ",non-directive
+"@return  a new list containing the union of those lists\n ",non-directive
+" Generates a hash code using the algorithm specified in \n {@link java.util.List#hashCode()}.\n ",non-directive
+"<p>\n This method is useful for implementing <code>List</code> when you cannot\n extend AbstractList. ",directive
+"The method takes Collection instances to enable other\n collection types to use the List implementation algorithm.\n \n",non-directive
+"@see java.util.List#hashCode()\n ",non-directive
+"@param list  the list to generate the hashCode for, may be null\n ",directive
+"@return the hash code\n",non-directive
+" Finds the first index in the given List which matches the given predicate.\n ",non-directive
+"<p>\n If the input List or predicate is null, or no element of the List\n matches the predicate, -1 is returned.\n\n ",non-directive
+"@param list the List to search, may be null\n ",directive
+"@param predicate  the predicate to use, may be null\n ",directive
+"@return the first index of an Object in the List which matches the predicate or -1 if none could be found\n",non-directive
+" Interpolate key names to handle ${key} stuff\n\n ",non-directive
+"@param base string to interpolate\n ",non-directive
+"@return returns the key name with the ${key} substituted\n",non-directive
+" Sets the property value for including other properties files.\n ",non-directive
+"By default it is \"include\".\n\n ",directive
+"@param inc  the property name which includes another property, empty converted to null\n",non-directive
+" Add a property to the configuration. ",non-directive
+"If it already\n exists then the value stated here will be added\n to the configuration entry. ",directive
+"For example, if\n\n <code>resource.loader = file</code>\n\n is already present in the configuration and you\n\n <code>addProperty(\"resource.loader\", \"classpath\")</code>\n\n Then you will end up with a Vector like the\n following:\n\n <code>[\"file\", \"classpath\"]</code>\n\n ",non-directive
+"@param key  the key to add\n ",non-directive
+"@param value  the value to add\n",non-directive
+" Combines an existing Hashtable with this Hashtable.\n ",non-directive
+"<p>\n Warning: It will overwrite previous entries without warning.\n\n ",directive
+"@param props  the properties to combine\n",non-directive
+" Get the list of the keys contained in the configuration\n repository that match the specified prefix.\n\n ",non-directive
+"@param prefix  the prefix to match\n ",non-directive
+"@return an Iterator of keys that match the prefix\n",non-directive
+" Create an ExtendedProperties object that is a subset\n of this one. ",non-directive
+"Take into account duplicate keys\n by using the setProperty() in ExtendedProperties.\n\n ",directive
+"@param prefix  the prefix to get a subset for\n ",non-directive
+"@return a new independent ExtendedProperties\n",non-directive
+" Get a string associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@return The associated string.\n ",non-directive
+" Get a list of properties associated with the given\n configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@return The associated properties if key is found.\n ",non-directive
+" Get a list of properties associated with the given\n configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@return The associated properties if key is found.\n ",non-directive
+" Get an array of strings associated with the given configuration\n key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@return The associated string array if key is found.\n ",non-directive
+" Get a Vector of strings associated with the given configuration key.\n ",non-directive
+"<p>\n The list is a copy of the internal data of this object, and as\n such you may alter it freely.\n\n ",directive
+"@param key The configuration key.\n ",non-directive
+"@param defaultValue The default value.\n ",non-directive
+"@return The associated Vector.\n ",non-directive
+" Get a List of strings associated with the given configuration key.\n ",non-directive
+"<p>\n The list is a copy of the internal data of this object, and as\n such you may alter it freely.\n\n ",directive
+"@param key The configuration key.\n ",non-directive
+"@return The associated List object.\n ",non-directive
+"@since Commons Collections 3.2\n",non-directive
+" Get a List of strings associated with the given configuration key.\n ",non-directive
+"<p>\n The list is a copy of the internal data of this object, and as\n such you may alter it freely.\n\n ",directive
+"@param key The configuration key.\n ",non-directive
+"@param defaultValue The default value.\n ",non-directive
+"@return The associated List.\n ",non-directive
+"@since Commons Collections 3.2\n",non-directive
+" Get a boolean associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@return The associated boolean.\n ",non-directive
+" Get a boolean associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@param defaultValue The default value.\n ",non-directive
+"@return The associated boolean.\n ",non-directive
+" Get a boolean associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@param defaultValue The default value.\n ",non-directive
+"@return The associated boolean if key is found and has valid\n format, default value otherwise.\n ",non-directive
+" Get a byte associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@param defaultValue The default value.\n ",non-directive
+"@return The associated byte.\n ",non-directive
+" Get a byte associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@param defaultValue The default value.\n ",non-directive
+"@return The associated byte if key is found and has valid\n format, default value otherwise.\n ",non-directive
+" Get a short associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@return The associated short.\n ",non-directive
+" Get a short associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@param defaultValue The default value.\n ",non-directive
+"@return The associated short.\n ",non-directive
+" Get a short associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@param defaultValue The default value.\n ",non-directive
+"@return The associated short if key is found and has valid\n format, default value otherwise.\n ",non-directive
+" The purpose of this method is to get the configuration resource\n with the given name as an integer, or a default value.\n\n ",non-directive
+"@param name The resource name\n ",non-directive
+"@param def The default value of the resource.\n ",non-directive
+"@return The value of the resource as an integer.\n",non-directive
+" Get a int associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@return The associated int.\n ",non-directive
+" Get a int associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@param defaultValue The default value.\n ",non-directive
+"@return The associated int.\n ",non-directive
+" Get a int associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@param defaultValue The default value.\n ",non-directive
+"@return The associated int if key is found and has valid\n format, default value otherwise.\n ",non-directive
+" Get a long associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@return The associated long.\n ",non-directive
+" Get a long associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@param defaultValue The default value.\n ",non-directive
+"@return The associated long.\n ",non-directive
+" Get a long associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@param defaultValue The default value.\n ",non-directive
+"@return The associated long if key is found and has valid\n format, default value otherwise.\n ",non-directive
+" Get a float associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@return The associated float.\n ",non-directive
+" Get a float associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@param defaultValue The default value.\n ",non-directive
+"@return The associated float.\n ",non-directive
+" Get a float associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@param defaultValue The default value.\n ",non-directive
+"@return The associated float if key is found and has valid\n format, default value otherwise.\n ",non-directive
+" Get a double associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@return The associated double.\n ",non-directive
+" Get a double associated with the given configuration key.\n\n ",non-directive
+"@param key The configuration key.\n ",non-directive
+"@param defaultValue The default value.\n ",non-directive
+"@return The associated double.\n ",non-directive
+" Convert a standard properties class into a configuration class.\n ",non-directive
+"<p>\n NOTE: From Commons Collections 3.2 this method will pick up\n any default parent Properties of the specified input object.\n ",directive
+"<p>\n As with java.util.Properties(Properties), any non-String \n values will not be passed on in the new ExtendedProperties \n object.\n\n ",directive
+"@param props  the properties object to convert\n ",non-directive
+"@return new ExtendedProperties created from props\n",non-directive
+" Remove the property specified by the key from the \n ExtendedProperties.\n\n ",non-directive
+"@param key specifying the property\n ",non-directive
+"@param coll  the collection being added\n ",non-directive
+"@return true if the collection is changed\n ",non-directive
+" Flushes the stream.  ",non-directive
+"If the stream has saved any characters from the\n various write() methods in a buffer, write them immediately to their\n intended destination.  ",non-directive
+"Then, if that destination is another character or\n byte stream, flush it.  ",non-directive
+"Thus one flush() invocation will flush all the\n buffers in a chain of Writers and OutputStreams.\n \n",directive
+" <p> If the intended destination of this stream is an abstraction provided\n by the underlying operating system, for example a file, then flushing the\n stream guarantees only that bytes previously written to the stream are\n passed to the operating system for writing; it does not guarantee that\n they are actually written to a physical device such as a disk drive.\n\n ",directive
+" Specifies that all characters <i>c</i> in the range\n <code>low&nbsp;&lt;=&nbsp;<i>c</i>&nbsp;&lt;=&nbsp;high</code>\n are \"ordinary\" in this tokenizer. ",non-directive
+"See the\n <code>ordinaryChar</code> method for more information on a\n character being ordinary.\n\n ",directive
+"@param   low   the low end of the range.\n ",non-directive
+"@param   hi    the high end of the range.\n ",non-directive
+"@see     java.io.StreamTokenizer#ordinaryChar(int)\n",non-directive
+" Reads characters into an array.  ",non-directive
+"This method will block until some input\n is available, an I/O error occurs, or the end of the stream is reached.\n\n ",directive
+"@param       cbuf  Destination buffer\n\n ",non-directive
+"@return      The number of characters read, or -1 \n              if the end of the stream\n              has been reached\n\n ",directive
+" Tells whether this stream is ready to be read.\n\n ",non-directive
+"@return True if the next read() is guaranteed not to block for input,\n false otherwise.  ",directive
+"Note that returning false does not guarantee that the\n next read will block.\n\n ",directive
+" Reads up to <code>b.length</code> bytes of data from this file \n into an array of bytes. ",non-directive
+"This method blocks until at least one byte \n of input is available. \n ",directive
+"<p>\n Although <code>RandomAccessFile</code> is not a subclass of \n <code>InputStream</code>, this method behaves in exactly the \n same way as the {@link InputStream#read(byte[])} method of \n <code>InputStream</code>.\n\n ",directive
+"@param      b   the buffer into which the data is read.\n ",non-directive
+"@return     the total number of bytes read into the buffer, or\n             <code>-1</code> if there is no more data because the end of\n             this file has been reached.\n ",directive
+" Writes the specified byte to this file. ",non-directive
+"The write starts at \n the current file pointer.\n\n ",non-directive
+"@param      b   the <code>byte</code> to be written.\n ",non-directive
+" Reads the next line of text from this file.  ",non-directive
+"This method successively\n reads bytes from the file, starting at the current file pointer, \n until it reaches a line terminator or the end\n of the file.  ",non-directive
+"Each byte is converted into a character by taking the\n byte's value for the lower eight bits of the character and setting the\n high eight bits of the character to zero.  ",non-directive
+"This method does not,\n therefore, support the full Unicode character set.\n\n ",directive
+"<p> A line of text is terminated by a carriage-return character\n (<code>'&#92;r'</code>), a newline character (<code>'&#92;n'</code>), a\n carriage-return character immediately followed by a newline character,\n or the end of the file.  ",directive
+"Line-terminating characters are discarded and\n are not included as part of the string returned.\n\n ",directive
+"<p> This method blocks until a newline character is read, a carriage\n return and the byte following it are read (to see if it is a newline),\n the end of the file is reached, or an exception is thrown.\n\n ",directive
+"@return     the next line of text from this file, or null if end\n             of file is encountered before even one byte is read.\n ",directive
+" Reads in a string from this file. ",non-directive
+"The string has been encoded \n using a\n <a href=\"DataInput.html#modified-utf-8\">modified UTF-8</a>\n format. \n ",directive
+"<p>\n The first two bytes are read, starting from the current file \n pointer, as if by \n <code>readUnsignedShort</code>. ",directive
+"This value gives the number of \n following bytes that are in the encoded string, not\n the length of the resulting string. ",directive
+"The following bytes are then \n interpreted as bytes encoding characters in the modified UTF-8 format \n and are converted into characters. \n ",directive
+"<p>\n This method blocks until all the bytes are read, the end of the \n stream is detected, or an exception is thrown. \n\n ",directive
+"@return     a Unicode string.\n ",non-directive
+"@see        java.io.RandomAccessFile#readUnsignedShort()\n",non-directive
+" Converts the float argument to an <code>int</code> using the \n <code>floatToIntBits</code> method in class <code>Float</code>, \n and then writes that <code>int</code> value to the file as a \n four-byte quantity, high byte first. ",non-directive
+"The write starts at the \n current position of the file pointer.\n\n ",non-directive
+"@param      v   a <code>float</code> value to be written.\n ",non-directive
+"@see        java.lang.Float#floatToIntBits(float)\n",non-directive
+" Creates a <code>PushbackInputStream</code>\n with a pushback buffer of the specified <code>size</code>,\n and saves its  argument, the input stream\n <code>in</code>, for later use. ",non-directive
+"Initially,\n there is no pushed-back byte  (the field\n <code>pushBack</code> is initialized to\n <code>-1</code>).\n\n ",non-directive
+"@param  in    the input stream from which bytes will be read.\n ",non-directive
+"@param  size  the size of the pushback buffer.\n ",non-directive
+"@since  JDK1.1\n",non-directive
+" Creates a <code>PushbackInputStream</code>\n and saves its  argument, the input stream\n <code>in</code>, for later use. ",non-directive
+"Initially,\n there is no pushed-back byte  (the field\n <code>pushBack</code> is initialized to\n <code>-1</code>).\n\n ",directive
+"@param   in   the input stream from which bytes will be read.\n",non-directive
+" Prints a boolean value.  ",non-directive
+"The string produced by <code>{@link\n java.lang.String#valueOf(boolean)}</code> is translated into bytes\n according to the platform's default character encoding, and these bytes\n are written in exactly the manner of the <code>{@link\n #write(int)}</code> method.\n\n ",directive
+"@param      b   The <code>boolean</code> to be printed\n",non-directive
+" Prints a double-precision floating-point number.  ",non-directive
+"The string produced by\n <code>{@link java.lang.String#valueOf(double)}</code> is translated into\n bytes according to the platform's default character encoding, and these\n bytes are written in exactly the manner of the <code>{@link\n #write(int)}</code> method.\n\n ",directive
+"@param      d   The <code>double</code> to be printed\n ",non-directive
+"@see        java.lang.Double#toString(double)\n",non-directive
+" Prints a long integer and then terminates the line.  ",non-directive
+"This method behaves\n as though it invokes <code>{@link #print(long)}</code> and then\n <code>{@link #println()}</code>.\n\n ",directive
+"@param x the <code>long</code> value to be printed\n",non-directive
+" Creates a new PrintWriter, without automatic line flushing, with the\n specified file.  ",non-directive
+"This convenience constructor creates the necessary\n intermediate {@link java.io.OutputStreamWriter OutputStreamWriter},\n which will encode characters using the {@linkplain\n java.nio.charset.Charset#defaultCharset() default charset} for this\n instance of the Java virtual machine.\n\n ",directive
+"@param  file\n         The file to use as the destination of this writer.  ",non-directive
+"If the file\n         exists then it will be truncated to zero size; otherwise, a new\n         file will be created.  ",directive
+"The output will be written to the file\n         and is buffered.\n\n ",non-directive
+"@since  1.5\n",non-directive
+" Closes the stream.  ",non-directive
+"This is done by flushing the stream and then closing\n the underlying output stream.\n\n ",non-directive
+"@see        java.io.OutputStream#close()\n",non-directive
+" Prints a boolean and then terminate the line.  ",non-directive
+"This method behaves as\n though it invokes <code>{@link #print(boolean)}</code> and then\n <code>{@link #println()}</code>.\n\n ",directive
+"@param x  The <code>boolean</code> to be printed\n",non-directive
+" Prints a character and then terminate the line.  ",non-directive
+"This method behaves as\n though it invokes <code>{@link #print(char)}</code> and then\n <code>{@link #println()}</code>.\n\n ",directive
+"@param x  The <code>char</code> to be printed.\n",non-directive
+" A convenience method to write a formatted string to this output stream\n using the specified format string and arguments.\n\n ",non-directive
+"<p> An invocation of this method of the form <tt>out.printf(format,\n args)</tt> behaves in exactly the same way as the invocation\n\n <pre>\n     out.format(format, args) </pre>\n\n ",directive
+"@param  format\n         A format string as described in <a\n         href=\"../util/Formatter.html#syntax\">Format string syntax</a>\n\n ",directive
+"@param  args\n         Arguments referenced by the format specifiers in the format\n         string.  ",directive
+"If there are more arguments than format specifiers, the\n         extra arguments are ignored.  ",directive
+"The number of arguments is\n         variable and may be zero.  ",directive
+"The maximum number of arguments is\n         limited by the maximum dimension of a Java array as defined by\n         the <a href=\"http://java.sun.com/docs/books/vmspec/\">Java\n         Virtual Machine Specification</a>.  ",directive
+"The behaviour on a\n         <tt>null</tt> argument depends on the <a\n         href=\"../util/Formatter.html#syntax\">conversion</a>.\n\n ",directive
+"For specification of all possible\n          formatting errors, see the <a\n          href=\"../util/Formatter.html#detail\">Details</a> section of the\n          formatter class specification.\n\n ",directive
+"@return  This output stream\n\n ",non-directive
+"@since  1.5\n",non-directive
+" Connects this piped writer to a receiver. ",non-directive
+"If this object\n is already connected to some other piped reader, an \n <code>IOException</code> is thrown.\n ",directive
+"<p>\n If <code>snk</code> is an unconnected piped reader and \n <code>src</code> is an unconnected piped writer, they may \n be connected by either the call:\n <blockquote><pre>\n src.connect(snk)</pre></blockquote>\n or the call:\n <blockquote><pre>\n snk.connect(src)</pre></blockquote>\n The two calls have the same effect.\n\n ",directive
+"@param      snk   the piped reader to connect to.\n ",non-directive
+" Reads the next character of data from this piped stream.\n ",non-directive
+"If no character is available because the end of the stream \n has been reached, the value <code>-1</code> is returned. \n ",directive
+"This method blocks until input data is available, the end of\n the stream is detected, or an exception is thrown. \n\n ",directive
+"@return     the next character of data, or <code>-1</code> if the end of the\n             stream is reached.\n ",directive
+" Connects this piped output stream to a receiver. ",non-directive
+"If this object\n is already connected to some other piped input stream, an \n <code>IOException</code> is thrown.\n ",directive
+"<p>\n If <code>snk</code> is an unconnected piped input stream and \n <code>src</code> is an unconnected piped output stream, they may \n be connected by either the call:\n <blockquote><pre>\n src.connect(snk)</pre></blockquote>\n or the call:\n <blockquote><pre>\n snk.connect(src)</pre></blockquote>\n The two calls have the same effect.\n\n ",non-directive
+"@param      snk   the piped input stream to connect to.\n ",non-directive
+" Writes the specified <code>byte</code> to the piped output stream. \n ",non-directive
+"<p>\n Implements the <code>write</code> method of <code>OutputStream</code>.\n\n ",non-directive
+"@param      b   the <code>byte</code> to be written.\n ",non-directive
+" Receives a byte of data.  ",non-directive
+"This method will block if no input is\n available.\n ",directive
+"@param b the byte being received\n ",non-directive
+"@since     JDK1.1\n",non-directive
+" Specify stream protocol version to use when writing the stream.\n\n ",non-directive
+"<p>This routine provides a hook to enable the current version of\n Serialization to write in a format that is backwards compatible to a\n previous version of the stream format.\n\n ",non-directive
+"<p>Every effort will be made to avoid introducing additional\n backwards incompatibilities; however, sometimes there is no\n other alternative.\n\n ",directive
+"@param	version use ProtocolVersion from java.io.ObjectStreamConstants.\n ",directive
+"@see java.io.ObjectStreamConstants#PROTOCOL_VERSION_1\n ",non-directive
+"@see java.io.ObjectStreamConstants#PROTOCOL_VERSION_2\n ",non-directive
+"@since	1.2\n",non-directive
+" Put the value of the named double field into the persistent field.\n\n ",non-directive
+"@param  name the name of the serializable field\n ",non-directive
+"@param  val the value to assign to the field\n ",non-directive
+" Writes an array of bytes. ",non-directive
+"This method will block until the bytes\n are actually written.\n ",directive
+"@param b	the data to be written\n ",non-directive
+" Reads the persistent fields from the stream and makes them available by\n name.\n \n",non-directive
+"@return	the <code>GetField</code> object representing the persistent\n 		fields of the object being deserialized\n ",non-directive
+"@since 1.2\n",non-directive
+" Reads up to <code>len</code> bytes of data from this input stream \n into an array of bytes. ",non-directive
+"This method blocks until some input is available.\n ",directive
+"<p>\n The <code>read</code> method of \n <code>LineNumberInputStream</code> repeatedly calls the \n <code>read</code> method of zero arguments to fill in the byte array.\n\n ",non-directive
+"@param      b     the buffer into which the data is read.\n ",non-directive
+"@param      off   the start offset of the data.\n ",non-directive
+"@param      len   the maximum number of bytes read.\n ",non-directive
+"@return     the total number of bytes read into the buffer, or\n             <code>-1</code> if there is no more data because the end of\n             this stream has been reached.\n ",directive
+"@see        java.io.LineNumberInputStream#read()\n",non-directive
+" Reads characters into a portion of an array.\n\n ",non-directive
+"@param      cbuf     Destination buffer\n ",non-directive
+"@param      offset   Offset at which to start storing characters\n ",non-directive
+"@param      length   Maximum number of characters to read\n\n ",non-directive
+"@return     The number of characters read, or -1 if the end of the \n             stream has been reached\n\n ",non-directive
+" Creates an InputStreamReader that uses the given charset decoder.  ",non-directive
+"</p>\n\n ",non-directive
+"@param  in       An InputStream\n ",non-directive
+"@param  dec      A charset decoder\n\n ",non-directive
+"@since 1.4\n @spec JSR-51\n",non-directive
+" Constructs a FileWriter object given a file name with a boolean\n indicating whether or not to append the data written.\n\n ",non-directive
+"@param fileName  String The system-dependent filename.\n ",non-directive
+"@param append    boolean if <code>true</code>, then data will be written\n                  to the end of the file rather than the beginning.\n ",non-directive
+" Returns the unique {@link java.nio.channels.FileChannel FileChannel}\n object associated with this file output stream. ",non-directive
+"</p>\n\n <p> The initial {@link java.nio.channels.FileChannel#position()\n </code>position<code>} of the returned channel will be equal to the\n number of bytes written to the file so far unless this stream is in\n append mode, in which case it will be equal to the size of the file.\n ",directive
+"Writing bytes to this stream will increment the channel's position\n accordingly.  ",non-directive
+"Changing the channel's position, either explicitly or by\n writing, will change this stream's file position.\n\n ",non-directive
+"@return  the file channel associated with this file output stream\n\n ",non-directive
+"@since 1.4\n @spec JSR-51\n",non-directive
+" Creates an output file stream to write to the specified file \n descriptor, which represents an existing connection to an actual \n file in the file system.\n ",non-directive
+"<p>\n First, if there is a security manager, its <code>checkWrite</code> \n method is called with the file descriptor <code>fdObj</code> \n argument as its argument.\n\n ",directive
+"@param      fdObj   the file descriptor to be opened for writing\n ",non-directive
+"@see        java.lang.SecurityManager#checkWrite(java.io.FileDescriptor)\n",non-directive
+" Skips over and discards <code>n</code> bytes of data from the\n input stream.\n\n ",non-directive
+"<p>The <code>skip</code> method may, for a variety of\n reasons, end up skipping over some smaller number of bytes,\n possibly <code>0</code>. ",directive
+"If <code>n</code> is negative, an\n <code>IOException</code> is thrown, even though the <code>skip</code>\n method of the {@link InputStream} superclass does nothing in this case.\n ",directive
+"The actual number of bytes skipped is returned.\n\n ",non-directive
+"<p>This method may skip more bytes than are remaining in the backing\n file. ",directive
+"This produces no exception and the number of bytes skipped\n may include some number of bytes that were beyond the EOF of the\n backing file. ",directive
+"Attempting to read from the stream after skipping past\n the end will result in -1 indicating the end of the file.\n\n ",directive
+"@param      n   the number of bytes to be skipped.\n ",non-directive
+"@return     the actual number of bytes skipped.\n ",non-directive
+" Creates a new <code>File</code> instance from a parent pathname string\n and a child pathname string.\n\n ",non-directive
+"<p> If <code>parent</code> is <code>null</code> then the new\n <code>File</code> instance is created as if by invoking the\n single-argument <code>File</code> constructor on the given\n <code>child</code> pathname string.\n\n ",directive
+"<p> Otherwise the <code>parent</code> pathname string is taken to denote\n a directory, and the <code>child</code> pathname string is taken to\n denote either a directory or a file.  ",directive
+"If the <code>child</code> pathname\n string is absolute then it is converted into a relative pathname in a\n system-dependent way.  ",non-directive
+"If <code>parent</code> is the empty string then\n the new <code>File</code> instance is created by converting\n <code>child</code> into an abstract pathname and resolving the result\n against a system-dependent default directory.  ",directive
+"Otherwise each pathname\n string is converted into an abstract pathname and the child abstract\n pathname is resolved against the parent.\n\n ",non-directive
+"@param   parent  The parent pathname string\n ",non-directive
+"@param   child   The child pathname string\n ",non-directive
+" Writes to the output stream the eight\n low-order bits of the argument <code>b</code>.\n ",non-directive
+"The 24 high-order  bits of <code>b</code>\n are ignored.\n\n ",directive
+"@param      b   the byte to be written.\n ",non-directive
+" Writes a string to the output stream.\n ",non-directive
+"For every character in the string\n <code>s</code>,  taken in order, one byte\n is written to the output stream.  ",non-directive
+"If\n <code>s</code> is <code>null</code>, a <code>NullPointerException</code>\n is thrown.<p>  If <code>s.length</code>\n is zero, then no bytes are written. ",directive
+"Otherwise,\n the character <code>s[0]</code> is written\n first, then <code>s[1]</code>, and so on;\n the last character written is <code>s[s.length-1]</code>.\n ",non-directive
+"For each character, one byte is written,\n the low-order byte, in exactly the manner\n of the <code>writeByte</code> method . ",non-directive
+"The\n high-order eight bits of each character\n in the string are ignored.\n\n ",directive
+"@param      s   the string of bytes to be written.\n ",non-directive
+" Writes every character in the string <code>s</code>,\n to the output stream, in order,\n two bytes per character. ",non-directive
+"If <code>s</code>\n is <code>null</code>, a <code>NullPointerException</code>\n is thrown.  ",directive
+"If <code>s.length</code>\n is zero, then no characters are written.\n ",non-directive
+"Otherwise, the character <code>s[0]</code>\n is written first, then <code>s[1]</code>,\n and so on; the last character written is\n <code>s[s.length-1]</code>. ",non-directive
+"For each character,\n two bytes are actually written, high-order\n byte first, in exactly the manner of the\n <code>writeChar</code> method.\n\n ",directive
+"@param      s   the string value to be written.\n ",non-directive
+" Reads some number of bytes from the contained input stream and \n stores them into the buffer array <code>b</code>. ",non-directive
+"The number of \n bytes actually read is returned as an integer. ",non-directive
+"This method blocks \n until input data is available, end of file is detected, or an \n exception is thrown. \n \n",directive
+" <p>If <code>b</code> is null, a <code>NullPointerException</code> is \n thrown. ",directive
+"If the length of <code>b</code> is zero, then no bytes are \n read and <code>0</code> is returned; otherwise, there is an attempt \n to read at least one byte. ",directive
+"If no byte is available because the \n stream is at end of file, the value <code>-1</code> is returned;\n otherwise, at least one byte is read and stored into <code>b</code>. \n \n",directive
+" <p>The first byte read is stored into element <code>b[0]</code>, the \n next one into <code>b[1]</code>, and so on. ",non-directive
+"The number of bytes read \n is, at most, equal to the length of <code>b</code>. ",non-directive
+"Let <code>k</code> \n be the number of bytes actually read; these bytes will be stored in \n elements <code>b[0]</code> through <code>b[k-1]</code>, leaving \n elements <code>b[k]</code> through <code>b[b.length-1]</code> \n unaffected. \n \n",non-directive
+" <p>The <code>read(b)</code> method has the same effect as: \n <blockquote><pre>\n read(b, 0, b.length) \n </pre></blockquote>\n\n ",directive
+"@param      b   the buffer into which the data is read.\n ",non-directive
+"@return     the total number of bytes read into the buffer, or\n             <code>-1</code> if there is no more data because the end\n             of the stream has been reached.\n ",directive
+"@see        java.io.FilterInputStream#in\n ",non-directive
+"@see        java.io.InputStream#read(byte[], int, int)\n",non-directive
+" See the general contract of the <code>readShort</code>\n method of <code>DataInput</code>.\n ",directive
+"<p>\n Bytes\n for this operation are read from the contained\n input stream.\n\n ",non-directive
+"@return     the next two bytes of this input stream, interpreted as a\n             signed 16-bit number.\n ",non-directive
+"@see        java.io.FilterInputStream#in\n",non-directive
+" See the general contract of the <code>readLong</code>\n method of <code>DataInput</code>.\n ",directive
+"<p>\n Bytes\n for this operation are read from the contained\n input stream.\n\n ",non-directive
+"@return     the next eight bytes of this input stream, interpreted as a\n             <code>long</code>.\n ",non-directive
+"@see        java.io.FilterInputStream#in\n",non-directive
+" A convenience method to write a formatted string to this console's\n output stream using the specified format string and arguments.\n\n ",non-directive
+"<p> An invocation of this method of the form <tt>con.printf(format,\n args)</tt> behaves in exactly the same way as the invocation of\n <pre>con.format(format, args)</pre>.\n\n ",directive
+"@param  format\n         A format string as described in <a\n         href=\"../util/Formatter.html#syntax\">Format string syntax</a>.\n\n ",directive
+"@param  args\n         Arguments referenced by the format specifiers in the format\n         string.  ",directive
+"If there are more arguments than format specifiers, the\n         extra arguments are ignored.  ",directive
+"The number of arguments is\n         variable and may be zero.  ",directive
+"The maximum number of arguments is\n         limited by the maximum dimension of a Java array as defined by\n         the <a href=\"http://java.sun.com/docs/books/vmspec/\">Java\n         Virtual Machine Specification</a>.  ",directive
+"The behaviour on a\n         <tt>null</tt> argument depends on the <a\n         href=\"../util/Formatter.html#syntax\">conversion</a>.\n\n ",directive
+"For specification of all possible\n          formatting errors, see the <a\n          href=\"../util/Formatter.html#detail\">Details</a> section of the\n          formatter class specification.\n\n ",directive
+"@return  This console\n",non-directive
+" Constructs an <code>UnknownHostException</code> with the specified\n detail message.\n\n ",non-directive
+"@param s the detail message\n ",non-directive
+"@since JDK1.1\n",non-directive
+" Constructs a <code>NotBoundException</code> with the specified\n detail message.\n\n ",non-directive
+"@param s the detail message\n ",non-directive
+"@since JDK1.1\n",non-directive
+" Returns a new copy of the contained marshalledobject.  ",non-directive
+"The internal\n representation is deserialized with the semantics used for\n unmarshaling paramters for RMI calls.\n\n ",directive
+"@return a copy of the contained object\n ",non-directive
+"could not be found\n ",non-directive
+"@since 1.2\n",non-directive
+" Constructs a <code>ConnectException</code> with the specified\n detail message.\n\n ",non-directive
+"@param s the detail message\n ",non-directive
+"@since JDK1.1\n",non-directive
+" Returns the group's property-override list.\n ",non-directive
+"Note: ACL entries are by default positive. ",directive
+"An entry becomes a\n negative entry only if this <code>setNegativePermissions</code>\n method is called on it.\n",directive
+" Creates a browser information control with the given shell as parent.\n\n ",non-directive
+"@param parent the parent shell\n ",non-directive
+"@param symbolicFontName the symbolic name of the font used for size computations\n ",non-directive
+"@param statusFieldText the text to be used in the optional status field\n            or <code>null</code> if the status field should be hidden\n ",directive
+"@since 3.4\n",non-directive
+" Computes the substitution for the given character and if necessary\n subsequent characters. ",non-directive
+"Implementation should use <code>nextChar</code>\n to read subsequent characters.\n\n ",directive
+"@param c the character to be substituted\n ",non-directive
+"@return the substitution for <code>c</code>\n ",non-directive
+" Returns <code>true</code> if diff information is being displayed, <code>false</code> otherwise.\n\n ",non-directive
+"@return <code>true</code> if diff information is being displayed, <code>false</code> otherwise\n ",non-directive
+"@since 3.3\n",non-directive
+" Notifies that one or more attributes of an instance of\n <code>IScheme</code> have changed. ",non-directive
+"Specific details are described in\n the <code>SchemeEvent</code>.\n \n",non-directive
+"@param schemeEvent\n            the scheme event. ",non-directive
+"Guaranteed not to be <code>null</code>.\n",directive
+" <p>\n Returns a list of prefixes for the current sequence. ",non-directive
+"A prefix is any\n leading subsequence in a <code>TriggerSequence</code>. ",non-directive
+"A prefix is\n also an instance of <code>TriggerSequence</code>.\n ",non-directive
+"</p>\n <p>\n For example, consider a trigger sequence that consists of four triggers:\n A, B, C and D. ",non-directive
+"The prefixes would be \"\", \"A\", \"A B\", and \"A B C\". ",non-directive
+"The\n list of prefixes must always be the same as the size of the trigger list.\n ",directive
+"</p>\n \n ",non-directive
+"@return The array of possible prefixes for this sequence. ",non-directive
+"This array must\n         not be <code>null</code>, but may be empty. ",directive
+"It must only\n         contains instances of <code>TriggerSequence</code>.\n",directive
+" Returns the instance of the scheme that changed.\n \n",non-directive
+"@return the instance of the scheme that changed. ",non-directive
+"Guaranteed not to be\n         <code>null</code>.\n",directive
+" Makes this scheme become undefined. ",non-directive
+"This has the side effect of changing\n the name, description and parent identifier to <code>null</code>.\n ",directive
+"Notification is sent to all listeners.\n",non-directive
+" <p>\n Notifies this manager that the context manager has changed. ",non-directive
+"This method\n is intended for internal use only.\n ",directive
+"</p>\n <p>\n This method completes in <code>O(1)</code>.\n ",non-directive
+"</p>\n",non-directive
+" <p>\n Computes the bindings for the current state of the application, but\n disregarding the current contexts. ",non-directive
+"This can be useful when trying to\n display all the possible bindings.\n ",directive
+"</p>\n <p>\n This method completes in <code>O(n)</code>, where <code>n</code> is\n the number of bindings.\n ",non-directive
+"</p>\n \n ",non-directive
+"@return A map of trigger (<code>TriggerSequence</code>) to bindings (\n         <code>Collection</code> containing <code>Binding</code>).\n         ",non-directive
+"This map may be empty, but it is never <code>null</code>.\n",directive
+" <p>\n Gets the currently active scheme.\n ",non-directive
+"</p>\n <p>\n This method completes in <code>O(1)</code>.\n ",non-directive
+"</p>\n \n ",non-directive
+"@return The active scheme; may be <code>null</code> if there is no\n         active scheme. ",directive
+"If a scheme is returned, it is guaranteed to be\n         defined.\n",non-directive
+"@param command\n ",non-directive
+"@return\n 		a trigger sequence, or <code>null</code>\n ",directive
+"@since 3.4\n",non-directive
+" <p>\n Returns the set of all bindings managed by this class.\n ",non-directive
+"</p>\n <p>\n This method completes in <code>O(1)</code>.\n ",non-directive
+"</p>\n \n ",non-directive
+"@return The array of all bindings. ",non-directive
+"This value may be <code>null</code>\n         and it may be empty.\n",directive
+" <p>\n Gets the scheme with the given identifier. ",non-directive
+"If the scheme does not already\n exist, then a new (undefined) scheme is created with that identifier.\n ",directive
+"This guarantees that schemes will remain unique.\n ",directive
+"</p>\n <p>\n This method completes in amortized <code>O(1)</code>.\n ",non-directive
+"</p>\n \n ",non-directive
+"@param schemeId\n            The identifier for the scheme to retrieve; must not be\n            <code>null</code>.\n ",directive
+"@return A scheme with the given identifier.\n",non-directive
+" <p>\n Notifies this manager that a scheme has changed. ",non-directive
+"This method is intended\n for internal use only.\n ",directive
+"</p>\n <p>\n This method calls out to listeners, and so the time it takes to complete\n is dependent on third-party code.\n ",directive
+"</p>\n \n ",non-directive
+"@param schemeEvent\n            An event describing the change in the scheme.\n",non-directive
+" Provides the current conflicts in the keybindings for the given \n TriggerSequence as a {@link Collection} of {@link Binding}\n \n ",non-directive
+"@param sequence The sequence for which conflict info is required\n \n ",non-directive
+"@return Collection of KeyBinding. ",non-directive
+"If no conflicts,\n         then returns a <code>null</code>\n ",directive
+"@since 3.5\n",non-directive
+" Returns the parameterized command to which this binding applies. ",non-directive
+"If the\n identifier is <code>null</code>, then this binding is \"unbinding\" an\n existing binding.\n \n",directive
+"@return The fully-parameterized command; may be <code>null</code>.\n",directive
+" Removes the given listener from this key sequence widget.\n \n",non-directive
+"@param listener\n            The listener to be removed; must not be <code>null</code>.\n ",directive
+"@since 3.2\n",non-directive
+" Given an SWT accelerator value, provide the corresponding key stroke.\n \n",non-directive
+"@param accelerator\n            The accelerator to convert; should be a valid SWT accelerator\n            value.\n ",non-directive
+"@return The equivalent key stroke; never <code>null</code>.\n",directive
+" <p>\n Converts the given event into an SWT accelerator value -- considering the\n modified character with the shift modifier. ",non-directive
+"This is the third accelerator\n value that should be checked when processing incoming key events.\n ",directive
+"</p>\n <p>\n For example, on a standard US keyboard, \"Ctrl+Shift+5\" would be viewed as\n \"Ctrl+Shift+%\".\n ",non-directive
+"</p>\n \n ",non-directive
+"@param event\n            The event to be converted; must not be <code>null</code>.\n ",directive
+"@return The combination of the state mask and the unmodified character.\n",non-directive
+" Looks up a single modifier key by its formal name, and returns the integer\n representation for this modifier key\n \n ",non-directive
+"@param name\n            The formal name of the modifier key to look-up; must not be\n            <code>null</code>.\n ",directive
+"@return The integer representation of this key. ",non-directive
+"If the modifier key\n         cannot be found, then this method returns <code>0</code>.\n",non-directive
+" Looks up a key value, and returns the formal string representation for\n that key\n \n ",non-directive
+"@param key\n            The key to look-up.\n ",non-directive
+"@return The formal string representation of this key. ",non-directive
+"If this key cannot\n         be found, then it is simply the character corresponding to that\n         integer value.\n",non-directive
+" Gets an instance of <code>KeySequence</code>.\n \n",non-directive
+"@return a key sequence. ",non-directive
+"This key sequence will have no key strokes.\n         ",non-directive
+"Guaranteed not to be <code>null</code>.\n",directive
+" Creates an instance of <code>KeySequence</code> given a list of key\n strokes.\n \n",non-directive
+"@param keyStrokes\n            the list of key strokes. ",non-directive
+"This list may be empty, but it must\n            not be <code>null</code>. ",directive
+"If this list is not empty, it\n            must only contain instances of <code>KeyStroke</code>.\n ",directive
+"@return a key sequence. ",non-directive
+"Guaranteed not to be <code>null</code>.\n",directive
+" Creates an instance of <code>KeySequence</code> by parsing a given\n formal string representation.\n \n",non-directive
+"@param string\n            the formal string representation to parse.\n ",non-directive
+"@return a key sequence. ",non-directive
+"Guaranteed not to be <code>null</code>.\n ",directive
+" Returns the formal string representation for this key sequence.\n \n",non-directive
+"@return The formal string representation for this key sequence.\n         ",non-directive
+"Guaranteed not to be <code>null</code>.\n ",directive
+"@see java.lang.Object#toString()\n",non-directive
+" Constructs an instance of <code>KeySequence</code> given a list of key\n strokes.\n \n",non-directive
+"@param keyStrokes\n            the list of key strokes. ",non-directive
+"This list may be empty, but it must\n            not be <code>null</code>. ",directive
+"If this list is not empty, it\n            must only contain instances of <code>KeyStroke</code>.\n",directive
+" Returns the natural key for this key stroke.\n \n",non-directive
+"@return The natural key for this key stroke. ",non-directive
+"This value is\n         <code>NO_KEY</code> if the key stroke is incomplete (i.e., has\n         no natural key).\n",non-directive
+" Formats an individual key into a human readable format. ",non-directive
+"This converts the\n key into a format similar to Xemacs.\n \n",non-directive
+"@param key\n            The key to format; must not be <code>null</code>.\n ",directive
+"@return The key formatted as a string; should not be <code>null</code>.\n",directive
+" Formats an individual key into a human readable format. ",non-directive
+"This uses an\n internationalization resource bundle to look up the key. ",non-directive
+"This does the\n platform-specific formatting for Carbon.\n \n",non-directive
+"@param key\n            The key to format.\n ",non-directive
+"@return The key formatted as a string; should not be <code>null</code>.\n",directive
+" Called when the TreeViewer needs up-to-date information whether the node\n at the given tree path can be expanded. ",directive
+"If the content provider knows the\n element at the given tree path, it should respond by calling\n {@link TreeViewer#setHasChildren(Object, boolean)}. ",directive
+"The content provider\n may also choose to call {@link TreeViewer#setChildCount(Object, int)}\n instead if it knows the number of children.\n \n",directive
+" <p>\n Intended as an optimization for when the viewer does not need the actual\n children. ",directive
+"Clients may be able to implement this more efficiently than\n <code>updateChildCount</code>.\n ",directive
+"</p>\n \n ",non-directive
+"@param path\n            The tree path for which up-to-date information about children\n            is needed\n",non-directive
+" Return the possible parent paths for the given element. ",non-directive
+"An empty array\n can be returned if the paths cannot be computed. ",directive
+"In this case the\n tree-structured viewer can't expand a given node correctly if requested.\n ",non-directive
+"If the element is a potential child of the input of the viewer, an empty\n tree path should be an entry in the returned array.\n \n",directive
+"@param element\n            the element\n ",non-directive
+"@return the possible parent paths for the given element\n",non-directive
+" Returns the hash code for the given element.\n ",non-directive
+"@param element the element the hash code is calculated for\n \n ",non-directive
+"@return the hash code for the given element\n",non-directive
+" Provides a foreground color for the given element.\n \n",non-directive
+"@param element the element\n ",non-directive
+"@return	the foreground color for the element, or <code>null</code> \n   to use the default foreground color\n",directive
+" Returns the cell modifier of this viewer, or <code>null</code> if none\n has been set.\n \n",non-directive
+" <p>\n Since 3.3, an alternative API is available, see {@link\n ViewerColumn#setEditingSupport(EditingSupport)} for a more flexible way\n of editing values in a column viewer.\n ",directive
+"</p>\n \n ",non-directive
+"@return the cell modifier, or <code>null</code>\n ",directive
+"@since 3.1 (in subclasses, added in 3.3 to abstract class)\n ",non-directive
+"@see ViewerColumn#setEditingSupport(EditingSupport)\n ",non-directive
+"@see EditingSupport\n",non-directive
+" Creates a combo viewer on a newly-created combo control under the given parent.\n ",non-directive
+"The combo control is created using the given SWT style bits.\n ",non-directive
+"The viewer has no input, no content provider, a default label provider, \n no sorter, and no filters.\n\n ",non-directive
+"@param parent the parent control\n ",non-directive
+"@param style the SWT style bits\n",non-directive
+" Returns the specified neighbor of this cell, or <code>null</code> if no\n neighbor exists in the given direction. ",non-directive
+"Direction constants can be\n combined by bitwise OR; for example, this method will return the cell to\n the upper-left of the current cell by passing {@link #ABOVE} |\n {@link #LEFT}. ",non-directive
+"If <code>sameLevel</code> is <code>true</code>, only cells\n in sibling rows (under the same parent) will be considered.\n \n",non-directive
+"@param directionMask\n            the direction mask used to identify the requested neighbor\n            cell\n ",non-directive
+"@param sameLevel\n            if <code>true</code>, only consider cells from sibling rows\n ",non-directive
+"@return the requested neighbor cell, or <code>null</code> if not found\n",directive
+" The location and bounds of the area where the text is drawn depends on\n various things (image displayed, control with SWT.CHECK)\n \n ",non-directive
+"@return The bounds of the of the text area. ",non-directive
+"May return <code>null</code>\n         if the underlying widget implementation doesn't provide this\n         information\n ",directive
+"@since 3.4\n",non-directive
+" Gets the background color of the cell.\n \n",non-directive
+"@return the background of the cell or <code>null</code> for the default\n         background\n \n ",directive
+"@since 3.4\n",non-directive
+" Gets the font of the cell.\n \n",non-directive
+"@return the font of the cell or <code>null</code> for the default font\n \n ",directive
+"@since 3.4\n",non-directive
+" Returns the zero-relative indices of the items which are currently\n selected in the underlying widget.  ",non-directive
+"The array is empty if no items are selected.\n ",non-directive
+"<p>\n Note: This is not the actual structure used by the receiver\n to maintain its selection, so modifying the array will\n not affect the receiver. \n ",directive
+"</p>\n ",non-directive
+"@return the array of indices of the selected items\n",non-directive
+" Returns the element with the given index from this list viewer.\n ",non-directive
+"Returns <code>null</code> if the index is out of range.\n\n ",directive
+"@param index the zero-based index\n ",non-directive
+"@return the element at the given index, or <code>null</code> if the\n   index is out of range\n",directive
+" Sets to the given value the checked state for all elements in this viewer.\n ",non-directive
+"Does not fire events to check state listeners.\n\n ",non-directive
+"@param state <code>true</code> if the element should be checked,\n  and <code>false</code> if it should be unchecked\n",directive
+" Decoration is ready. ",non-directive

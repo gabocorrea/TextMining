@@ -1,0 +1,1586 @@
+@relation 'Apache_Java_JFace (10% of instances)(StringToWord_applied).arff'
+
+@attribute #print numeric
+@attribute #println numeric
+@attribute #write numeric
+@attribute &#92 numeric
+@attribute -1 numeric
+@attribute //java numeric
+@attribute /util/formatter numeric
+@attribute 0 numeric
+@attribute 2 numeric
+@attribute 24 numeric
+@attribute 3 numeric
+@attribute </code> numeric
+@attribute '</code>position<code>}' numeric
+@attribute </p> numeric
+@attribute </pre> numeric
+@attribute </pre></blockquote> numeric
+@attribute </tt> numeric
+@attribute <a numeric
+@attribute <blockquote><pre> numeric
+@attribute <code> numeric
+@attribute <code>-1</code> numeric
+@attribute <code>0</code> numeric
+@attribute <code>b</code> numeric
+@attribute <code>checkwrite</code> numeric
+@attribute <code>child</code> numeric
+@attribute <code>datainput</code> numeric
+@attribute <code>false</code> numeric
+@attribute <code>fdobj</code> numeric
+@attribute <code>file</code> numeric
+@attribute <code>inputstream</code> numeric
+@attribute <code>ioexception</code> numeric
+@attribute <code>keystroke</code> numeric
+@attribute <code>list</code> numeric
+@attribute <code>n</code> numeric
+@attribute <code>nextchar</code> numeric
+@attribute <code>null</code> numeric
+@attribute <code>nullpointerexception</code> numeric
+@attribute <code>ordinarychar</code> numeric
+@attribute <code>parent</code> numeric
+@attribute <code>pushback</code> numeric
+@attribute <code>randomaccessfile</code> numeric
+@attribute <code>read numeric
+@attribute <code>readlong</code> numeric
+@attribute <code>readshort</code> numeric
+@attribute <code>readunsignedshort</code> numeric
+@attribute <code>s numeric
+@attribute <code>s</code> numeric
+@attribute <code>setnegativepermissions</code> numeric
+@attribute <code>skip</code> numeric
+@attribute <code>snk</code> numeric
+@attribute <code>src</code> numeric
+@attribute <code>triggersequence</code> numeric
+@attribute <code>true</code> numeric
+@attribute <code>updatechildcount</code> numeric
+@attribute <code>writechar</code> numeric
+@attribute '<code>{@link' numeric
+@attribute <p> numeric
+@attribute <p>every numeric
+@attribute <p>if numeric
+@attribute <p>the numeric
+@attribute <p>this numeric
+@attribute <pre> numeric
+@attribute <pre>con numeric
+@attribute <tt>con numeric
+@attribute <tt>null</tt> numeric
+@attribute <tt>out numeric
+@attribute >conversion</a> numeric
+@attribute >details</a> numeric
+@attribute >format numeric
+@attribute >java numeric
+@attribute >modified numeric
+@attribute @param numeric
+@attribute @return numeric
+@attribute a numeric
+@attribute able numeric
+@attribute abstract numeric
+@attribute abstraction numeric
+@attribute abstractlist numeric
+@attribute accelerator numeric
+@attribute according numeric
+@attribute account numeric
+@attribute acl numeric
+@attribute active numeric
+@attribute actual numeric
+@attribute actually numeric
+@attribute added numeric
+@attribute additional numeric
+@attribute affect numeric
+@attribute after numeric
+@attribute against numeric
+@attribute all numeric
+@attribute already numeric
+@attribute also numeric
+@attribute alter numeric
+@attribute alternative numeric
+@attribute although numeric
+@attribute always numeric
+@attribute an numeric
+@attribute and numeric
+@attribute any numeric
+@attribute api numeric
+@attribute append numeric
+@attribute are numeric
+@attribute args numeric
+@attribute argument numeric
+@attribute arguments numeric
+@attribute array numeric
+@attribute as numeric
+@attribute at numeric
+@attribute attempt numeric
+@attribute attempting numeric
+@attribute available numeric
+@attribute avoid numeric
+@attribute b numeric
+@attribute background numeric
+@attribute backing numeric
+@attribute backwards numeric
+@attribute be numeric
+@attribute because numeric
+@attribute becomes numeric
+@attribute been numeric
+@attribute before numeric
+@attribute behaves numeric
+@attribute behaviour numeric
+@attribute being numeric
+@attribute beyond numeric
+@attribute binding numeric
+@attribute bindings numeric
+@attribute bits numeric
+@attribute block numeric
+@attribute blocks numeric
+@attribute boolean numeric
+@attribute buffer numeric
+@attribute buffers numeric
+@attribute but numeric
+@attribute by numeric
+@attribute byte numeric
+@attribute byte[] numeric
+@attribute bytes numeric
+@attribute call numeric
+@attribute called numeric
+@attribute calling numeric
+@attribute calls numeric
+@attribute can numeric
+@attribute cannot numeric
+@attribute carriage numeric
+@attribute carriage-return numeric
+@attribute case numeric
+@attribute cell numeric
+@attribute chain numeric
+@attribute changing numeric
+@attribute channel numeric
+@attribute channels numeric
+@attribute char numeric
+@attribute character numeric
+@attribute characters numeric
+@attribute charset numeric
+@attribute charset#defaultcharset numeric
+@attribute 'charset}' numeric
+@attribute checked numeric
+@attribute child numeric
+@attribute children numeric
+@attribute choose numeric
+@attribute class numeric
+@attribute clients numeric
+@attribute code numeric
+@attribute collections numeric
+@attribute color numeric
+@attribute column numeric
+@attribute com/docs/books/vmspec/ numeric
+@attribute command numeric
+@attribute commons numeric
+@attribute complete numeric
+@attribute computed numeric
+@attribute configuration numeric
+@attribute conflicts numeric
+@attribute connect numeric
+@attribute connected numeric
+@attribute constructor numeric
+@attribute contain numeric
+@attribute contains numeric
+@attribute content numeric
+@attribute contract numeric
+@attribute convenience numeric
+@attribute converted numeric
+@attribute converting numeric
+@attribute copy numeric
+@attribute created numeric
+@attribute creates numeric
+@attribute current numeric
+@attribute data numeric
+@attribute datainput numeric
+@attribute default numeric
+@attribute defined numeric
+@attribute denote numeric
+@attribute dependent numeric
+@attribute depends numeric
+@attribute described numeric
+@attribute description numeric
+@attribute descriptor numeric
+@attribute deserialized numeric
+@attribute destination numeric
+@attribute detected numeric
+@attribute device numeric
+@attribute dimension numeric
+@attribute directory numeric
+@attribute discarded numeric
+@attribute disk numeric
+@attribute display numeric
+@attribute does numeric
+@attribute doesn numeric
+@attribute double numeric
+@attribute drive numeric
+@attribute duplicate numeric
+@attribute each numeric
+@attribute editing numeric
+@attribute editingsupport numeric
+@attribute effect numeric
+@attribute efficiently numeric
+@attribute effort numeric
+@attribute eight numeric
+@attribute either numeric
+@attribute element numeric
+@attribute empty numeric
+@attribute encode numeric
+@attribute encoded numeric
+@attribute encoding numeric
+@attribute encountered numeric
+@attribute end numeric
+@attribute entries numeric
+@attribute entry numeric
+@attribute eof numeric
+@attribute equal numeric
+@attribute equivalent numeric
+@attribute error numeric
+@attribute errors numeric
+@attribute even numeric
+@attribute event numeric
+@attribute events numeric
+@attribute exactly numeric
+@attribute example numeric
+@attribute exception numeric
+@attribute exist numeric
+@attribute existing numeric
+@attribute exists numeric
+@attribute expanded numeric
+@attribute extend numeric
+@attribute extendedproperties numeric
+@attribute extra numeric
+@attribute false numeric
+@attribute far numeric
+@attribute field numeric
+@attribute file numeric
+@attribute filechannel#position numeric
+@attribute first numeric
+@attribute flexible numeric
+@attribute flush numeric
+@attribute flushing numeric
+@attribute followed numeric
+@attribute following numeric
+@attribute font numeric
+@attribute for numeric
+@attribute foreground numeric
+@attribute form numeric
+@attribute formal numeric
+@attribute format numeric
+@attribute formatted numeric
+@attribute formatter numeric
+@attribute formatting numeric
+@attribute found numeric
+@attribute freely numeric
+@attribute from numeric
+@attribute full numeric
+@attribute fully-parameterized numeric
+@attribute general numeric
+@attribute generate numeric
+@attribute given numeric
+@attribute gives numeric
+@attribute guarantee numeric
+@attribute guaranteed numeric
+@attribute guarantees numeric
+@attribute has numeric
+@attribute hashcode numeric
+@attribute have numeric
+@attribute here numeric
+@attribute hidden numeric
+@attribute high-order numeric
+@attribute however numeric
+@attribute href= numeric
+@attribute html#detail numeric
+@attribute html#modified-utf-8 numeric
+@attribute html#syntax numeric
+@attribute http numeric
+@attribute i/o numeric
+@attribute identifier numeric
+@attribute if numeric
+@attribute ignored numeric
+@attribute immediately numeric
+@attribute implement numeric
+@attribute implementation numeric
+@attribute implementing numeric
+@attribute in numeric
+@attribute include numeric
+@attribute included numeric
+@attribute incoming numeric
+@attribute incompatibilities numeric
+@attribute index numeric
+@attribute indicating numeric
+@attribute information numeric
+@attribute initial numeric
+@attribute initialized numeric
+@attribute initially numeric
+@attribute input numeric
+@attribute inputstream#read numeric
+@attribute 'inputstream}' numeric
+@attribute instance numeric
+@attribute instances numeric
+@attribute instead numeric
+@attribute int numeric
+@attribute intended numeric
+@attribute intermediate numeric
+@attribute internal numeric
+@attribute interpreted numeric
+@attribute into numeric
+@attribute introducing numeric
+@attribute invocation numeric
+@attribute invokes numeric
+@attribute invoking numeric
+@attribute io numeric
+@attribute is numeric
+@attribute it numeric
+@attribute its numeric
+@attribute java numeric
+@attribute key numeric
+@attribute keys numeric
+@attribute knows numeric
+@attribute lang numeric
+@attribute least numeric
+@attribute length numeric
+@attribute length</code> numeric
+@attribute limited numeric
+@attribute line numeric
+@attribute line-terminating numeric
+@attribute list numeric
+@attribute listener numeric
+@attribute listeners numeric
+@attribute long numeric
+@attribute look-up numeric
+@attribute machine numeric
+@attribute made numeric
+@attribute maintain numeric
+@attribute manager numeric
+@attribute manner numeric
+@attribute map numeric
+@attribute maximum numeric
+@attribute may numeric
+@attribute method numeric
+@attribute mode numeric
+@attribute modified numeric
+@attribute modifier numeric
+@attribute modifying numeric
+@attribute more numeric
+@attribute must numeric
+@attribute n numeric
+@attribute name numeric
+@attribute necessary numeric
+@attribute need numeric
+@attribute needs numeric
+@attribute negative numeric
+@attribute neighbor numeric
+@attribute never numeric
+@attribute new numeric
+@attribute newline numeric
+@attribute next numeric
+@attribute nio numeric
+@attribute no numeric
+@attribute node numeric
+@attribute non-string numeric
+@attribute not numeric
+@attribute note numeric
+@attribute nothing numeric
+@attribute null numeric
+@attribute number numeric
+@attribute object numeric
+@attribute objectstreamconstants numeric
+@attribute occurs numeric
+@attribute of numeric
+@attribute on numeric
+@attribute one numeric
+@attribute only numeric
+@attribute operating numeric
+@attribute optimization numeric
+@attribute optional numeric
+@attribute or numeric
+@attribute ordinary numeric
+@attribute other numeric
+@attribute otherwise numeric
+@attribute out numeric
+@attribute outputstreams numeric
+@attribute outputstreamwriter numeric
+@attribute 'outputstreamwriter}' numeric
+@attribute over numeric
+@attribute overwrite numeric
+@attribute paramters numeric
+@attribute parent numeric
+@attribute part numeric
+@attribute passed numeric
+@attribute past numeric
+@attribute path numeric
+@attribute pathname numeric
+@attribute paths numeric
+@attribute physical numeric
+@attribute pick numeric
+@attribute piped numeric
+@attribute platform numeric
+@attribute pointer numeric
+@attribute positive numeric
+@attribute possible numeric
+@attribute possibly numeric
+@attribute potential numeric
+@attribute predicate numeric
+@attribute prefixes numeric
+@attribute previous numeric
+@attribute previously numeric
+@attribute printf numeric
+@attribute processing numeric
+@attribute produced numeric
+@attribute produces numeric
+@attribute properties numeric
+@attribute protocolversion numeric
+@attribute provide numeric
+@attribute provided numeric
+@attribute provider numeric
+@attribute pushed-back numeric
+@attribute r numeric
+@attribute range numeric
+@attribute reached numeric
+@attribute read numeric
+@attribute reader numeric
+@attribute reasons numeric
+@attribute receiver numeric
+@attribute referenced numeric
+@attribute remain numeric
+@attribute remaining numeric
+@attribute removed numeric
+@attribute representation numeric
+@attribute requested numeric
+@attribute resolving numeric
+@attribute respond numeric
+@attribute result numeric
+@attribute resulting numeric
+@attribute retrieve numeric
+@attribute return numeric
+@attribute returned numeric
+@attribute returning numeric
+@attribute returns numeric
+@attribute rmi numeric
+@attribute s numeric
+@attribute same numeric
+@attribute scheme numeric
+@attribute schemeid numeric
+@attribute schemes numeric
+@attribute search numeric
+@attribute section numeric
+@attribute security numeric
+@attribute see numeric
+@attribute selection numeric
+@attribute semantics numeric
+@attribute sequence numeric
+@attribute set numeric
+@attribute setproperty numeric
+@attribute should numeric
+@attribute side numeric
+@attribute since numeric
+@attribute single-argument numeric
+@attribute size numeric
+@attribute skip numeric
+@attribute skipped numeric
+@attribute skipping numeric
+@attribute smaller numeric
+@attribute snk numeric
+@attribute so numeric
+@attribute some numeric
+@attribute sometimes numeric
+@attribute specification numeric
+@attribute specification</a> numeric
+@attribute specified numeric
+@attribute specifiers numeric
+@attribute src numeric
+@attribute starting numeric
+@attribute state numeric
+@attribute stated numeric
+@attribute status numeric
+@attribute statusfieldtext numeric
+@attribute stored numeric
+@attribute stream numeric
+@attribute string numeric
+@attribute string#valueof numeric
+@attribute stroke numeric
+@attribute structure numeric
+@attribute subclass numeric
+@attribute subsequent numeric
+@attribute such numeric
+@attribute sun numeric
+@attribute superclass numeric
+@attribute support numeric
+@attribute syntax</a> numeric
+@attribute system numeric
+@attribute system-dependent numeric
+@attribute t numeric
+@attribute take numeric
+@attribute taken numeric
+@attribute takes numeric
+@attribute terminated numeric
+@attribute text numeric
+@attribute than numeric
+@attribute that numeric
+@attribute the numeric
+@attribute then numeric
+@attribute there numeric
+@attribute therefore numeric
+@attribute these numeric
+@attribute they numeric
+@attribute third numeric
+@attribute third-party numeric
+@attribute this numeric
+@attribute though numeric
+@attribute thrown numeric
+@attribute thus numeric
+@attribute time numeric
+@attribute to numeric
+@attribute total numeric
+@attribute translated numeric
+@attribute tree numeric
+@attribute treeviewer numeric
+@attribute treeviewer#setchildcount numeric
+@attribute treeviewer#sethaschildren numeric
+@attribute trigger numeric
+@attribute true numeric
+@attribute truncated numeric
+@attribute trying numeric
+@attribute two numeric
+@attribute unbinding numeric
+@attribute unchecked numeric
+@attribute unconnected numeric
+@attribute undefined numeric
+@attribute underlying numeric
+@attribute unicode numeric
+@attribute unique numeric
+@attribute unless numeric
+@attribute unmarshaling numeric
+@attribute until numeric
+@attribute up numeric
+@attribute up-to-date numeric
+@attribute use numeric
+@attribute used numeric
+@attribute useful numeric
+@attribute using numeric
+@attribute utf-8 numeric
+@attribute utf-8</a> numeric
+@attribute util numeric
+@attribute value numeric
+@attribute values numeric
+@attribute variable numeric
+@attribute variety numeric
+@attribute version numeric
+@attribute viewer numeric
+@attribute viewercolumn#seteditingsupport numeric
+@attribute virtual numeric
+@attribute warning numeric
+@attribute way numeric
+@attribute were numeric
+@attribute when numeric
+@attribute whether numeric
+@attribute which numeric
+@attribute widget numeric
+@attribute will numeric
+@attribute with numeric
+@attribute without numeric
+@attribute writer numeric
+@attribute writers numeric
+@attribute writing numeric
+@attribute written numeric
+@attribute you numeric
+@attribute zero numeric
+@attribute '{@link' numeric
+@attribute '{@linkplain' numeric
+@attribute '}' numeric
+@attribute '}</code>' numeric
+@attribute '#above}' numeric
+@attribute '#left}' numeric
+@attribute '${key}' numeric
+@attribute &lt numeric
+@attribute -- numeric
+@attribute 1 numeric
+@attribute 16-bit numeric
+@attribute 4 numeric
+@attribute 5 numeric
+@attribute <c> numeric
+@attribute <code>[ numeric
+@attribute <code>addproperty numeric
+@attribute <code>b numeric
+@attribute <code>b[0]</code> numeric
+@attribute <code>b[1]</code> numeric
+@attribute <code>b[b numeric
+@attribute <code>b[k-1]</code> numeric
+@attribute <code>b[k]</code> numeric
+@attribute <code>binding</code> numeric
+@attribute <code>boolean</code> numeric
+@attribute <code>byte</code> numeric
+@attribute <code>c</code> numeric
+@attribute <code>char</code> numeric
+@attribute <code>collection</code> numeric
+@attribute <code>connectexception</code> numeric
+@attribute <code>double</code> numeric
+@attribute <code>float</code> numeric
+@attribute <code>floattointbits</code> numeric
+@attribute <code>getfield</code> numeric
+@attribute <code>in</code> numeric
+@attribute <code>int</code> numeric
+@attribute <code>ischeme</code> numeric
+@attribute <code>k</code> numeric
+@attribute <code>keysequence</code> numeric
+@attribute <code>len</code> numeric
+@attribute <code>linenumberinputstream</code> numeric
+@attribute <code>long</code> numeric
+@attribute <code>low&nbsp numeric
+@attribute <code>no_key</code> numeric
+@attribute <code>notboundexception</code> numeric
+@attribute <code>o numeric
+@attribute <code>outputstream</code> numeric
+@attribute <code>pushbackinputstream</code> numeric
+@attribute <code>read</code> numeric
+@attribute <code>resource numeric
+@attribute <code>s[0]</code> numeric
+@attribute <code>s[1]</code> numeric
+@attribute <code>s[s numeric
+@attribute <code>samelevel</code> numeric
+@attribute <code>schemeevent</code> numeric
+@attribute <code>size</code> numeric
+@attribute <code>unknownhostexception</code> numeric
+@attribute <code>write</code> numeric
+@attribute <code>writebyte</code> numeric
+@attribute <i>c</i> numeric
+@attribute <i>c</i>&nbsp numeric
+@attribute <k> numeric
+@attribute = numeric
+@attribute =&nbsp numeric
+@attribute @see numeric
+@attribute @since numeric
+@attribute @spec numeric
+@attribute ]</code> numeric
+@attribute about numeric
+@attribute absolute numeric
+@attribute accordingly numeric
+@attribute add numeric
+@attribute algorithm numeric
+@attribute amortized numeric
+@attribute another numeric
+@attribute appended numeric
+@attribute application numeric
+@attribute applies numeric
+@attribute area numeric
+@attribute assign numeric
+@attribute associated numeric
+@attribute attributes numeric
+@attribute automatic numeric
+@attribute base numeric
+@attribute become numeric
+@attribute beginning numeric
+@attribute 'binding}' numeric
+@attribute bitwise numeric
+@attribute bounds numeric
+@attribute browser numeric
+@attribute buffered numeric
+@attribute bundle numeric
+@attribute c numeric
+@attribute calculated numeric
+@attribute carbon numeric
+@attribute cbuf numeric
+@attribute cells numeric
+@attribute change numeric
+@attribute changed numeric
+@attribute check numeric
+@attribute classpath numeric
+@attribute closes numeric
+@attribute closing numeric
+@attribute coll numeric
+@attribute collection numeric
+@attribute 'collection}' numeric
+@attribute combination numeric
+@attribute combine numeric
+@attribute combined numeric
+@attribute combines numeric
+@attribute combo numeric
+@attribute compatible numeric
+@attribute completes numeric
+@attribute computations numeric
+@attribute computes numeric
+@attribute conflict numeric
+@attribute connection numeric
+@attribute connects numeric
+@attribute consider numeric
+@attribute considered numeric
+@attribute considering numeric
+@attribute consists numeric
+@attribute console numeric
+@attribute constants numeric
+@attribute constructs numeric
+@attribute contained numeric
+@attribute containing numeric
+@attribute context numeric
+@attribute contexts numeric
+@attribute control numeric
+@attribute convert numeric
+@attribute converts numeric
+@attribute correctly numeric
+@attribute corresponding numeric
+@attribute could numeric
+@attribute create numeric
+@attribute 'ctrl+shift+\%' numeric
+@attribute ctrl+shift+5 numeric
+@attribute currently numeric
+@attribute d numeric
+@attribute dec numeric
+@attribute decoder numeric
+@attribute decorated numeric
+@attribute decoration numeric
+@attribute def numeric
+@attribute defaultvalue numeric
+@attribute describing numeric
+@attribute detail numeric
+@attribute details numeric
+@attribute diff numeric
+@attribute direction numeric
+@attribute directionmask numeric
+@attribute discards numeric
+@attribute displayed numeric
+@attribute disregarding numeric
+@attribute done numeric
+@attribute double#tostring numeric
+@attribute double-precision numeric
+@attribute drawn numeric
+@attribute e numeric
+@attribute elements numeric
+@attribute enable numeric
+@attribute every numeric
+@attribute expand numeric
+@attribute explicitly numeric
+@attribute fdobj numeric
+@attribute fields numeric
+@attribute file</code> numeric
+@attribute filechannel numeric
+@attribute 'filechannel}' numeric
+@attribute filedescriptor numeric
+@attribute filename numeric
+@attribute files numeric
+@attribute filewriter numeric
+@attribute fill numeric
+@attribute filterinputstream#in numeric
+@attribute filters numeric
+@attribute finds numeric
+@attribute fire numeric
+@attribute float numeric
+@attribute float#floattointbits numeric
+@attribute floating-point numeric
+@attribute flushes numeric
+@attribute formats numeric
+@attribute four numeric
+@attribute four-byte numeric
+@attribute generates numeric
+@attribute generating numeric
+@attribute get numeric
+@attribute gets numeric
+@attribute group numeric
+@attribute handle numeric
+@attribute hash numeric
+@attribute hashtable numeric
+@attribute hi numeric
+@attribute high numeric
+@attribute high</code> numeric
+@attribute hook numeric
+@attribute human numeric
+@attribute i numeric
+@attribute identify numeric
+@attribute image numeric
+@attribute implements numeric
+@attribute inc numeric
+@attribute includes numeric
+@attribute including numeric
+@attribute incomplete numeric
+@attribute increment numeric
+@attribute independent numeric
+@attribute 'indexedcollection}' numeric
+@attribute indices numeric
+@attribute individual numeric
+@attribute info numeric
+@attribute inputstream numeric
+@attribute inputstreamreader numeric
+@attribute integer numeric
+@attribute internationalization numeric
+@attribute interpolate numeric
+@attribute intersection numeric
+@attribute items numeric
+@attribute iterator numeric
+@attribute jdk1 numeric
+@attribute jsr-51 numeric
+@attribute keybinding numeric
+@attribute keybindings numeric
+@attribute keyboard numeric
+@attribute keystrokes numeric
+@attribute keytransformer numeric
+@attribute label numeric
+@attribute last numeric
+@attribute later numeric
+@attribute leading numeric
+@attribute leaving numeric
+@attribute len numeric
+@attribute length-1]</code> numeric
+@attribute let numeric
+@attribute like numeric
+@attribute linenumberinputstream#read numeric
+@attribute list#addall numeric
+@attribute list#hashcode numeric
+@attribute list1 numeric
+@attribute list2 numeric
+@attribute lists numeric
+@attribute loader numeric
+@attribute location numeric
+@attribute look numeric
+@attribute looks numeric
+@attribute low numeric
+@attribute low-order numeric
+@attribute lower numeric
+@attribute makes numeric
+@attribute managed numeric
+@attribute marshalledobject numeric
+@attribute mask numeric
+@attribute match numeric
+@attribute matches numeric
+@attribute message numeric
+@attribute methods numeric
+@attribute most numeric
+@attribute named numeric
+@attribute names numeric
+@attribute natural numeric
+@attribute needed numeric
+@attribute newly-created numeric
+@attribute none numeric
+@attribute notification numeric
+@attribute notifies numeric
+@attribute object#tostring numeric
+@attribute objectstreamconstants#protocol_version_1 numeric
+@attribute objectstreamconstants#protocol_version_2 numeric
+@attribute off numeric
+@attribute offset numeric
+@attribute opened numeric
+@attribute operation numeric
+@attribute order numeric
+@attribute output numeric
+@attribute outputstream#close numeric
+@attribute parameterized numeric
+@attribute parse numeric
+@attribute parsing numeric
+@attribute passing numeric
+@attribute per numeric
+@attribute persistent numeric
+@attribute platform-specific numeric
+@attribute portion numeric
+@attribute position numeric
+@attribute prefix numeric
+@attribute present numeric
+@attribute printed numeric
+@attribute prints numeric
+@attribute printwriter numeric
+@attribute property numeric
+@attribute property-override numeric
+@attribute props numeric
+@attribute protocol numeric
+@attribute provides numeric
+@attribute purpose numeric
+@attribute pushback numeric
+@attribute put numeric
+@attribute quantity numeric
+@attribute randomaccessfile#readunsignedshort numeric
+@attribute rather numeric
+@attribute reaches numeric
+@attribute readable numeric
+@attribute reads numeric
+@attribute ready numeric
+@attribute received numeric
+@attribute receives numeric
+@attribute relative numeric
+@attribute remove numeric
+@attribute removes numeric
+@attribute repeatedly numeric
+@attribute repository numeric
+@attribute representing numeric
+@attribute represents numeric
+@attribute required numeric
+@attribute resolved numeric
+@attribute resource numeric
+@attribute routine numeric
+@attribute rows numeric
+@attribute samelevel numeric
+@attribute saved numeric
+@attribute saves numeric
+@attribute schemeevent numeric
+@attribute second numeric
+@attribute securitymanager#checkwrite numeric
+@attribute selected numeric
+@attribute sent numeric
+@attribute serializable numeric
+@attribute serialization numeric
+@attribute sets numeric
+@attribute setting numeric
+@attribute shell numeric
+@attribute shift numeric
+@attribute short numeric
+@attribute sibling numeric
+@attribute signed numeric
+@attribute similar numeric
+@attribute simply numeric
+@attribute single numeric
+@attribute skips numeric
+@attribute sorter numeric
+@attribute specific numeric
+@attribute specifies numeric
+@attribute specify numeric
+@attribute specifying numeric
+@attribute standard numeric
+@attribute start numeric
+@attribute starts numeric
+@attribute stores numeric
+@attribute storing numeric
+@attribute streamtokenizer#ordinarychar numeric
+@attribute strings numeric
+@attribute strokes numeric
+@attribute stuff numeric
+@attribute style numeric
+@attribute subclasses numeric
+@attribute subsequence numeric
+@attribute subset numeric
+@attribute substituted numeric
+@attribute substitution numeric
+@attribute subtracted numeric
+@attribute successively numeric
+@attribute sum numeric
+@attribute swt numeric
+@attribute symbolic numeric
+@attribute symbolicfontname numeric
+@attribute taking numeric
+@attribute tells numeric
+@attribute terminate numeric
+@attribute terminates numeric
+@attribute terminator numeric
+@attribute their numeric
+@attribute them numeric
+@attribute things numeric
+@attribute those numeric
+@attribute through numeric
+@attribute tokenizer numeric
+@attribute 'transformer}' numeric
+@attribute tree-structured numeric
+@attribute triggers numeric
+@attribute triggersequence numeric
+@attribute type numeric
+@attribute types numeric
+@attribute unaffected numeric
+@attribute under numeric
+@attribute union numeric
+@attribute unmodified numeric
+@attribute upper-left numeric
+@attribute us numeric
+@attribute uses numeric
+@attribute v numeric
+@attribute val numeric
+@attribute valid numeric
+@attribute various numeric
+@attribute vector numeric
+@attribute viewed numeric
+@attribute where numeric
+@attribute would numeric
+@attribute write numeric
+@attribute writes numeric
+@attribute x numeric
+@attribute xemacs numeric
+@attribute zero-based numeric
+@attribute zero-relative numeric
+@attribute | numeric
+@attribute comment__class {directive,non-directive}
+
+@data
+{73 1,97 1,261 1,306 1,548 1,585 1,719 1,793 1,990 non-directive}
+{71 1,306 1,383 1,517 1,645 1,966 1,990 non-directive}
+{71 1,517 1,598 1,688 1,966 1,990 non-directive}
+{71 1,517 1,585 1,687 1,689 1,726 1,990 non-directive}
+{71 1,261 1,306 1,334 1,517 1,585 1,771 1,811 1,962 1,990 non-directive}
+{72 1,187 1,517 1,585 1,793 1,990 non-directive}
+{222 1,276 1,333 1,517 1,577 1,664 1,772 1,990 non-directive}
+{71 1,333 1,530 1,552 1,829 1,990 non-directive}
+{72 1,222 1,269 1,990 non-directive}
+{73 1,261 1,306 1,548 1,585 1,719 1,793 1,990 non-directive}
+{71 1,517 1,585 1,687 1,689 1,726 1,990 non-directive}
+{71 1,261 1,306 1,334 1,517 1,585 1,771 1,811 1,962 1,990 non-directive}
+{276 1,386 1,455 1,517 1,826 1,947 1,990 non-directive}
+{271 1,329 1,525 1,802 1,945 1,956 1,970 1,990 non-directive}
+{71 1,254 1,343 1,517 1,824 1,990 non-directive}
+{71 1,343 1,517 1,825 1,908 1,990 non-directive}
+{72 1,73 1,343 1,371 1,386 1,517 1,710 1,826 1,947 1,959 1,990 non-directive}
+{73 1,254 1,343 1,371 1,455 1,517 1,530 1,659 1,710 1,908 1,990 non-directive}
+{73 1,101 1,276 1,323 1,329 1,343 1,371 1,517 1,530 1,541 1,555 1,585 1,587 1,688 1,822 1,826 1,857 1,990 non-directive}
+{71 1,254 1,343 1,517 1,824 1,990 non-directive}
+{71 1,343 1,517 1,825 1,908 1,990 non-directive}
+{72 1,73 1,343 1,371 1,386 1,517 1,710 1,826 1,959 1,970 1,990 non-directive}
+{73 1,165 1,301 1,332 1,486 1,517 1,557 1,560 1,585 1,587 1,656 1,770 1,776 1,823 1,990 non-directive}
+{32 1,56 1,77 1,144 1,246 1,261 1,300 1,329 1,356 1,525 1,556 1,572 1,583 1}
+{299 1,316 1,343 1,356 1,395 1,512 1,517 1,530 1,554 1,656 1,688 1,745 1,967 1,990 non-directive}
+{332 1,560 1,648 1,823 1,990 non-directive}
+{71 1,117 1,261 1,275 1,282 1,343 1,355 1,381 1,517 1,530 1}
+{72 1,165 1,517 1,776 1,990 non-directive}
+{254 1,276 1,301 1,306 1,343 1,420 1,517 1,574 1,761 1,839 1,990 non-directive}
+{4 1,56 1,222 1,295 1,312 1,329 1,343 1,375 1,381 1,386 1,393 1,420 1,453 1,517 1,839 1,990 non-directive}
+{71 1,117 1,343 1,355 1,381 1,462 1,517 1,530 1}
+{71 1,117 1,355 1,381 1,420 1,517 1,530 1,554 1}
+{4 1,72 1,97 1,117 1,254 1,269 1,295 1,301 1,306 1,343 1,383 1,386 1,393 1,420 1,517 1,574 1,718 1,839 1,848 1,990 non-directive}
+{333 1,530 1,591 1,775 1,801 1,844 1,938 1,990 non-directive}
+{71 1,496 1,530 1,667 1,801 1,990 non-directive}
+{72 1,333 1,364 1,455 1,517 1,577 1,591 1,943 1,990 non-directive}
+{261 1,395 1,428 1,517 1,561 1,756 1,789 1,875 1,914 1,990 non-directive}
+{135 1,192 1,302 1,329 1,330 1}
+{71 1,184 1,223 1,364 1,381 1,517 1,530 1,574 1,658 1,787 1,788 1,875 1,990 non-directive}
+{73 1,174 1,517 1,530 1,655 1,875 1,990 non-directive}
+{85 1,91 1,117 1,174 1,230 1,244 1,284 1,295 1,330 1,491 1,517 1,518 1,530 1,561 1,576 1}
+{11 1,73 1,91 1,98 1,174 1,228 1,240 1,252 1,259 1,261 1,295 1,301 1,329 1,517 1,518 1,552 1,576 1,577 1,583 1,599 1,600 1,633 1,646 1,651 1,684 1,751 1,820 1,827 1,871 1,901 1,979 1,990 non-directive}
+{71 1,333 1,517 1,530 1,655 1,990 non-directive}
+{71 1,517 1,530 1,561 1,655 1,990 non-directive}
+{97 1,243 1,525 1,577 1,693 1,777 1,990 non-directive}
+{56 1,229 1,330 1,402 1,422 1,569 1,576 1,578 1}
+{71 1,428 1,517 1,530 1,691 1,877 1,990 non-directive}
+{174 1,301 1,334 1,343 1,386 1,486 1,516 1,517 1,709 1,772 1,838 1,870 1,896 1,990 non-directive}
+{71 1,517 1,530 1,838 1,870 1,990 non-directive}
+{72 1,97 1,334 1,386 1,516 1,517 1,804 1,838 1,870 1,990 non-directive}
+{73 1,97 1,247 1,329 1,383 1,386 1,388 1,516 1,525 1,719 1,942 1,990 non-directive}
+{80 1,135 1,213 1,247 1,301 1,323 1,334 1,470 1,510 1,517 1,557 1}
+{71 1,73 1,261 1,517 1,530 1,772 1,870 1,942 1,990 non-directive}
+{72 1,73 1,247 1,371 1,792 1,990 non-directive}
+{73 1,174 1,276 1,333 1,496 1,517 1,577 1,664 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{72 1,496 1,517 1,664 1,990 non-directive}
+{73 1,174 1,276 1,333 1,343 1,386 1,428 1,517 1,577 1,664 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{72 1,269 1,295 1,329 1,333 1,428 1,517 1,664 1,990 non-directive}
+{73 1,174 1,276 1,333 1,343 1,386 1,428 1,517 1,577 1,664 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{72 1,269 1,295 1,329 1,333 1,428 1,517 1,664 1,990 non-directive}
+{97 1,106 1,174 1,276 1,333 1,386 1,517 1,577 1,664 1,772 1,936 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{72 1,106 1,269 1,295 1,329 1,333 1,496 1,517 1,664 1,990 non-directive}
+{73 1,174 1,276 1,333 1,386 1,517 1,577 1,664 1,772 1,936 1,979 1,990 non-directive}
+{56 1,73 1,93 1,98 1,107 1,186 1,190 1,270 1,321 1,329 1,330 1,343 1,355 1,383 1,386 1,502 1,517 1,525 1,583 1}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{71 1,192 1,517 1,561 1,729 1,990 non-directive}
+{72 1,517 1,664 1,979 1,990 non-directive}
+{73 1,174 1,276 1,333 1,343 1,386 1,517 1,577 1,664 1,772 1,936 1,990 non-directive}
+{56 1,73 1,93 1,98 1,107 1,186 1,190 1,270 1,321 1,329 1,330 1,343 1,355 1,383 1,386 1,502 1,517 1,525 1,583 1}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{72 1,343 1,383 1,517 1,664 1,990 non-directive}
+{8 1,10 1,166 1,171 1,649 1,990 non-directive}
+{73 1,174 1,276 1,333 1,343 1,386 1,517 1,577 1,664 1,772 1,936 1,990 non-directive}
+{56 1,73 1,93 1,98 1,107 1,186 1,190 1,270 1,321 1,329 1,330 1,343 1,355 1,383 1,386 1,502 1,517 1,525 1,583 1}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{71 1,192 1,517 1,561 1,729 1,990 non-directive}
+{72 1,343 1,517 1,664 1,990 non-directive}
+{8 1,10 1,166 1,171 1,649 1,990 non-directive}
+{73 1,131 1,174 1,276 1,333 1,517 1,577 1,664 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{72 1,131 1,517 1,664 1,990 non-directive}
+{73 1,131 1,174 1,276 1,333 1,517 1,577 1,664 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{71 1,192 1,517 1,561 1,729 1,990 non-directive}
+{72 1,131 1,517 1,664 1,990 non-directive}
+{73 1,131 1,174 1,276 1,333 1,517 1,577 1,664 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{71 1,192 1,517 1,561 1,729 1,990 non-directive}
+{72 1,98 1,131 1,192 1,265 1,269 1,281 1,295 1,329 1,333 1,396 1,517 1,561 1,664 1,977 1,990 non-directive}
+{73 1,136 1,174 1,276 1,333 1,517 1,577 1,664 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{71 1,192 1,517 1,561 1,729 1,990 non-directive}
+{72 1,136 1,517 1,664 1,990 non-directive}
+{73 1,136 1,174 1,276 1,333 1,517 1,577 1,664 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{71 1,192 1,517 1,561 1,729 1,990 non-directive}
+{72 1,98 1,136 1,192 1,265 1,269 1,281 1,295 1,329 1,333 1,396 1,517 1,561 1,664 1,977 1,990 non-directive}
+{73 1,174 1,276 1,333 1,517 1,577 1,664 1,772 1,918 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{72 1,517 1,664 1,918 1,990 non-directive}
+{73 1,174 1,276 1,333 1,517 1,577 1,664 1,772 1,918 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{71 1,192 1,517 1,561 1,729 1,990 non-directive}
+{72 1,517 1,664 1,918 1,990 non-directive}
+{73 1,174 1,276 1,333 1,517 1,577 1,664 1,772 1,918 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{71 1,192 1,517 1,561 1,729 1,990 non-directive}
+{72 1,98 1,192 1,265 1,269 1,281 1,295 1,329 1,333 1,396 1,517 1,561 1,664 1,918 1,977 1,990 non-directive}
+{73 1,97 1,107 1,174 1,192 1,276 1,329 1,356 1,364 1,386 1,393 1,517 1,525 1,530 1,561 1,577 1,772 1,799 1,880 1,901 1,990 non-directive}
+{71 1,364 1,517 1,901 1,990 non-directive}
+{71 1,192 1,386 1,517 1,561 1,728 1,901 1,990 non-directive}
+{72 1,97 1,107 1,386 1,517 1,561 1,799 1,901 1,990 non-directive}
+{73 1,174 1,276 1,318 1,333 1,517 1,577 1,664 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{72 1,318 1,517 1,664 1,990 non-directive}
+{73 1,174 1,276 1,318 1,333 1,517 1,577 1,664 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{71 1,192 1,517 1,561 1,729 1,990 non-directive}
+{72 1,318 1,517 1,664 1,990 non-directive}
+{73 1,174 1,276 1,318 1,333 1,517 1,577 1,664 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{71 1,192 1,517 1,561 1,729 1,990 non-directive}
+{72 1,98 1,192 1,265 1,269 1,281 1,295 1,318 1,329 1,333 1,396 1,517 1,561 1,664 1,977 1,990 non-directive}
+{73 1,174 1,276 1,333 1,346 1,517 1,577 1,664 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{72 1,346 1,517 1,664 1,990 non-directive}
+{73 1,174 1,276 1,333 1,346 1,517 1,577 1,664 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{71 1,192 1,517 1,561 1,729 1,990 non-directive}
+{72 1,346 1,517 1,664 1,990 non-directive}
+{73 1,174 1,276 1,333 1,346 1,517 1,577 1,664 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{71 1,192 1,517 1,561 1,729 1,990 non-directive}
+{72 1,98 1,192 1,265 1,269 1,281 1,295 1,329 1,333 1,346 1,396 1,517 1,561 1,664 1,977 1,990 non-directive}
+{73 1,174 1,276 1,333 1,517 1,577 1,664 1,763 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{72 1,517 1,664 1,763 1,990 non-directive}
+{73 1,174 1,276 1,333 1,517 1,577 1,664 1,763 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{71 1,192 1,517 1,561 1,729 1,990 non-directive}
+{72 1,517 1,664 1,763 1,990 non-directive}
+{73 1,174 1,276 1,333 1,517 1,577 1,664 1,763 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{71 1,192 1,517 1,561 1,729 1,990 non-directive}
+{72 1,98 1,192 1,265 1,269 1,281 1,295 1,329 1,333 1,396 1,517 1,561 1,664 1,763 1,977 1,990 non-directive}
+{73 1,174 1,211 1,276 1,333 1,517 1,577 1,664 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{72 1,211 1,517 1,664 1,990 non-directive}
+{73 1,174 1,211 1,276 1,333 1,517 1,577 1,664 1,772 1,990 non-directive}
+{71 1,174 1,333 1,517 1,990 non-directive}
+{71 1,192 1,517 1,561 1,729 1,990 non-directive}
+{72 1,211 1,517 1,664 1,990 non-directive}
+{73 1,163 1,174 1,323 1,428 1,714 1,930 1,990 non-directive}
+{8 1,10 1,56 1,99 1,166 1,171 1,192 1,271 1,312 1,356 1,379 1,383 1,386 1,404 1,412 1,428 1,486 1,517 1,525 1,552 1,576 1}
+{56 1,99 1,107 1,117 1,247 1,301 1,332 1,371 1,377 1,378 1,383 1,387 1,406 1,428 1,517 1,560 1,562 1,576 1,577 1}
+{71 1,383 1,428 1,517 1,530 1,714 1,877 1,990 non-directive}
+{72 1,187 1,247 1,271 1,371 1,877 1,990 non-directive}
+{135 1,247 1,271 1,333 1,486 1,517 1,875 1,893 1,990 non-directive}
+{71 1,333 1,517 1,875 1,929 1,990 non-directive}
+{71 1,85 1,124 1,517 1,687 1,688 1,990 non-directive}
+{72 1,295 1,329 1,517 1,538 1,682 1,688 1,990 non-directive}
+{495 1,517 1,766 1,990 non-directive}
+{73 1,99 1,132 1,155 1,201 1,271 1,281 1,295 1,297 1,301 1,319 1,495 1,517 1,530 1,841 1,905 1,956 1,957 1,978 1,983 1,990 non-directive}
+{136 1,154 1,201 1,256 1,295 1,329 1,330 1,393 1,495 1,516 1,518 1,658 1,990 non-directive}
+{73 1,90 1,98 1,133 1,149 1,256 1,301 1,325 1,386 1,388 1,398 1,517 1,528 1,576 1,580 1}
+{56 1,73 1,76 1,84 1,97 1,102 1,107 1,135 1,138 1,201 1,203 1,207 1,209 1,212 1,240 1,252 1,257 1,261 1,278 1,280 1,295 1,319 1,329 1,330 1,378 1,386 1,389 1,390 1,406 1,411 1,423 1,431 1,495 1,502 1,507 1,516 1,517 1,518 1,522 1,525 1,530 1,546 1,581 1,582 1}
+{90 1,102 1,155 1,301 1,394 1,435 1,516 1,517 1,525 1,592 1,626 1,643 1,644 1,647 1,780 1,927 1,961 1,990 non-directive}
+{37 1,73 1,124 1,154 1,261 1,308 1,356 1,361 1,387 1,394 1,465 1,517 1}
+{71 1,228 1,386 1,435 1,517 1,831 1,990 non-directive}
+{71 1,228 1,386 1,435 1,517 1,778 1,779 1,990 non-directive}
+{318 1,328 1,332 1,648 1,935 1,990 non-directive}
+{97 1,106 1,155 1,323 1,888 1,990 non-directive}
+{97 1,111 1,129 1,228 1,234 1,293 1,312 1,329 1,356 1,385 1,386 1,393 1,436 1,482 1,495 1,517 1,525 1,551 1,576 1}
+{71 1,132 1,201 1,679 1,990 non-directive}
+{4 1,72 1,120 1,155 1,228 1,281 1,295 1,382 1,386 1,393 1,436 1,437 1,495 1,517 1}
+{117 1,329 1,437 1,495 1,525 1,530 1,573 1,889 1,952 1,990 non-directive}
+{72 1,129 1,249 1,261 1,279 1,295 1,312 1,329 1,373 1,378 1,396 1,437 1,517 1,530 1,538 1}
+{129 1,209 1,249 1,278 1,373 1,378 1,379 1,437 1,454 1,516 1,517 1,576 1}
+{97 1,106 1,138 1,190 1,252 1,271 1,323 1,339 1,386 1,525 1,530 1,552 1,601 1,888 1,990 non-directive}
+{108 1,111 1,130 1,136 1,312 1,329 1,337 1,356 1,386 1,388 1,525 1,551 1}
+{29 1,40 1,56 1,73 1,95 1,107 1,122 1,137 1,239 1,301 1,313 1,329 1,356 1,378 1,386 1,458 1,500 1,517 1,525 1,570 1,585 1,587 1}
+{71 1,113 1,132 1,190 1,323 1,329 1,437 1,517 1,574 1,990 non-directive}
+{20 1,72 1,118 1,120 1,132 1,138 1,190 1,228 1,252 1,281 1,295 1,323 1,329 1,361 1,375 1,382 1,386 1,393 1,436 1,437 1,517 1,519 1,525 1,531 1}
+{136 1,252 1,486 1,517 1,525 1,530 1,984 1,990 non-directive}
+{108 1,189 1,252 1,415 1,517 1,932 1,983 1,990 non-directive}
+{71 1,113 1,117 1,517 1,530 1,582 1,609 1,990 non-directive}
+{252 1,271 1,341 1,373 1,386 1,514 1,517 1,525 1,888 1,990 non-directive}
+{73 1,108 1,138 1,189 1,228 1,252 1,271 1,330 1,341 1,356 1,386 1,393 1,415 1,489 1,517 1,525 1,551 1,886 1,888 1,946 1,955 1,990 non-directive}
+{73 1,98 1,128 1,135 1,136 1,154 1,184 1,214 1,220 1,261 1,323 1,329 1,386 1,457 1,517 1,530 1,561 1,584 1,779 1,833 1,915 1,951 1,990 non-directive}
+{154 1,209 1,272 1,356 1,378 1,469 1,505 1,517 1,520 1,525 1,547 1}
+{3 1,11 1,19 1,56 1,73 1,135 1,146 1,154 1,228 1,252 1,258 1,297 1,329 1,341 1,363 1,372 1,386 1,393 1,434 1,513 1,514 1,517 1}
+{98 1,102 1,107 1,155 1,206 1,303 1,342 1,378 1,386 1,405 1,453 1,496 1,517 1}
+{56 1,73 1,97 1,98 1,102 1,130 1,136 1,145 1,154 1,228 1,241 1,252 1,259 1,295 1,329 1,330 1,356 1,372 1,386 1,393 1,436 1,437 1,452 1,465 1,517 1,525 1,527 1,530 1,551 1}
+{72 1,121 1,136 1,227 1,228 1,236 1,252 1,271 1,295 1,329 1,341 1,373 1,381 1,386 1,388 1,393 1,437 1,514 1,517 1,525 1}
+{73 1,252 1,271 1,301 1,496 1,525 1,888 1,990 non-directive}
+{17 1,70 1,73 1,120 1,191 1,225 1,265 1,281 1,288 1,290 1,496 1,517 1,557 1,559 1}
+{44 1,56 1,102 1,107 1,135 1,138 1,189 1,252 1,254 1,271 1,295 1,415 1,437 1,489 1,517 1,541 1}
+{102 1,138 1,225 1,259 1,277 1,301 1,338 1,378 1,382 1,386 1,450 1,496 1,516 1,517 1,525 1,561 1}
+{98 1,102 1,107 1,138 1,155 1,184 1,226 1,259 1,265 1,301 1,322 1,323 1,358 1,517 1,518 1,558 1}
+{56 1,90 1,97 1,102 1,130 1,138 1,202 1,228 1,241 1,329 1,356 1,386 1,393 1,437 1,495 1,517 1,525 1,527 1,551 1}
+{72 1,73 1,496 1,547 1,990 non-directive}
+{328 1,332 1,648 1,884 1,990 non-directive}
+{73 1,97 1,98 1,104 1,107 1,136 1,163 1,252 1,254 1,301 1,356 1,516 1,517 1,518 1,530 1,557 1,561 1,615 1,616 1,619 1,715 1,763 1,769 1,779 1,883 1,984 1,990 non-directive}
+{108 1,189 1,252 1,386 1,415 1,517 1,869 1,932 1,983 1,990 non-directive}
+{71 1,73 1,117 1,530 1,561 1,582 1,615 1,975 1,990 non-directive}
+{332 1,336 1,648 1,763 1,764 1,990 non-directive}
+{73 1,98 1,104 1,132 1,188 1,261 1,312 1,331 1,386 1,486 1,495 1,517 1,554 1,577 1,618 1,631 1,639 1,814 1,881 1,906 1,990 non-directive}
+{20 1,39 1,136 1,251 1,310 1,311 1,329 1,375 1,433 1,517 1,519 1,530 1,990 non-directive}
+{71 1,117 1,138 1,271 1,301 1,312 1,437 1,495 1,517 1,574 1,576 1,990 non-directive}
+{71 1,132 1,386 1,475 1,517 1,881 1,990 non-directive}
+{594 1,649 1,805 1,990 non-directive}
+{73 1,98 1,104 1,188 1,261 1,312 1,331 1,495 1,517 1,554 1,618 1,631 1,814 1,906 1,990 non-directive}
+{20 1,39 1,136 1,251 1,310 1,311 1,329 1,375 1,433 1,517 1,519 1,530 1}
+{71 1,117 1,138 1,271 1,301 1,312 1,437 1,495 1,517 1,574 1,576 1,990 non-directive}
+{73 1,131 1,561 1,873 1,990 non-directive}
+{2 1,55 1,79 1,98 1,102 1,131 1,135 1,138 1,154 1,192 1,226 1,239 1,301 1,318 1,323 1,329 1,332 1,336 1,352 1,356 1,386 1,414 1,426 1,457 1,496 1,497 1,517 1,521 1,530 1,532 1,582 1,588 1}
+{71 1,113 1,117 1,517 1,530 1,608 1,872 1,990 non-directive}
+{73 1,382 1,741 1,765 1,873 1,990 non-directive}
+{2 1,55 1,79 1,98 1,102 1,135 1,138 1,154 1,192 1,211 1,226 1,239 1,301 1,318 1,323 1,329 1,332 1,336 1,352 1,356 1,386 1,414 1,426 1,457 1,496 1,497 1,517 1,521 1,530 1,532 1,582 1,588 1}
+{71 1,117 1,517 1,530 1,614 1,723 1,872 1,990 non-directive}
+{211 1,332 1,336 1,648 1,740 1,990 non-directive}
+{73 1,98 1,341 1,346 1,517 1,518 1,799 1,873 1,954 1,990 non-directive}
+{0 1,1 1,55 1,98 1,107 1,122 1,326 1,330 1,346 1,356 1,518 1,525 1,526 1,588 1}
+{71 1,117 1,517 1,530 1,561 1,625 1,872 1,985 1,990 non-directive}
+{73 1,188 1,252 1,257 1,341 1,371 1,486 1,517 1,577 1,578 1,666 1,874 1,990 non-directive}
+{155 1,156 1,157 1,158 1,178 1,183 1,188 1,192 1,224 1,261 1,315 1,320 1,328 1,332 1,348 1,365 1,374 1,386 1,399 1,400 1,517 1,525 1,557 1,568 1,574 1,576 1,585 1,586 1}
+{71 1,107 1,201 1,252 1,386 1,517 1,525 1,530 1,554 1,579 1,990 non-directive}
+{73 1,117 1,187 1,244 1,252 1,295 1,330 1,371 1,396 1,475 1,517 1,518 1,530 1,539 1,576 1,584 1}
+{98 1,117 1,252 1,329 1,517 1,530 1,576 1,582 1,674 1,859 1,990 non-directive}
+{594 1,597 1,649 1,990 non-directive}
+{495 1,517 1,685 1,990 non-directive}
+{98 1,135 1,257 1,329 1,495 1,517 1,518 1,525 1,546 1,686 1,739 1,859 1,990 non-directive}
+{328 1,332 1,648 1,860 1,990 non-directive}
+{73 1,98 1,131 1,341 1,517 1,518 1,873 1,953 1,990 non-directive}
+{0 1,1 1,55 1,98 1,107 1,122 1,131 1,326 1,330 1,356 1,518 1,525 1,526 1,588 1}
+{71 1,117 1,517 1,530 1,608 1,872 1,985 1,990 non-directive}
+{73 1,98 1,154 1,341 1,517 1,518 1,873 1,953 1,990 non-directive}
+{0 1,1 1,55 1,98 1,107 1,122 1,153 1,326 1,330 1,356 1,518 1,525 1,526 1,588 1}
+{71 1,117 1,517 1,530 1,611 1,872 1,985 1,990 non-directive}
+{73 1,98 1,105 1,183 1,265 1,266 1,356 1,486 1,495 1,496 1,517 1,525 1,530 1,557 1,859 1,983 1,990 non-directive}
+{14 1,16 1,56 1,61 1,65 1,97 1,103 1,107 1,122 1,239 1,263 1,265 1,301 1,325 1,356 1,386 1,397 1,424 1,458 1,517 1,525 1,570 1}
+{6 1,17 1,68 1,71 1,73 1,107 1,197 1,265 1,288 1,291 1,301 1,496 1,506 1}
+{71 1,103 1,105 1,135 1,265 1,301 1,441 1,487 1,496 1,517 1}
+{102 1,105 1,248 1,265 1,295 1,296 1,361 1,487 1,515 1,517 1,519 1}
+{98 1,105 1,117 1,329 1,355 1,382 1,386 1,517 1,563 1,584 1}
+{5 1,17 1,69 1,73 1,105 1,106 1,107 1,135 1,169 1,193 1,204 1,288 1,292 1,329 1,332 1,340 1,348 1,354 1,382 1,386 1,485 1,503 1,517 1,568 1}
+{6 1,17 1,64 1,66 1,73 1,104 1,123 1,196 1,288 1,291 1,387 1,517 1}
+{6 1,17 1,67 1,90 1,163 1,235 1,261 1,267 1,268 1,288 1,289 1,386 1,417 1,463 1,465 1,484 1,517 1}
+{72 1,495 1,525 1,859 1,990 non-directive}
+{594 1,597 1,649 1,990 non-directive}
+{73 1,413 1,440 1,525 1,530 1,579 1,701 1,990 non-directive}
+{30 1,91 1,97 1,177 1,295 1,329 1,383 1,395 1,413 1,438 1,482 1,525 1,527 1,530 1}
+{15 1,18 1,49 1,50 1,56 1,97 1,98 1,117 1,135 1,139 1,142 1,176 1,177 1,217 1,221 1,283 1,295 1,329 1,355 1,393 1,413 1,438 1,458 1,480 1,488 1,517 1,522 1,541 1,544 1,579 1}
+{71 1,176 1,413 1,438 1,480 1,517 1,530 1,990 non-directive}
+{154 1,190 1,271 1,373 1,386 1,413 1,495 1,517 1,525 1,888 1,990 non-directive}
+{20 1,111 1,118 1,120 1,154 1,228 1,281 1,295 1,329 1,375 1,386 1,436 1,453 1,495 1,517 1,561 1}
+{97 1,111 1,130 1,190 1,202 1,228 1,241 1,312 1,329 1,356 1,386 1,393 1,495 1,517 1,525 1,527 1,551 1}
+{20 1,72 1,154 1,190 1,228 1,295 1,329 1,373 1,386 1,393 1,436 1,495 1,517 1}
+{73 1,413 1,440 1,495 1,525 1,530 1,701 1,859 1,990 non-directive}
+{30 1,91 1,97 1,177 1,295 1,312 1,329 1,383 1,395 1,413 1,482 1,495 1,525 1,527 1,530 1}
+{15 1,18 1,49 1,50 1,56 1,97 1,98 1,117 1,135 1,139 1,142 1,176 1,177 1,217 1,221 1,283 1,295 1,312 1,329 1,355 1,393 1,413 1,458 1,480 1,488 1,495 1,517 1,522 1,541 1,544 1,859 1,990 non-directive}
+{71 1,176 1,312 1,413 1,480 1,495 1,517 1,530 1,990 non-directive}
+{413 1,486 1,495 1,517 1,530 1,609 1,859 1,984 1,990 non-directive}
+{56 1,356 1,386 1,517 1,630 1,641 1,786 1,990 non-directive}
+{71 1,113 1,117 1,517 1,530 1,582 1,609 1,990 non-directive}
+{73 1,136 1,190 1,386 1,891 1,990 non-directive}
+{111 1,129 1,295 1,312 1,329 1,356 1,375 1,525 1,576 1}
+{71 1,113 1,124 1,136 1,517 1,890 1,990 non-directive}
+{594 1,649 1,805 1,990 non-directive}
+{495 1,517 1,530 1,554 1,565 1,572 1,581 1,878 1,928 1,990 non-directive}
+{60 1,73 1,116 1,189 1,265 1,301 1,329 1,386 1,422 1,495 1,516 1,517 1,530 1,565 1,695 1,745 1,781 1,879 1,902 1,913 1,983 1,990 non-directive}
+{57 1,86 1,94 1,112 1,116 1,117 1,219 1,287 1,305 1,324 1,329 1,349 1,375 1,395 1,483 1,519 1,530 1,576 1}
+{71 1,271 1,328 1,332 1,384 1,429 1,554 1,565 1}
+{328 1,332 1,648 1,852 1,990 non-directive}
+{328 1,332 1,648 1,853 1,990 non-directive}
+{8 1,594 1,649 1,990 non-directive}
+{211 1,251 1,323 1,386 1,517 1,561 1,843 1,866 1,882 1,990 non-directive}
+{71 1,251 1,364 1,386 1,517 1,912 1,990 non-directive}
+{71 1,251 1,517 1,530 1,561 1,663 1,976 1,990 non-directive}
+{97 1,106 1,138 1,386 1,984 1,990 non-directive}
+{84 1,102 1,129 1,138 1,356 1,517 1,525 1,551 1,576 1,582 1}
+{71 1,113 1,117 1,190 1,517 1,530 1,582 1,990 non-directive}
+{98 1,111 1,135 1,271 1,364 1,495 1,517 1,750 1,834 1,866 1,888 1,957 1,990 non-directive}
+{72 1,124 1,200 1,383 1,386 1,517 1,617 1,750 1,866 1,897 1,990 non-directive}
+{8 1,594 1,649 1,990 non-directive}
+{97 1,106 1,138 1,190 1,271 1,312 1,323 1,386 1,495 1,525 1,530 1,552 1,623 1,888 1,990 non-directive}
+{111 1,130 1,312 1,329 1,356 1,482 1,525 1,551 1}
+{56 1,105 1,106 1,136 1,142 1,301 1,356 1,386 1,517 1,530 1,584 1,624 1,632 1,758 1,895 1,990 non-directive}
+{71 1,113 1,132 1,190 1,323 1,329 1,437 1,517 1,574 1,990 non-directive}
+{71 1,190 1,386 1,517 1,854 1,855 1,931 1,990 non-directive}
+{71 1,138 1,354 1,382 1,386 1,437 1,517 1,817 1,990 non-directive}
+{20 1,72 1,118 1,120 1,132 1,138 1,190 1,228 1,281 1,295 1,323 1,329 1,361 1,375 1,382 1,386 1,393 1,436 1,437 1,495 1,517 1,519 1,525 1,531 1}
+{328 1,332 1,648 1,821 1,990 non-directive}
+{73 1,97 1,106 1,155 1,323 1,386 1,868 1,888 1,990 non-directive}
+{71 1,132 1,201 1,679 1,990 non-directive}
+{71 1,108 1,155 1,530 1,574 1,855 1,931 1,934 1,990 non-directive}
+{71 1,155 1,338 1,354 1,382 1,386 1,437 1,530 1,990 non-directive}
+{4 1,72 1,120 1,155 1,228 1,281 1,295 1,382 1,386 1,393 1,436 1,437 1,495 1,517 1,990 non-directive}
+{97 1,156 1,188 1,276 1,516 1,517 1,725 1,798 1,974 1,990 non-directive}
+{13 1,990 non-directive}
+{71 1,97 1,301 1,797 1,990 non-directive}
+{71 1,73 1,156 1,724 1,725 1,990 non-directive}
+{594 1,596 1,649 1,650 1,806 1,990 non-directive}
+{73 1,101 1,131 1,190 1,252 1,276 1,307 1,364 1,378 1,383 1,393 1,517 1,530 1,573 1,577 1,582 1,708 1,757 1,990 non-directive}
+{71 1,496 1,508 1,517 1,755 1,990 non-directive}
+{52 1,71 1,101 1,117 1,131 1,190 1,228 1,252 1,295 1,386 1,515 1,517 1,518 1,530 1,576 1,582 1,669 1,885 1,990 non-directive}
+{152 1,252 1,332 1,374 1,383 1,455 1,495 1,517 1,525 1,548 1,577 1,585 1,664 1,752 1,753 1,859 1,990 non-directive}
+{12 1,13 1,56 1,101 1,117 1,138 1,147 1,151 1,152 1,232 1,250 1,252 1,253 1,301 1,309 1,329 1,330 1,332 1,357 1,374 1,382 1,386 1,453 1,475 1,481 1,495 1,517 1,525 1,530 1,549 1,574 1,576 1,582 1,585 1}
+{138 1,151 1,457 1,495 1,517 1,525 1,530 1,576 1,581 1,654 1,791 1,869 1,990 non-directive}
+{135 1,150 1,151 1,221 1,252 1,393 1,457 1,495 1,517 1,525 1,576 1,581 1,681 1,748 1,869 1,990 non-directive}
+{72 1,151 1,252 1,495 1,517 1,525 1,577 1,664 1,859 1,990 non-directive}
+{594 1,596 1,649 1,650 1,806 1,990 non-directive}
+{83 1,97 1,188 1,199 1,243 1,252 1,301 1,486 1,495 1,507 1,517 1,530 1,574 1,700 1,859 1,898 1,983 1,990 non-directive}
+{23 1,27 1,56 1,73 1,104 1,107 1,140 1,199 1,252 1,254 1,295 1,329 1,331 1,351 1,356 1,464 1,517 1,519 1,577 1}
+{71 1,117 1,199 1,252 1,261 1,517 1,530 1,581 1,749 1,856 1,990 non-directive}
+{328 1,332 1,336 1,648 1,754 1,909 1,990 non-directive}
+{33 1,98 1,138 1,190 1,271 1,312 1,386 1,401 1,495 1,517 1,736 1,924 1,990 non-directive}
+{21 1,48 1,59 1,73 1,138 1,228 1,261 1,355 1,356 1,382 1,386 1,401 1,418 1,439 1,478 1,479 1,482 1,552 1,564 1}
+{30 1,33 1,48 1,97 1,147 1,209 1,236 1,295 1,301 1,314 1,329 1,356 1,368 1,380 1,386 1,504 1,517 1,525 1,526 1,527 1,585 1}
+{83 1,138 1,329 1,382 1,386 1,453 1,477 1,517 1,990 non-directive}
+{60 1,102 1,115 1,138 1,252 1,301 1,355 1,356 1,361 1,443 1,476 1,515 1,517 1}
+{98 1,115 1,125 1,138 1,231 1,241 1,252 1,302 1,355 1,375 1,382 1,386 1,427 1,477 1,482 1,516 1,517 1,525 1,571 1}
+{4 1,88 1,110 1,228 1,252 1,271 1,301 1,307 1,386 1,407 1,437 1,449 1,478 1,495 1,517 1,530 1,576 1}
+{71 1,117 1,138 1,363 1,382 1,386 1,477 1,517 1,530 1,990 non-directive}
+{72 1,83 1,138 1,382 1,386 1,477 1,517 1,990 non-directive}
+{28 1,73 1,98 1,160 1,188 1,271 1,315 1,371 1,404 1,409 1,496 1,990 non-directive}
+{24 1,28 1,35 1,38 1,56 1,107 1,135 1,178 1,187 1,276 1,295 1,315 1,327 1,329 1,371 1,387 1,409 1,474 1,496 1,517 1,518 1}
+{24 1,38 1,56 1,73 1,98 1,194 1,205 1,221 1,252 1,329 1,393 1,396 1,409 1,496 1,511 1,517 1,530 1}
+{24 1,73 1,184 1,295 1,301 1,323 1,329 1,330 1,409 1,496 1,508 1,517 1,518 1,570 1,653 1,892 1,990 non-directive}
+{24 1,28 1,38 1,73 1,75 1,89 1,97 1,98 1,135 1,185 1,187 1,192 1,205 1,223 1,295 1,315 1,323 1,329 1,371 1,409 1,447 1,449 1,496 1,508 1,517 1,518 1}
+{75 1,89 1,97 1,98 1,160 1,184 1,214 1,323 1,329 1,396 1,404 1,409 1,496 1,517 1,900 1,990 non-directive}
+{71 1,404 1,409 1,496 1,517 1,990 non-directive}
+{71 1,160 1,409 1,496 1,517 1,990 non-directive}
+{22 1,104 1,128 1,220 1,386 1,495 1,517 1,530 1,832 1,859 1,984 1,990 non-directive}
+{9 1,22 1,102 1,128 1,286 1,296 1,386 1,517 1}
+{71 1,113 1,117 1,136 1,517 1,530 1,582 1,990 non-directive}
+{73 1,495 1,496 1,517 1,530 1,859 1,984 1,990 non-directive}
+{46 1,136 1,154 1,261 1,301 1,329 1,388 1,495 1,496 1,511 1,517 1,530 1,582 1,746 1,858 1,859 1,990 non-directive}
+{35 1,36 1,45 1,46 1,56 1,73 1,102 1,138 1,295 1,329 1,339 1,375 1,518 1,527 1,582 1,584 1}
+{98 1,154 1,254 1,329 1,387 1,396 1,481 1,517 1,518 1,582 1,634 1,635 1,636 1,813 1,818 1,990 non-directive}
+{136 1,154 1,214 1,239 1,261 1,301 1,329 1,352 1,356 1,386 1,388 1,517 1,582 1,642 1,832 1,990 non-directive}
+{102 1,128 1,154 1,214 1,220 1,286 1,296 1,301 1,386 1,496 1,517 1}
+{71 1,117 1,138 1,386 1,457 1,496 1,517 1,530 1,582 1,990 non-directive}
+{46 1,138 1,154 1,301 1,495 1,496 1,517 1,530 1,541 1,746 1,858 1,859 1,865 1,984 1,990 non-directive}
+{35 1,36 1,46 1,73 1,295 1,329 1,527 1}
+{45 1,102 1,155 1,295 1,329 1,339 1,375 1,518 1,582 1,584 1,990 non-directive}
+{98 1,154 1,254 1,329 1,387 1,396 1,481 1,517 1,518 1,582 1,634 1,635 1,636 1,813 1,818 1,990 non-directive}
+{54 1,84 1,102 1,136 1,138 1,154 1,214 1,239 1,254 1,261 1,286 1,301 1,352 1,356 1,386 1,517 1,541 1,582 1}
+{71 1,117 1,457 1,496 1,517 1,530 1,561 1,582 1,990 non-directive}
+{22 1,98 1,106 1,132 1,138 1,271 1,312 1,323 1,382 1,386 1,482 1,495 1,517 1,709 1,888 1,933 1,957 1,990 non-directive}
+{84 1,97 1,107 1,138 1,329 1,382 1,386 1,437 1,453 1,517 1,799 1,990 non-directive}
+{97 1,111 1,130 1,190 1,202 1,228 1,241 1,252 1,312 1,329 1,356 1,386 1,393 1,525 1,527 1,551 1}
+{22 1,36 1,58 1,73 1,329 1,381 1,527 1}
+{21 1,22 1,97 1,98 1,102 1,108 1,109 1,136 1,138 1,295 1,329 1,337 1,338 1,375 1,386 1,388 1,396 1,437 1,453 1,517 1,518 1,519 1,530 1,584 1}
+{20 1,22 1,98 1,108 1,111 1,118 1,136 1,228 1,252 1,295 1,323 1,329 1,337 1,375 1,386 1,388 1,396 1,437 1,453 1,494 1,495 1,517 1,561 1}
+{59 1,98 1,136 1,222 1,254 1,323 1,329 1,373 1,387 1,388 1,437 1,481 1,494 1,517 1,602 1,603 1,990 non-directive}
+{22 1,108 1,138 1,232 1,329 1,338 1,382 1,386 1,437 1,517 1,530 1,842 1,990 non-directive}
+{84 1,117 1,138 1,301 1,382 1,386 1,437 1,494 1,517 1,521 1,576 1,602 1,604 1,605 1,606 1,621 1,744 1,816 1,818 1,819 1,960 1,968 1,990 non-directive}
+{7 1,11 1,15 1,18 1,41 1,59 1,107 1,113 1,217 1,281 1,338 1,356 1,437 1,458 1,517 1}
+{71 1,113 1,132 1,190 1,323 1,329 1,437 1,517 1,574 1,990 non-directive}
+{20 1,72 1,118 1,120 1,132 1,138 1,190 1,228 1,281 1,295 1,323 1,329 1,361 1,375 1,382 1,386 1,393 1,436 1,437 1,495 1,517 1,519 1,531 1}
+{328 1,332 1,648 1,759 1,990 non-directive}
+{137 1,313 1,318 1,328 1,332 1,648 1,990 non-directive}
+{25 1,43 1,182 1,274 1,356 1,386 1,465 1,517 1}
+{56 1,102 1,138 1,261 1,271 1,312 1,437 1,495 1,517 1,525 1,709 1,857 1,990 non-directive}
+{72 1,73 1,107 1,138 1,312 1,322 1,373 1,382 1,386 1,495 1,517 1,525 1,541 1,595 1,920 1,990 non-directive}
+{328 1,332 1,648 1,759 1,990 non-directive}
+{25 1,42 1,182 1,274 1,356 1,386 1,465 1,517 1}
+{56 1,102 1,138 1,261 1,271 1,312 1,437 1,495 1,517 1,525 1,709 1,857 1,990 non-directive}
+{72 1,73 1,107 1,138 1,220 1,312 1,322 1,373 1,386 1,495 1,517 1,525 1,625 1,990 non-directive}
+{328 1,332 1,648 1,759 1,990 non-directive}
+{73 1,98 1,105 1,183 1,265 1,266 1,356 1,457 1,486 1,495 1,496 1,517 1,525 1,530 1,557 1,706 1,859 1,983 1,990 non-directive}
+{14 1,16 1,56 1,62 1,63 1,97 1,103 1,107 1,122 1,239 1,263 1,265 1,301 1,325 1,356 1,386 1,424 1,458 1,517 1,525 1,570 1}
+{6 1,17 1,68 1,71 1,73 1,107 1,197 1,265 1,288 1,291 1,301 1,496 1,506 1}
+{71 1,103 1,105 1,135 1,265 1,301 1,441 1,487 1,496 1,517 1}
+{102 1,105 1,248 1,265 1,295 1,296 1,361 1,487 1,515 1,517 1,519 1}
+{98 1,105 1,117 1,329 1,355 1,382 1,386 1,517 1,563 1,584 1}
+{5 1,17 1,69 1,73 1,105 1,106 1,107 1,135 1,169 1,193 1,204 1,288 1,292 1,329 1,332 1,340 1,348 1,354 1,382 1,386 1,485 1,503 1,517 1,568 1}
+{6 1,17 1,64 1,66 1,73 1,104 1,123 1,196 1,288 1,291 1,387 1,517 1}
+{6 1,17 1,67 1,90 1,163 1,235 1,261 1,267 1,268 1,288 1,289 1,386 1,417 1,463 1,465 1,484 1,517 1}
+{72 1,525 1,706 1,990 non-directive}
+{97 1,486 1,517 1,577 1,640 1,708 1,731 1,840 1,990 non-directive}
+{71 1,457 1,517 1,731 1,840 1,990 non-directive}
+{594 1,649 1,805 1,990 non-directive}
+{73 1,486 1,517 1,577 1,628 1,708 1,731 1,840 1,990 non-directive}
+{71 1,457 1,517 1,731 1,840 1,990 non-directive}
+{594 1,649 1,805 1,990 non-directive}
+{73 1,186 1,371 1,386 1,455 1,517 1,709 1,836 1,990 non-directive}
+{142 1,200 1,261 1,321 1,329 1,403 1,445 1,456 1,467 1,517 1,550 1,555 1,577 1}
+{72 1,73 1,186 1,383 1,386 1,517 1,709 1,990 non-directive}
+{117 1,269 1,378 1,718 1,990 non-directive}
+{8 1,594 1,649 1,990 non-directive}
+{73 1,486 1,517 1,577 1,613 1,708 1,731 1,840 1,990 non-directive}
+{71 1,457 1,517 1,731 1,840 1,990 non-directive}
+{594 1,649 1,805 1,990 non-directive}
+{343 1,455 1,457 1,517 1,774 1,876 1,990 non-directive}
+{81 1,102 1,135 1,192 1,229 1,379 1,416 1}
+{47 1,73 1,97 1,119 1,140 1,230 1,295 1,329 1,330 1,356 1,368 1,387 1,389 1,525 1}
+{73 1,107 1,188 1,276 1,308 1,404 1,517 1,577 1,673 1,713 1,916 1,990 non-directive}
+{71 1,404 1,517 1,916 1,990 non-directive}
+{71 1,260 1,261 1,364 1,386 1,475 1,517 1,555 1,697 1,949 1,950 1,990 non-directive}
+{35 1,71 1,117 1,251 1,285 1,295 1,301 1,392 1,393 1,471 1,492 1,493 1,514 1,517 1,530 1,555 1}
+{10 1,596 1,649 1,990 non-directive}
+{98 1,154 1,155 1,261 1,276 1,295 1,365 1,501 1,517 1,698 1,944 1,990 non-directive}
+{34 1,155 1,299 1,437 1,471 1,501 1,530 1,554 1}
+{71 1,117 1,154 1,517 1,530 1,676 1,943 1,990 non-directive}
+{72 1,261 1,517 1,610 1,944 1,990 non-directive}
+{26 1,52 1,124 1,295 1,308 1,329 1,396 1,455 1,733 1,737 1,990 non-directive}
+{26 1,52 1,72 1,124 1,295 1,308 1,329 1,396 1,733 1,737 1,990 non-directive}
+{10 1,649 1,990 non-directive}
+{97 1,283 1,315 1,361 1,386 1,388 1,393 1,516 1,620 1,665 1,682 1,850 1,990 non-directive}
+{102 1,197 1,301 1,517 1,638 1,732 1,926 1,990 non-directive}
+{71 1,237 1,459 1,517 1,907 1,990 non-directive}
+{35 1,117 1,279 1,378 1,530 1}
+{56 1,73 1,189 1,261 1,343 1,386 1,421 1,455 1,468 1,517 1,990 non-directive}
+{51 1,73 1,99 1,301 1,329 1,815 1,870 1,941 1,990 non-directive}
+{51 1,73 1,92 1,97 1,315 1,329 1,386 1,870 1,990 non-directive}
+{13 1,56 1,73 1,98 1,113 1,240 1,261 1,386 1,468 1,516 1,537 1,676 1,702 1,705 1,723 1,768 1,964 1,990 non-directive}
+{73 1,98 1,113 1,117 1,421 1,517 1,676 1,982 1,990 non-directive}
+{96 1,107 1,117 1,343 1,362 1,386 1,421 1,458 1,475 1,517 1,537 1}
+{13 1,990 non-directive}
+{72 1,106 1,261 1,386 1,417 1,421 1,468 1,517 1,525 1,990 non-directive}
+{35 1,106 1,117 1,134 1,223 1,355 1,362 1,378 1,525 1}
+{51 1,180 1,316 1,330 1,362 1,386 1,389 1}
+{315 1,386 1,455 1,459 1,516 1,517 1,682 1,990 non-directive}
+{72 1,315 1,386 1,459 1,516 1,517 1,682 1,990 non-directive}
+{35 1,117 1,279 1,378 1,530 1}
+{459 1,525 1,545 1,668 1,834 1,990 non-directive}
+{35 1,98 1,150 1,198 1,217 1,281 1,294 1,364 1,386 1,404 1,472 1,517 1,525 1,530 1}
+{90 1,329 1,345 1,530 1,849 1,911 1,990 non-directive}
+{56 1,281 1,351 1,516 1,517 1,525 1,682 1,711 1,850 1,990 non-directive}
+{261 1,319 1,321 1,329 1,356 1,389 1,525 1,554 1}
+{11 1,13 1,56 1,301 1,356 1,525 1,594 1,629 1,696 1,990 non-directive}
+{13 1,990 non-directive}
+{56 1,127 1,134 1,189 1,261 1,386 1,490 1,517 1,660 1,698 1,712 1,738 1,990 non-directive}
+{90 1,117 1,127 1,143 1,208 1,417 1,517 1,525 1,530 1,540 1,556 1,572 1}
+{11 1,13 1,33 1,56 1,127 1,301 1,329 1,356 1,363 1,382 1,386 1,517 1,525 1,629 1,696 1,981 1,990 non-directive}
+{13 1,990 non-directive}
+{51 1,72 1,73 1,127 1,353 1,386 1,530 1,537 1,607 1,612 1,710 1,990 non-directive}
+{35 1,117 1,134 1,223 1,329 1,330 1,353 1,355 1,370 1,525 1}
+{56 1,82 1,459 1,517 1,722 1,773 1,990 non-directive}
+{11 1,13 1,56 1,301 1,356 1,525 1,594 1,629 1,696 1,990 non-directive}
+{13 1,990 non-directive}
+{35 1,72 1,82 1,117 1,295 1,329 1,355 1,375 1,459 1,517 1,519 1}
+{73 1,117 1,193 1,279 1,295 1,329 1,330 1,453 1,459 1,530 1,990 non-directive}
+{71 1,170 1,990 non-directive}
+{35 1,72 1,73 1,393 1,468 1,537 1}
+{10 1,596 1,649 1,990 non-directive}
+{56 1,90 1,127 1,135 1,163 1,386 1,455 1,469 1,517 1,525 1,835 1,990 non-directive}
+{11 1,13 1,56 1,301 1,356 1,525 1,594 1,629 1,696 1,990 non-directive}
+{13 1,990 non-directive}
+{72 1,90 1,106 1,127 1,386 1,517 1,990 non-directive}
+{35 1,98 1,117 1,223 1,330 1,355 1,525 1,561 1}
+{56 1,276 1,294 1,459 1,517 1,577 1,773 1,990 non-directive}
+{73 1,91 1,187 1,209 1,242 1,294 1,295 1,329 1,371 1,378 1,459 1,516 1,517 1,518 1,545 1,577 1}
+{280 1,442 1,461 1,516 1,525 1,548 1,576 1}
+{11 1,13 1,56 1,301 1,356 1,525 1,594 1,629 1,657 1,696 1,990 non-directive}
+{13 1,990 non-directive}
+{35 1,71 1,117 1,261 1,294 1,362 1,378 1,451 1,459 1,460 1,517 1,530 1}
+{72 1,73 1,276 1,294 1,459 1,517 1,577 1,990 non-directive}
+{56 1,73 1,281 1,351 1,459 1,516 1,525 1,682 1,850 1,990 non-directive}
+{261 1,319 1,321 1,329 1,356 1,389 1,525 1,554 1}
+{13 1,56 1,98 1,142 1,165 1,172 1,195 1,329 1,330 1,345 1,356 1,387 1,397 1,481 1,512 1,517 1,524 1,525 1,529 1,530 1}
+{13 1,990 non-directive}
+{71 1,97 1,237 1,301 1,459 1,517 1,681 1,730 1,907 1,990 non-directive}
+{73 1,107 1,175 1,189 1,261 1,276 1,301 1,386 1,517 1,585 1,670 1,689 1,808 1,879 1,965 1,990 non-directive}
+{71 1,261 1,329 1,468 1,517 1,574 1,699 1,796 1,899 1,990 non-directive}
+{72 1,386 1,688 1,807 1,990 non-directive}
+{35 1,73 1,175 1,295 1,375 1,455 1,518 1}
+{10 1,597 1,649 1,990 non-directive}
+{126 1,170 1,455 1,517 1,525 1,530 1,574 1,661 1,861 1,990 non-directive}
+{35 1,97 1,126 1,243 1,294 1,295 1,329 1,517 1,518 1,525 1,542 1}
+{35 1,72 1,117 1,170 1,273 1,355 1,517 1}
+{271 1,276 1,333 1,344 1,468 1,517 1,525 1,575 1,894 1,990 non-directive}
+{35 1,71 1,117 1,344 1,362 1,378 1,444 1,517 1,530 1}
+{8 1,10 1,649 1,990 non-directive}
+{78 1,97 1,276 1,333 1,430 1,498 1,517 1,561 1,717 1,948 1,990 non-directive}
+{71 1,73 1,78 1,117 1,471 1,517 1,530 1,561 1,714 1,948 1,977 1,990 non-directive}
+{35 1,72 1,233 1,333 1,370 1,498 1,517 1}
+{56 1,78 1,97 1,154 1,237 1,276 1,323 1,358 1,359 1,517 1,561 1,577 1,593 1,704 1,715 1,917 1,948 1,990 non-directive}
+{78 1,117 1,159 1,238 1,304 1,329 1,333 1,425 1,471 1,516 1,517 1,523 1,525 1,561 1,572 1}
+{13 1,56 1,73 1,107 1,117 1,240 1,261 1,387 1,720 1,721 1,809 1,930 1,973 1,980 1,982 1,990 non-directive}
+{13 1,990 non-directive}
+{35 1,71 1,117 1,184 1,237 1,362 1,378 1,517 1,530 1}
+{72 1,98 1,154 1,386 1,490 1,517 1,690 1,837 1,971 1,990 non-directive}
+{73 1,98 1,135 1,261 1,264 1,331 1,333 1,359 1,364 1,445 1,455 1,517 1,525 1,552 1,799 1,830 1,923 1,990 non-directive}
+{35 1,71 1,117 1,264 1,333 1,347 1,359 1,362 1,364 1,378 1,386 1,517 1,530 1}
+{72 1,333 1,386 1,445 1,517 1,525 1,799 1,990 non-directive}
+{21 1,117 1,144 1,269 1,295 1,333 1,356 1,359 1,455 1,517 1,518 1,525 1,990 non-directive}
+{73 1,98 1,261 1,264 1,333 1,445 1,455 1,496 1,516 1,517 1,552 1,561 1,830 1,990 non-directive}
+{71 1,333 1,347 1,517 1,530 1,990 non-directive}
+{72 1,264 1,333 1,386 1,445 1,496 1,517 1,525 1,990 non-directive}
+{117 1,144 1,154 1,269 1,295 1,329 1,330 1,333 1,516 1,517 1,518 1,525 1,530 1,561 1,717 1,799 1,922 1,990 non-directive}
+{97 1,315 1,386 1,622 1,773 1,990 non-directive}
+{72 1,73 1,333 1,468 1,990 non-directive}
+{283 1,333 1,375 1,468 1,525 1,576 1,937 1,990 non-directive}
+{35 1,117 1,279 1,378 1,530 1}
+{73 1,97 1,188 1,276 1,315 1,333 1,343 1,386 1,622 1,937 1,990 non-directive}
+{71 1,333 1,343 1,386 1,517 1,810 1,937 1,990 non-directive}
+{35 1,117 1,134 1,223 1,330 1,343 1,355 1,362 1,378 1,525 1}
+{31 1,179 1,223 1,295 1,316 1,329 1,330 1,343 1,362 1,378 1,386 1,389 1,525 1}
+{72 1,73 1,333 1,468 1,990 non-directive}
+{35 1,117 1,279 1,378 1,530 1}
+{73 1,97 1,135 1,188 1,264 1,276 1,315 1,386 1,445 1,496 1,622 1,863 1,990 non-directive}
+{71 1,264 1,445 1,496 1,517 1,530 1,862 1,990 non-directive}
+{72 1,73 1,333 1,468 1,990 non-directive}
+{35 1,117 1,279 1,378 1,530 1}
+{261 1,264 1,333 1,445 1,455 1,468 1,496 1,517 1,525 1,990 non-directive}
+{72 1,261 1,264 1,333 1,445 1,468 1,496 1,517 1,525 1,990 non-directive}
+{35 1,117 1,279 1,378 1,530 1}
+{332 1,336 1,648 1,851 1,990 non-directive}
+{73 1,97 1,276 1,315 1,333 1,343 1,386 1,622 1,708 1,937 1,990 non-directive}
+{71 1,333 1,343 1,386 1,517 1,810 1,937 1,990 non-directive}
+{35 1,117 1,134 1,223 1,330 1,343 1,355 1,362 1,378 1,525 1}
+{31 1,179 1,223 1,295 1,316 1,329 1,330 1,343 1,362 1,378 1,386 1,389 1,525 1}
+{261 1,333 1,455 1,498 1,517 1,525 1,845 1,990 non-directive}
+{72 1,261 1,333 1,498 1,517 1,525 1,845 1,990 non-directive}
+{281 1,295 1,329 1,333 1,375 1,498 1,517 1,525 1,561 1,627 1,743 1,783 1,790 1,845 1,990 non-directive}
+{73 1,97 1,265 1,323 1,333 1,767 1,782 1,795 1,887 1,990 non-directive}
+{73 1,265 1,323 1,333 1,517 1,525 1,530 1,715 1,921 1,986 1,990 non-directive}
+{35 1,71 1,117 1,265 1,333 1,362 1,378 1,517 1,530 1}
+{35 1,72 1,73 1,107 1,117 1,266 1,333 1,378 1,471 1,496 1,517 1}
+{73 1,97 1,265 1,323 1,333 1,767 1,782 1,795 1,887 1,990 non-directive}
+{97 1,333 1,517 1,525 1,530 1,552 1,675 1,800 1,829 1,901 1,974 1,990 non-directive}
+{209 1,261 1,268 1,517 1,525 1,678 1,867 1,990 non-directive}
+{71 1,265 1,333 1,517 1,530 1,990 non-directive}
+{35 1,72 1,73 1,107 1,117 1,266 1,333 1,378 1,471 1,496 1,517 1}
+{108 1,117 1,140 1,143 1,245 1,276 1,308 1,367 1,376 1,408 1,517 1,533 1,534 1,553 1,572 1,573 1}
+{108 1,131 1,135 1,141 1,181 1,222 1,276 1,295 1,330 1,335 1,383 1,408 1,432 1,448 1,471 1,517 1,533 1,536 1,585 1,587 1}
+{92 1,139 1,161 1,162 1,181 1,295 1,317 1,318 1,330 1,335 1,355 1,382 1,383 1,386 1,432 1,517 1,530 1,535 1,585 1,587 1}
+{56 1,83 1,97 1,107 1,161 1,209 1,261 1,319 1,366 1,378 1,391 1,517 1,566 1,572 1}
+{53 1,74 1,117 1,164 1,218 1,298 1,355 1,361 1,515 1,525 1,530 1}
+{13 1,990 non-directive}
+{71 1,161 1,261 1,308 1,329 1,408 1,517 1,533 1,553 1,574 1,652 1,846 1,990 non-directive}
+{222 1,261 1,276 1,404 1,410 1,417 1,452 1,517 1,990 non-directive}
+{97 1,106 1,117 1,143 1,144 1,173 1,223 1,295 1,410 1,453 1,517 1}
+{73 1,143 1,147 1,276 1,295 1,301 1,376 1,446 1,509 1,517 1,525 1,566 1,716 1,747 1,963 1,990 non-directive}
+{73 1,97 1,106 1,117 1,160 1,222 1,223 1,230 1,295 1,301 1,312 1,329 1,386 1,408 1,419 1,453 1,471 1,517 1,533 1,566 1}
+{71 1,222 1,517 1,990 non-directive}
+{72 1,222 1,261 1,276 1,404 1,410 1,417 1,517 1,990 non-directive}
+{165 1,222 1,261 1,276 1,455 1,517 1,776 1,990 non-directive}
+{71 1,165 1,222 1,261 1,329 1,517 1,677 1,776 1,990 non-directive}
+{72 1,165 1,222 1,261 1,276 1,517 1,776 1,990 non-directive}
+{73 1,167 1,222 1,261 1,262 1,276 1,517 1,879 1,990 non-directive}
+{71 1,222 1,517 1,990 non-directive}
+{35 1,72 1,167 1,192 1,222 1,261 1,262 1,393 1,517 1,530 1,554 1}
+{35 1,120 1,148 1,281 1,295 1,359 1,386 1,393 1,455 1,469 1,517 1,525 1,566 1,848 1,990 non-directive}
+{10 1,56 1,73 1,94 1,97 1,100 1,111 1,168 1,215 1,216 1,255 1,261 1,301 1,329 1,361 1,386 1,465 1,473 1,562 1,566 1,567 1,570 1,585 1,587 1}
+{13 1,990 non-directive}
+{35 1,72 1,148 1,359 1,393 1,517 1}
+{10 1,75 1,85 1,163 1,301 1,530 1,594 1,649 1,940 1,990 non-directive}
+{216 1,567 1,648 1,990 non-directive}
+{216 1,648 1,990 non-directive}
+{73 1,188 1,276 1,387 1,404 1,517 1,566 1,694 1,713 1,847 1,969 1,990 non-directive}
+{128 1,187 1,276 1,329 1,517 1,557 1,694 1,713 1,939 1,948 1,990 non-directive}
+{73 1,98 1,181 1,192 1,281 1,312 1,375 1,432 1,517 1,566 1,760 1,812 1,925 1,990 non-directive}
+{71 1,404 1,517 1,713 1,990 non-directive}
+{71 1,128 1,517 1,939 1,948 1,990 non-directive}
+{35 1,148 1,244 1,276 1,295 1,301 1,369 1,375 1,386 1,393 1,455 1,486 1,517 1,525 1,734 1,990 non-directive}
+{117 1,135 1,143 1,148 1,189 1,240 1,261 1,356 1,386 1,393 1,452 1,517 1,525 1,530 1,576 1,585 1,589 1,590 1,671 1,692 1,707 1,734 1,864 1,972 1,989 1,990 non-directive}
+{52 1,117 1,295 1,301 1,329 1,389 1,404 1,458 1,517 1,576 1,637 1,680 1,703 1,903 1,919 1,969 1,990 non-directive}
+{71 1,148 1,369 1,446 1,517 1,530 1,555 1,734 1,735 1,784 1,837 1,990 non-directive}
+{52 1,71 1,271 1,295 1,389 1,680 1,702 1,903 1,904 1,919 1,990 non-directive}
+{35 1,72 1,148 1,269 1,295 1,369 1,378 1,393 1,446 1,517 1}
+{98 1,196 1,329 1,386 1,387 1,514 1,517 1,577 1,662 1,672 1,683 1,713 1,737 1,742 1,785 1,828 1,948 1,958 1,978 1,981 1,990 non-directive}
+{72 1,386 1,514 1,517 1,662 1,672 1,990 non-directive}
+{35 1,210 1,295 1,299 1,308 1,355 1,430 1,452 1,509 1,517 1,525 1,546 1,575 1}
+{10 1,596 1,649 1,990 non-directive}
+{114 1,148 1,167 1,386 1,517 1,773 1,990 non-directive}
+{35 1,72 1,114 1,148 1,192 1,261 1,386 1,393 1,517 1}
+{10 1,596 1,649 1,990 non-directive}
+{148 1,260 1,386 1,517 1,773 1,990 non-directive}
+{35 1,72 1,148 1,192 1,260 1,261 1,386 1,393 1,517 1}
+{10 1,596 1,649 1,990 non-directive}
+{102 1,301 1,386 1,455 1,517 1,546 1,574 1,575 1,722 1,794 1,803 1,910 1,988 1,990 non-directive}
+{102 1,106 1,223 1,295 1,329 1,375 1,517 1,803 1,910 1,990 non-directive}
+{56 1,83 1,87 1,106 1,135 1,329 1,331 1,350 1,360 1,378 1,379 1,440 1,466 1,481 1,499 1,517 1,525 1,530 1,555 1,576 1}
+{13 1,990 non-directive}
+{72 1,106 1,386 1,517 1,794 1,803 1,910 1,990 non-directive}
+{222 1,271 1,276 1,306 1,343 1,455 1,517 1,525 1,566 1,577 1,990 non-directive}
+{35 1,295 1,306 1,329 1,386 1,397 1,435 1,455 1,517 1}
+{71 1,306 1,517 1,987 1,990 non-directive}
+{35 1,72 1,108 1,222 1,276 1,295 1,306 1,329 1,386 1,393 1,397 1,435 1,517 1}
+{90 1,159 1,261 1,276 1,301 1,490 1,517 1,525 1,530 1,561 1,566 1,744 1,914 1,990 non-directive}
+{209 1,238 1,345 1,378 1,490 1,530 1,683 1,762 1,990 non-directive}
+{26 1,52 1,71 1,98 1,117 1,159 1,222 1,295 1,330 1,471 1,490 1,517 1,543 1}
+{329 1,727 1,889 1,990 non-directive}

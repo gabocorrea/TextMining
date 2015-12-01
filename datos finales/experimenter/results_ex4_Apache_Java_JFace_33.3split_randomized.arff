@@ -1,0 +1,69 @@
+@relation InstanceResultListener
+
+@attribute Key_Dataset {3_Apache_Java_JFace.arff}
+@attribute Key_Run {1}
+@attribute Key_Scheme {weka.classifiers.meta.FilteredClassifier}
+@attribute Key_Scheme_options {'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -stemmer weka.core.stemmers.NullStemmer -M 1 -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayes --','-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -stemmer weka.core.stemmers.LovinsStemmer -M 1 -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayes --','-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -stemmer weka.core.stemmers.IteratedLovinsStemmer -M 1 -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayes --','-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -stemmer weka.core.stemmers.SnowballStemmer -M 1 -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayes --','-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -stemmer weka.core.stemmers.NullStemmer -M 1 -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayesMultinomial','-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -stemmer weka.core.stemmers.LovinsStemmer -M 1 -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayesMultinomial','-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -stemmer weka.core.stemmers.IteratedLovinsStemmer -M 1 -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayesMultinomial','-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -stemmer weka.core.stemmers.SnowballStemmer -M 1 -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayesMultinomial'}
+@attribute Key_Scheme_version_ID {-4523450618538717400}
+@attribute Date_time numeric
+@attribute Number_of_training_instances numeric
+@attribute Number_of_testing_instances numeric
+@attribute Number_correct numeric
+@attribute Number_incorrect numeric
+@attribute Number_unclassified numeric
+@attribute Percent_correct numeric
+@attribute Percent_incorrect numeric
+@attribute Percent_unclassified numeric
+@attribute Kappa_statistic numeric
+@attribute Mean_absolute_error numeric
+@attribute Root_mean_squared_error numeric
+@attribute Relative_absolute_error numeric
+@attribute Root_relative_squared_error numeric
+@attribute SF_prior_entropy numeric
+@attribute SF_scheme_entropy numeric
+@attribute SF_entropy_gain numeric
+@attribute SF_mean_prior_entropy numeric
+@attribute SF_mean_scheme_entropy numeric
+@attribute SF_mean_entropy_gain numeric
+@attribute KB_information numeric
+@attribute KB_mean_information numeric
+@attribute KB_relative_information numeric
+@attribute True_positive_rate numeric
+@attribute Num_true_positives numeric
+@attribute False_positive_rate numeric
+@attribute Num_false_positives numeric
+@attribute True_negative_rate numeric
+@attribute Num_true_negatives numeric
+@attribute False_negative_rate numeric
+@attribute Num_false_negatives numeric
+@attribute IR_precision numeric
+@attribute IR_recall numeric
+@attribute F_measure numeric
+@attribute Area_under_ROC numeric
+@attribute Weighted_avg_true_positive_rate numeric
+@attribute Weighted_avg_false_positive_rate numeric
+@attribute Weighted_avg_true_negative_rate numeric
+@attribute Weighted_avg_false_negative_rate numeric
+@attribute Weighted_avg_IR_precision numeric
+@attribute Weighted_avg_IR_recall numeric
+@attribute Weighted_avg_F_measure numeric
+@attribute Weighted_avg_area_under_ROC numeric
+@attribute Elapsed_Time_training numeric
+@attribute Elapsed_Time_testing numeric
+@attribute UserCPU_Time_training numeric
+@attribute UserCPU_Time_testing numeric
+@attribute Serialized_Model_Size numeric
+@attribute Serialized_Train_Set_Size numeric
+@attribute Serialized_Test_Set_Size numeric
+@attribute Summary string
+
+@data
+
+3_Apache_Java_JFace.arff,1,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -stemmer weka.core.stemmers.NullStemmer -M 1 -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayes --',-4523450618538717400,20150824.0458,1965,3938,3257,681,0,82.706958,17.293042,0,0.484301,0.181162,0.386209,68.753028,106.388684,2461.523113,4976.66475,-2515.141638,0.625069,1.263754,-0.638685,336.429114,0.085431,53842.695404,0.780488,480,0.164309,546,0.835691,2777,0.219512,135,0.467836,0.780488,0.585009,0.892074,0.82707,0.210891,0.789109,0.17293,0.877772,0.82707,0.843026,0.892074,1.451,9.839,1.419609,9.032458,477824,541966,630751,?
+3_Apache_Java_JFace.arff,1,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -stemmer weka.core.stemmers.LovinsStemmer -M 1 -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayes --',-4523450618538717400,20150824.0458,1965,3938,3211,727,0,81.538852,18.461148,0,0.459597,0.189081,0.396289,71.758149,109.165321,2461.523113,5256.302774,-2794.779661,0.625069,1.334765,-0.709695,245.381949,0.062311,39271.350209,0.772358,475,0.176648,587,0.823352,2736,0.227642,140,0.447269,0.772358,0.566488,0.889116,0.815389,0.219678,0.780322,0.184611,0.872603,0.815389,0.833336,0.889116,1.632,11.162,1.60681,10.795269,565862,541966,630751,?
+3_Apache_Java_JFace.arff,1,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -stemmer weka.core.stemmers.IteratedLovinsStemmer -M 1 -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayes --',-4523450618538717400,20150824.0458,1965,3938,3205,733,0,81.386491,18.613509,0,0.457357,0.191255,0.39811,72.583429,109.667021,2461.523113,5237.036879,-2775.513767,0.625069,1.329872,-0.704803,213.557217,0.05423,34178.065178,0.773984,476,0.178754,594,0.821246,2729,0.226016,139,0.44486,0.773984,0.564985,0.888818,0.813865,0.218635,0.781365,0.186135,0.872407,0.813865,0.832156,0.888818,1.748,11.663,1.731611,10.701669,541337,541966,630751,?
+3_Apache_Java_JFace.arff,1,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -stemmer weka.core.stemmers.SnowballStemmer -M 1 -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayes --',-4523450618538717400,20150824.0459,1965,3938,3257,681,0,82.706958,17.293042,0,0.484301,0.181162,0.386209,68.753028,106.388684,2461.523113,4976.66475,-2515.141638,0.625069,1.263754,-0.638685,336.429114,0.085431,53842.695404,0.780488,480,0.164309,546,0.835691,2777,0.219512,135,0.467836,0.780488,0.585009,0.892074,0.82707,0.210891,0.789109,0.17293,0.877772,0.82707,0.843026,0.892074,1.568,9.735,1.49761,9.250859,477866,541966,630751,?
+3_Apache_Java_JFace.arff,1,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -stemmer weka.core.stemmers.NullStemmer -M 1 -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayesMultinomial',-4523450618538717400,20150824.0459,1965,3938,3556,382,0,90.299644,9.700356,0,0.599587,0.112945,0.278922,42.86371,76.834414,2461.523113,1833.353193,628.16992,0.625069,0.465554,0.159515,1209.98765,0.307259,193648.509664,0.590244,363,0.039121,130,0.960879,3193,0.409756,252,0.736308,0.590244,0.655235,0.90844,0.902996,0.351874,0.648126,0.097004,0.897093,0.902996,0.89853,0.90844,0.111,0.092,0.0624,0.093601,259364,541966,630751,?
+3_Apache_Java_JFace.arff,1,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -stemmer weka.core.stemmers.LovinsStemmer -M 1 -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayesMultinomial',-4523450618538717400,20150824.0459,1965,3938,3535,403,0,89.766379,10.233621,0,0.576047,0.118436,0.284043,44.947791,78.245094,2461.523113,1902.092387,559.430726,0.625069,0.48301,0.14206,1144.948019,0.290744,183239.455008,0.569106,350,0.041529,138,0.958471,3185,0.430894,265,0.717213,0.569106,0.634633,0.900558,0.897664,0.370087,0.629913,0.102336,0.891021,0.897664,0.892732,0.900558,0.159,0.143,0.156001,0.140401,307020,541966,630751,?
+3_Apache_Java_JFace.arff,1,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -stemmer weka.core.stemmers.IteratedLovinsStemmer -M 1 -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayesMultinomial',-4523450618538717400,20150824.0459,1965,3938,3519,419,0,89.360081,10.639919,0,0.557936,0.121329,0.288895,46.04572,79.581782,2461.523113,1945.842738,515.680375,0.625069,0.49412,0.13095,1104.045767,0.280357,176693.388058,0.552846,340,0.043334,144,0.956666,3179,0.447154,275,0.702479,0.552846,0.618744,0.896143,0.893601,0.38409,0.61591,0.106399,0.886352,0.893601,0.888288,0.896143,0.15,0.136,0.140401,0.124801,293841,541966,630751,?
+3_Apache_Java_JFace.arff,1,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -stemmer weka.core.stemmers.SnowballStemmer -M 1 -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayesMultinomial',-4523450618538717400,20150824.0459,1965,3938,3556,382,0,90.299644,9.700356,0,0.599587,0.112945,0.278922,42.86371,76.834414,2461.523113,1833.353193,628.16992,0.625069,0.465554,0.159515,1209.98765,0.307259,193648.509664,0.590244,363,0.039121,130,0.960879,3193,0.409756,252,0.736308,0.590244,0.655235,0.90844,0.902996,0.351874,0.648126,0.097004,0.897093,0.902996,0.89853,0.90844,0.078,0.099,0.078001,0.078001,259406,541966,630751,?

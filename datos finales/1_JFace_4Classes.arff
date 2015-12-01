@@ -1,0 +1,1918 @@
+% 1. Title: arff file created from Comments_WebOutput-Corrected-JFace_(only comments and class).csv
+
+@RELATION "1_JFace_4Classes.arff"
+
+@ATTRIBUTE text string
+@ATTRIBUTE comment__class {directive,non-directive,semi-directive,null-directive}
+
+@DATA
+" Creates a browser information control with the given shell as parent.\n\n ",non-directive
+"@param parent the parent shell\n ",non-directive
+"@param symbolicFontName the symbolic name of the font used for size computations\n ",non-directive
+"@param statusFieldText the text to be used in the optional status field\n            or <code>null</code> if the status field should be hidden\n ",null-directive
+"@since 3.4\n",non-directive
+" Computes the substitution for the given character and if necessary\n subsequent characters. ",non-directive
+"Implementation should use <code>nextChar</code>\n to read subsequent characters.\n\n ",semi-directive
+"@param c the character to be substituted\n ",non-directive
+"@return the substitution for <code>c</code>\n ",non-directive
+" Returns <code>true</code> if diff information is being displayed, <code>false</code> otherwise.\n\n ",non-directive
+"@return <code>true</code> if diff information is being displayed, <code>false</code> otherwise\n ",non-directive
+"@since 3.3\n",non-directive
+" Notifies that one or more attributes of an instance of\n <code>IScheme</code> have changed. ",non-directive
+"Specific details are described in\n the <code>SchemeEvent</code>.\n \n",non-directive
+"@param schemeEvent\n            the scheme event. ",non-directive
+"Guaranteed not to be <code>null</code>.\n",null-directive
+" <p>\n Returns a list of prefixes for the current sequence. ",non-directive
+"A prefix is any\n leading subsequence in a <code>TriggerSequence</code>. ",non-directive
+"A prefix is\n also an instance of <code>TriggerSequence</code>.\n ",non-directive
+"</p>\n <p>\n For example, consider a trigger sequence that consists of four triggers:\n A, B, C and D. ",non-directive
+"The prefixes would be \"\", \"A\", \"A B\", and \"A B C\". ",non-directive
+"The\n list of prefixes must always be the same as the size of the trigger list.\n ",directive
+"</p>\n \n ",non-directive
+"@return The array of possible prefixes for this sequence. ",non-directive
+"This array must\n         not be <code>null</code>, but may be empty. ",directive
+"It must only\n         contains instances of <code>TriggerSequence</code>.\n",directive
+" Returns the instance of the scheme that changed.\n \n",non-directive
+"@return the instance of the scheme that changed. ",non-directive
+"Guaranteed not to be\n         <code>null</code>.\n",null-directive
+" Makes this scheme become undefined. ",non-directive
+"This has the side effect of changing\n the name, description and parent identifier to <code>null</code>.\n ",directive
+"Notification is sent to all listeners.\n",non-directive
+" <p>\n Notifies this manager that the context manager has changed. ",non-directive
+"This method\n is intended for internal use only.\n ",semi-directive
+"</p>\n <p>\n This method completes in <code>O(1)</code>.\n ",non-directive
+"</p>\n",non-directive
+" <p>\n Computes the bindings for the current state of the application, but\n disregarding the current contexts. ",non-directive
+"This can be useful when trying to\n display all the possible bindings.\n ",semi-directive
+"</p>\n <p>\n This method completes in <code>O(n)</code>, where <code>n</code> is\n the number of bindings.\n ",non-directive
+"</p>\n \n ",non-directive
+"@return A map of trigger (<code>TriggerSequence</code>) to bindings (\n         <code>Collection</code> containing <code>Binding</code>).\n         ",non-directive
+"This map may be empty, but it is never <code>null</code>.\n",null-directive
+" <p>\n Gets the currently active scheme.\n ",non-directive
+"</p>\n <p>\n This method completes in <code>O(1)</code>.\n ",non-directive
+"</p>\n \n ",non-directive
+"@return The active scheme; may be <code>null</code> if there is no\n         active scheme. ",null-directive
+"If a scheme is returned, it is guaranteed to be\n         defined.\n",non-directive
+"@param command\n ",non-directive
+"@return\n 		a trigger sequence, or <code>null</code>\n ",null-directive
+"@since 3.4\n",non-directive
+" <p>\n Returns the set of all bindings managed by this class.\n ",non-directive
+"</p>\n <p>\n This method completes in <code>O(1)</code>.\n ",non-directive
+"</p>\n \n ",non-directive
+"@return The array of all bindings. ",non-directive
+"This value may be <code>null</code>\n         and it may be empty.\n",null-directive
+" <p>\n Gets the scheme with the given identifier. ",non-directive
+"If the scheme does not already\n exist, then a new (undefined) scheme is created with that identifier.\n ",directive
+"This guarantees that schemes will remain unique.\n ",directive
+"</p>\n <p>\n This method completes in amortized <code>O(1)</code>.\n ",non-directive
+"</p>\n \n ",non-directive
+"@param schemeId\n            The identifier for the scheme to retrieve; must not be\n            <code>null</code>.\n ",null-directive
+"@return A scheme with the given identifier.\n",non-directive
+" <p>\n Notifies this manager that a scheme has changed. ",non-directive
+"This method is intended\n for internal use only.\n ",semi-directive
+"</p>\n <p>\n This method calls out to listeners, and so the time it takes to complete\n is dependent on third-party code.\n ",semi-directive
+"</p>\n \n ",non-directive
+"@param schemeEvent\n            An event describing the change in the scheme.\n",non-directive
+" Provides the current conflicts in the keybindings for the given \n TriggerSequence as a {@link Collection} of {@link Binding}\n \n ",non-directive
+"@param sequence The sequence for which conflict info is required\n \n ",non-directive
+"@return Collection of KeyBinding. ",non-directive
+"If no conflicts,\n         then returns a <code>null</code>\n ",null-directive
+"@since 3.5\n",non-directive
+" Returns the parameterized command to which this binding applies. ",non-directive
+"If the\n identifier is <code>null</code>, then this binding is \"unbinding\" an\n existing binding.\n \n",directive
+"@return The fully-parameterized command; may be <code>null</code>.\n",null-directive
+" Removes the given listener from this key sequence widget.\n \n",non-directive
+"@param listener\n            The listener to be removed; must not be <code>null</code>.\n ",null-directive
+"@since 3.2\n",non-directive
+" Given an SWT accelerator value, provide the corresponding key stroke.\n \n",non-directive
+"@param accelerator\n            The accelerator to convert; should be a valid SWT accelerator\n            value.\n ",non-directive
+"@return The equivalent key stroke; never <code>null</code>.\n",null-directive
+" <p>\n Converts the given event into an SWT accelerator value -- considering the\n modified character with the shift modifier. ",non-directive
+"This is the third accelerator\n value that should be checked when processing incoming key events.\n ",directive
+"</p>\n <p>\n For example, on a standard US keyboard, \"Ctrl+Shift+5\" would be viewed as\n \"Ctrl+Shift+%\".\n ",non-directive
+"</p>\n \n ",non-directive
+"@param event\n            The event to be converted; must not be <code>null</code>.\n ",null-directive
+"@return The combination of the state mask and the unmodified character.\n",non-directive
+" Looks up a single modifier key by its formal name, and returns the integer\n representation for this modifier key\n \n ",non-directive
+"@param name\n            The formal name of the modifier key to look-up; must not be\n            <code>null</code>.\n ",null-directive
+"@return The integer representation of this key. ",non-directive
+"If the modifier key\n         cannot be found, then this method returns <code>0</code>.\n",non-directive
+" Looks up a key value, and returns the formal string representation for\n that key\n \n ",non-directive
+"@param key\n            The key to look-up.\n ",non-directive
+"@return The formal string representation of this key. ",non-directive
+"If this key cannot\n         be found, then it is simply the character corresponding to that\n         integer value.\n",non-directive
+" Gets an instance of <code>KeySequence</code>.\n \n",non-directive
+"@return a key sequence. ",non-directive
+"This key sequence will have no key strokes.\n         ",non-directive
+"Guaranteed not to be <code>null</code>.\n",null-directive
+" Creates an instance of <code>KeySequence</code> given a list of key\n strokes.\n \n",non-directive
+"@param keyStrokes\n            the list of key strokes. ",non-directive
+"This list may be empty, but it must\n            not be <code>null</code>. ",null-directive
+"If this list is not empty, it\n            must only contain instances of <code>KeyStroke</code>.\n ",directive
+"@return a key sequence. ",non-directive
+"Guaranteed not to be <code>null</code>.\n",null-directive
+" Creates an instance of <code>KeySequence</code> by parsing a given\n formal string representation.\n \n",non-directive
+"@param string\n            the formal string representation to parse.\n ",non-directive
+"@return a key sequence. ",non-directive
+"Guaranteed not to be <code>null</code>.\n ",null-directive
+" Returns the formal string representation for this key sequence.\n \n",non-directive
+"@return The formal string representation for this key sequence.\n         ",non-directive
+"Guaranteed not to be <code>null</code>.\n ",null-directive
+"@see java.lang.Object#toString()\n",non-directive
+" Constructs an instance of <code>KeySequence</code> given a list of key\n strokes.\n \n",non-directive
+"@param keyStrokes\n            the list of key strokes. ",non-directive
+"This list may be empty, but it must\n            not be <code>null</code>. ",null-directive
+"If this list is not empty, it\n            must only contain instances of <code>KeyStroke</code>.\n",directive
+" Returns the natural key for this key stroke.\n \n",non-directive
+"@return The natural key for this key stroke. ",non-directive
+"This value is\n         <code>NO_KEY</code> if the key stroke is incomplete (i.e., has\n         no natural key).\n",non-directive
+" Formats an individual key into a human readable format. ",non-directive
+"This converts the\n key into a format similar to Xemacs.\n \n",non-directive
+"@param key\n            The key to format; must not be <code>null</code>.\n ",null-directive
+"@return The key formatted as a string; should not be <code>null</code>.\n",null-directive
+" Formats an individual key into a human readable format. ",non-directive
+"This uses an\n internationalization resource bundle to look up the key. ",non-directive
+"This does the\n platform-specific formatting for Carbon.\n \n",non-directive
+"@param key\n            The key to format.\n ",non-directive
+"@return The key formatted as a string; should not be <code>null</code>.\n",null-directive
+" Called when the TreeViewer needs up-to-date information whether the node\n at the given tree path can be expanded. ",directive
+"If the content provider knows the\n element at the given tree path, it should respond by calling\n {@link TreeViewer#setHasChildren(Object, boolean)}. ",directive
+"The content provider\n may also choose to call {@link TreeViewer#setChildCount(Object, int)}\n instead if it knows the number of children.\n \n",directive
+" <p>\n Intended as an optimization for when the viewer does not need the actual\n children. ",semi-directive
+"Clients may be able to implement this more efficiently than\n <code>updateChildCount</code>.\n ",semi-directive
+"</p>\n \n ",non-directive
+"@param path\n            The tree path for which up-to-date information about children\n            is needed\n",non-directive
+" Return the possible parent paths for the given element. ",non-directive
+"An empty array\n can be returned if the paths cannot be computed. ",directive
+"In this case the\n tree-structured viewer can't expand a given node correctly if requested.\n ",non-directive
+"If the element is a potential child of the input of the viewer, an empty\n tree path should be an entry in the returned array.\n \n",directive
+"@param element\n            the element\n ",non-directive
+"@return the possible parent paths for the given element\n",non-directive
+" Returns the hash code for the given element.\n ",non-directive
+"@param element the element the hash code is calculated for\n \n ",non-directive
+"@return the hash code for the given element\n",non-directive
+" Provides a foreground color for the given element.\n \n",non-directive
+"@param element the element\n ",non-directive
+"@return	the foreground color for the element, or <code>null</code> \n   to use the default foreground color\n",null-directive
+" Returns the cell modifier of this viewer, or <code>null</code> if none\n has been set.\n \n",non-directive
+" <p>\n Since 3.3, an alternative API is available, see {@link\n ViewerColumn#setEditingSupport(EditingSupport)} for a more flexible way\n of editing values in a column viewer.\n ",semi-directive
+"</p>\n \n ",non-directive
+"@return the cell modifier, or <code>null</code>\n ",null-directive
+"@since 3.1 (in subclasses, added in 3.3 to abstract class)\n ",non-directive
+"@see ViewerColumn#setEditingSupport(EditingSupport)\n ",non-directive
+"@see EditingSupport\n",non-directive
+" Creates a combo viewer on a newly-created combo control under the given parent.\n ",non-directive
+"The combo control is created using the given SWT style bits.\n ",non-directive
+"The viewer has no input, no content provider, a default label provider, \n no sorter, and no filters.\n\n ",non-directive
+"@param parent the parent control\n ",non-directive
+"@param style the SWT style bits\n",non-directive
+" Returns the specified neighbor of this cell, or <code>null</code> if no\n neighbor exists in the given direction. ",non-directive
+"Direction constants can be\n combined by bitwise OR; for example, this method will return the cell to\n the upper-left of the current cell by passing {@link #ABOVE} |\n {@link #LEFT}. ",non-directive
+"If <code>sameLevel</code> is <code>true</code>, only cells\n in sibling rows (under the same parent) will be considered.\n \n",non-directive
+"@param directionMask\n            the direction mask used to identify the requested neighbor\n            cell\n ",non-directive
+"@param sameLevel\n            if <code>true</code>, only consider cells from sibling rows\n ",non-directive
+"@return the requested neighbor cell, or <code>null</code> if not found\n",null-directive
+" The location and bounds of the area where the text is drawn depends on\n various things (image displayed, control with SWT.CHECK)\n \n ",non-directive
+"@return The bounds of the of the text area. ",non-directive
+"May return <code>null</code>\n         if the underlying widget implementation doesn't provide this\n         information\n ",null-directive
+"@since 3.4\n",non-directive
+" Gets the background color of the cell.\n \n",non-directive
+"@return the background of the cell or <code>null</code> for the default\n         background\n \n ",null-directive
+"@since 3.4\n",non-directive
+" Gets the font of the cell.\n \n",non-directive
+"@return the font of the cell or <code>null</code> for the default font\n \n ",null-directive
+"@since 3.4\n",non-directive
+" Returns the zero-relative indices of the items which are currently\n selected in the underlying widget.  ",non-directive
+"The array is empty if no items are selected.\n ",non-directive
+"<p>\n Note: This is not the actual structure used by the receiver\n to maintain its selection, so modifying the array will\n not affect the receiver. \n ",directive
+"</p>\n ",non-directive
+"@return the array of indices of the selected items\n",non-directive
+" Returns the element with the given index from this list viewer.\n ",non-directive
+"Returns <code>null</code> if the index is out of range.\n\n ",null-directive
+"@param index the zero-based index\n ",non-directive
+"@return the element at the given index, or <code>null</code> if the\n   index is out of range\n",null-directive
+" Sets to the given value the checked state for all elements in this viewer.\n ",non-directive
+"Does not fire events to check state listeners.\n\n ",non-directive
+"@param state <code>true</code> if the element should be checked,\n  and <code>false</code> if it should be unchecked\n",directive
+" Decoration is ready. ",non-directive
+"Update anything else for the settings.\n ",non-directive
+"@param settings The object collecting the settings.\n ",non-directive
+"@param element The Object being decorated.\n ",non-directive
+"@since 3.1\n",non-directive
+" Set the decoration context that will be based to the decorator \n for this label provider if that decorator implements {@link LabelDecorator}.\n ",non-directive
+"@param decorationContext the decoration context.\n \n",non-directive
+"@since 3.2\n",non-directive
+" The table tree viewer implementation of this <code>Viewer</code>\n framework method returns the label provider, which in the case of table\n tree viewers will be an instance of either\n <code>ITableLabelProvider</code> or <code>ILabelProvider</code>. ",non-directive
+"If\n it is an <code>ITableLabelProvider</code>, then it provides a separate\n label text and image for each column. ",non-directive
+"If it is an\n <code>ILabelProvider</code>, then it provides only the label text and\n image for the first column, and any remaining columns are blank.\n",non-directive
+" Creates a table tree viewer on the given table tree control. ",non-directive
+"The viewer\n has no input, no content provider, a default label provider, no sorter,\n and no filters.\n \n",non-directive
+"@param tree\n            the table tree control\n",non-directive
+" Creates a table tree viewer on a newly-created table tree control under\n the given parent. ",non-directive
+"The table tree control is created using the SWT style\n bits <code>MULTI, H_SCROLL, V_SCROLL, and BORDER</code>. ",non-directive
+"The viewer\n has no input, no content provider, a default label provider, no sorter,\n and no filters.\n \n",non-directive
+"@param parent\n            the parent control\n",non-directive
+" Return the background Color for element or <code>null</code> if there\n is not one.\n ",non-directive
+"@param element\n ",non-directive
+"@return Color or <code>null</code>\n",null-directive
+" Creates a styler that takes the given foreground and background colors\n from the JFace color registry.\n \n",non-directive
+"@param foregroundColorName\n            the color name for the foreground color\n ",non-directive
+"@param backgroundColorName\n            the color name for the background color\n \n ",non-directive
+"@return the created style\n",non-directive
+" Appends a string with styles to the {@link StyledString}.\n \n",non-directive
+"@param string\n            the string to append\n ",non-directive
+"@return returns a reference to this object\n",non-directive
+" Creates a new event for the given source and selection.\n\n ",non-directive
+"@param source the viewer\n ",non-directive
+"@param selection the selection\n",non-directive
+" Returns the target item of the given drop event.\n\n ",non-directive
+"@param event the event\n ",non-directive
+"@return The target of the drop, may be <code>null</code>.\n",null-directive
+" Returns the current operation.\n\n ",non-directive
+"@return a <code>DROP_*</code> constant from class <code>DND</code>\n\n ",non-directive
+"@see DND#DROP_COPY\n ",non-directive
+"@see DND#DROP_MOVE\n ",non-directive
+"@see DND#DROP_LINK\n ",non-directive
+"@see DND#DROP_NONE\n",non-directive
+" Overrides the current operation for a drop that happens immediately\n after the current validateDrop.\n \n",non-directive
+" This maybe called only from within a\n {@link #validateDrop(Object, int, TransferData)} method\n \n \n ",directive
+"@param operation\n            the operation to be used for the drop.\n \n",non-directive
+"@see DND#DROP_COPY\n ",non-directive
+"@see DND#DROP_MOVE\n ",non-directive
+"@see DND#DROP_LINK\n ",non-directive
+"@see DND#DROP_NONE\n \n ",non-directive
+"@since 3.5\n",non-directive
+" Removes the given listener for post selection changes from this selection \n provider.\n ",non-directive
+"Has no affect if an identical listener is not registered.\n\n ",directive
+"@param listener a selection changed listener\n",non-directive
+" Handles a default selection event from the text control by applying the editor\n value and deactivating this cell editor.\n \n",non-directive
+"@param event the selection event\n \n ",non-directive
+"@since 3.0\n",non-directive
+" Creates a new text string cell editor parented under the given control.\n ",non-directive
+"The cell editor value is the string itself, which is initially the empty string. \n ",non-directive
+"Initially, the cell editor has no cell validator.\n\n ",non-directive
+"@param parent the parent control\n",non-directive
+" Creates a new text string cell editor parented under the given control.\n ",non-directive
+"The cell editor value is the string itself, which is initially the empty string. \n ",non-directive
+"Initially, the cell editor has no cell validator.\n\n ",non-directive
+"@param parent the parent control\n ",non-directive
+"@param style the style bits\n ",non-directive
+"@since 2.1\n",non-directive
+"@param viewer\n            the viewer we are working for\n ",non-directive
+"@param cellToCollapse\n            the cell to collapse\n ",non-directive
+"@param event\n            the key event\n ",non-directive
+"@return <code>true</code> if this event triggers collapsing of a node\n",non-directive
+" Return the decoration context in which this decoration\n will be applied.\n ",non-directive
+"@return the decoration context\n \n ",non-directive
+"@since 3.2\n",non-directive
+" Returns the label text for the given column of the given element.\n\n ",non-directive
+"@param element the object representing the entire row, or\n   <code>null</code> indicating that no input object is set\n   in the viewer\n ",null-directive
+"@param columnIndex the zero-based index of the column in which the label appears\n ",non-directive
+"@return String or or <code>null</code> if there is no text for the \n  given object at columnIndex\n",null-directive
+" Creates a resizable column width with the given weight and minimum width.\n\n ",non-directive
+"@param weight the weight of the column\n ",non-directive
+"@param minimumWidth the minimum width of the column in pixels\n",non-directive
+" Get the value of the given property or <code>null</code>\n if the property does not exist in this context.\n ",non-directive
+"@param property the property\n ",non-directive
+"@return the value of the given property or <code>null</code>\n",null-directive
+" Checks whether the given property of the given element can be \n modified.\n\n ",non-directive
+"@param element the element\n ",non-directive
+"@param property the property\n ",non-directive
+"@return <code>true</code> if the property can be modified,\n   and <code>false</code> if it is not modifiable\n",non-directive
+" Returns the value for the given property of the given element.\n ",non-directive
+"Returns <code>null</code> if the element does not have the given property.\n\n ",null-directive
+"@param element the element\n ",non-directive
+"@param property the property\n ",non-directive
+"@return the property value\n",non-directive
+" Modifies the value for the given property of the given element.\n ",non-directive
+"Has no effect if the element does not have the given property,\n or if the property cannot be modified.\n ",directive
+"<p>\n Note that it is possible for an SWT Item to be passed instead of \n the model element. ",directive
+"To handle this case in a safe way, use: \n <pre>\n     if (element instanceof Item) {\n         element = ((Item) element).getData();\n     }\n     // modify the element's property here\n </pre>\n </p>\n \n ",non-directive
+"@param element the model element or SWT Item (see above)\n ",non-directive
+"@param property the property\n ",non-directive
+"@param value the new property value\n \n ",non-directive
+"@see org.eclipse.swt.widgets.Item\n",non-directive
+" Creates a {@link DecoratingStyledCellLabelProvider} that delegates the\n requests for styled labels and for images to a\n {@link DelegatingStyledCellLabelProvider.IStyledLabelProvider}.\n \n",non-directive
+"@param labelProvider\n            the styled label provider\n ",non-directive
+"@param decorator\n            a label decorator or <code>null</code> to not decorate the\n            label\n ",null-directive
+"@param decorationContext\n            a decoration context or <code>null</code> if the no\n            decorator is configured or the default decorator should be\n            used\n",null-directive
+" Returns the element at the specified index in this path.\n \n",non-directive
+"@param index\n            index of element to return\n ",non-directive
+"@return element at the specified index\n",non-directive
+" Get the background Color.\n \n",non-directive
+"@return Color or <code>null</code> if no new value was set.\n \n",null-directive
+"@since 3.1\n",non-directive
+" Set the background Color.\n \n",non-directive
+"@param background\n            Color. ",non-directive
+"This value should not be <code>null</code>.\n \n",null-directive
+"@since 3.1\n",non-directive
+" The color to use when rendering the foreground (=text) of the selected\n cell when the control has <b>no</b> input focus\n \n ",non-directive
+"@param cell\n            the cell which is colored\n ",non-directive
+"@return the color or <code>null</code> to use the same used when\n         control has focus\n ",null-directive
+"@since 3.4\n",non-directive
+" Creates a new event for the given source, indicating that the label\n provided by the source for the given elements is no longer valid and should be updated.\n\n ",non-directive
+"@param source the label provider\n ",non-directive
+"@param elements the element whose labels have changed\n",non-directive
+" Creates a new event for the given source, indicating that the label\n provided by the source for the given element is no longer valid and should be updated.\n\n ",non-directive
+"@param source the label provider\n ",non-directive
+"@param element the element whose label needs to be updated\n",non-directive
+" Get the image displayed in the tool tip for object.\n \n",non-directive
+" <p>\n <b>If {@link #getToolTipText(Object)} and\n {@link #getToolTipImage(Object)} both return <code>null</code> the\n control is set back to standard behavior</b>\n </p>\n \n ",non-directive
+"@param object\n            the element for which the tool tip is shown\n ",non-directive
+"@return {@link Image} or <code>null</code> if there is not image.\n",null-directive
+" The {@link SWT} style used to create the {@link CLabel} (see there for\n supported styles). ",non-directive
+"By default {@link SWT#SHADOW_NONE} is used.\n \n",non-directive
+"@param object\n            the element for which the tool tip is shown\n ",non-directive
+"@return the style used to create the label\n ",non-directive
+"@see CLabel\n",non-directive
+" Get the bounds of the entry at the columnIndex,\n \n ",non-directive
+"@param columnIndex\n ",non-directive
+"@return {@link Rectangle}\n",non-directive
+" Return the image at the columnIndex.\n \n",non-directive
+"@param columnIndex\n ",non-directive
+"@return {@link Image} or <code>null</code>\n",null-directive
+" Set the background at the columnIndex.\n \n",non-directive
+"@param columnIndex\n ",non-directive
+"@param color\n",non-directive
+" Set the foreground at the columnIndex.\n \n",non-directive
+"@param columnIndex\n ",non-directive
+"@param color\n",non-directive
+" Enable ToolTip support for the viewer by creating an instance from this\n class. ",non-directive
+"To get all necessary informations this support class consults the\n {@link CellLabelProvider}.\n\n ",non-directive
+"@param viewer\n            the viewer the support is attached to\n",non-directive
+" Returns the collator used to sort strings.\n\n ",non-directive
+"@return the collator used to sort strings\n ",non-directive
+"@deprecated as of 3.3 Use {@link ViewerComparator#getComparator()}\n",non-directive
+" Create a new manager with a default navigation strategy:\n \n ",non-directive
+"--  <code>SWT.ARROW_UP</code>: navigate to cell above\n ",non-directive
+"--  <code>SWT.ARROW_DOWN</code>: navigate to cell below\n ",non-directive
+"--  <code>SWT.ARROW_RIGHT</code>: navigate to next visible cell on\n the right\n ",non-directive
+"--  <code>SWT.ARROW_LEFT</code>: navigate to next visible cell on the\n left\n \n\n ",non-directive
+"@param viewer\n            the viewer the manager is bound to\n ",non-directive
+"@param focusDrawingDelegate\n            the delegate responsible to highlight selected cell\n",non-directive
+" Create a new manager\n\n ",non-directive
+"@param viewer\n            the viewer the manager is bound to\n ",non-directive
+"@param focusDrawingDelegate\n            the delegate responsible to highlight selected cell\n ",non-directive
+"@param navigationStrategy\n            the strategy used to navigate the cells\n ",non-directive
+"@since 3.4\n",non-directive
+" Creates a list viewer on a newly-created list control under the given parent.\n ",non-directive
+"The list control is created using the given SWT style bits.\n ",non-directive
+"The viewer has no input, no content provider, a default label provider, \n no sorter, and no filters.\n\n ",non-directive
+"@param parent the parent control\n ",non-directive
+"@param style the SWT style bits\n",non-directive
+" This constructor can be used when no event exists. ",non-directive
+"The type set is\n {@link #PROGRAMMATIC}\n \n ",non-directive
+"@param cell\n            the cell\n",non-directive
+" Notifies that the end user has requested applying a value.\n ",non-directive
+"All cell editors send this notification.\n ",non-directive
+"<p>\n The normal reaction is to update the model with the current cell editor value.\n ",non-directive
+"However, if the value is not valid, it should not be applied. \n ",directive
+"A typical text-based cell editor would send this message\n when the end user hits Return, whereas other editors would\n send it whenever their value changes.\n ",non-directive
+"</p>\n",non-directive
+" Creates a new color cell editor parented under the given control.\n ",non-directive
+"The cell editor value is black (<code>RGB(0,0,0)</code>) initially, and has no \n validator.\n\n ",non-directive
+"@param parent the parent control\n ",non-directive
+"@param style the style bits\n ",non-directive
+"@since 2.1\n",non-directive
+" Disposes of this content provider.  \n ",non-directive
+"This is called by the viewer when it is disposed.\n ",directive
+"<p>\n The viewer should not be updated during this call, as it is in the process\n of being disposed.\n ",directive
+"</p>\n",non-directive
+" Notifies any open event listeners that a open event has been received.\n ",non-directive
+"Only listeners registered at the time this method is called are notified.\n \n",directive
+"@param event\n            a double-click event\n \n ",non-directive
+"@see IOpenListener#open(OpenEvent)\n",non-directive
+" Notifies any post selection listeners that a post selection event has\n been received. ",non-directive
+"Only listeners registered at the time this method is\n called are notified.\n \n",directive
+"@param event\n            a selection changed event\n \n ",non-directive
+"@see #addPostSelectionChangedListener(ISelectionChangedListener)\n",non-directive
+" Returns the comparer to use for comparing elements, or\n <code>null</code> if none has been set.  ",non-directive
+"If specified,\n the viewer uses this to compare and hash elements rather\n than the elements' own equals and hashCode methods.\n           \n",non-directive
+"@return the comparer to use for comparing elements or\n            <code>null</code>\n",null-directive
+" Returns the sorted and filtered set of children of the given element. ",non-directive
+"The\n resulting array must not be modified, as it may come directly from the\n model's internal state.\n \n",directive
+"@param parent\n            the parent element\n ",non-directive
+"@return a sorted and filtered array of child elements\n",non-directive
+" Removes the given filter from this viewer, and triggers refiltering and\n resorting of the elements if required. ",non-directive
+"Has no effect if the identical\n filter is not registered. ",directive
+"If you want to remove more than one filter\n consider using {@link StructuredViewer#setFilters(ViewerFilter[])}.\n \n",semi-directive
+"@param filter\n            a viewer filter\n ",non-directive
+"@see StructuredViewer#setFilters(ViewerFilter[])\n",non-directive
+" Sets this viewer's comparator to be used for sorting elements, and triggers refiltering and \n resorting of this viewer's element.  ",non-directive
+"<code>null</code> turns sorting off.\n ",non-directive
+"To get the viewer's comparator, call <code>getComparator()</code>.\n ",semi-directive
+"<p>\n IMPORTANT: This method was introduced in 3.2. ",directive
+"If a reference to this viewer object \n is passed to clients who call <code>getSorter()<code>, null may be returned from\n from that method even though the viewer is sorting its elements using the\n viewer's comparator.\n ",directive
+"</p>\n \n ",non-directive
+"@param comparator a viewer comparator, or <code>null</code> if none\n\n ",null-directive
+"@since 3.2\n",non-directive
+" Configures whether this structured viewer uses an internal hash table to\n speeds up the mapping between elements and SWT items. ",non-directive
+"This must be called\n before the viewer is given an input (via <code>setInput</code>).\n \n",directive
+"@param enable\n            <code>true</code> to enable hash lookup, and\n            <code>false</code> to disable it\n",non-directive
+" Returns whether the given element has children.\n ",non-directive
+"<p>\n Intended as an optimization for when the viewer does not\n need the actual children.  ",non-directive
+"Clients may be able to implement\n this more efficiently than <code>getChildren</code>.\n ",semi-directive
+"</p>\n\n ",non-directive
+"@param element the element\n ",non-directive
+"@return <code>true</code> if the given element has children,\n  and <code>false</code> if it has no children\n",non-directive
+" The table viewer implementation of this <code>Viewer</code> framework\n method returns the label provider, which in the case of table viewers\n will be an instance of either <code>ITableLabelProvider</code> or\n <code>ILabelProvider</code>. ",non-directive
+"If it is an\n <code>ITableLabelProvider</code>, then it provides a separate label\n text and image for each column. ",non-directive
+"If it is an <code>ILabelProvider</code>,\n then it provides only the label text and image for the first column, and\n any remaining columns are blank.\n",non-directive
+" Inserts the given element into this table viewer at the given position.\n ",non-directive
+"If this viewer has a sorter, the position is ignored and the element is\n inserted at the correct position in the sort order.\n ",non-directive
+"<p>\n This method should be called (by the content provider) when elements have\n been added to the model, in order to cause the viewer to accurately\n reflect the model. ",directive
+"This method only affects the viewer, not the model.\n ",directive
+"</p>\n\n ",non-directive
+"@param element\n            the element\n ",non-directive
+"@param position\n            a 0-based position relative to the model, or -1 to indicate\n            the last position\n",non-directive
+" Removes the given elements from this table viewer. ",non-directive
+"The selection is\n updated if required.\n ",non-directive
+"<p>\n This method should be called (by the content provider) when elements have\n been removed from the model, in order to cause the viewer to accurately\n reflect the model. ",directive
+"This method only affects the viewer, not the model.\n ",directive
+"</p>\n\n ",non-directive
+"@param elements\n            the elements to remove\n",non-directive
+" Clear the table item at the specified index\n\n ",non-directive
+"@param index\n            the index of the table item to be cleared\n\n ",non-directive
+"@since 3.1\n",non-directive
+" Searches the receiver's list starting at the first item (index 0) until\n an item is found that is equal to the argument, and returns the index of\n that item. ",non-directive
+"If no item is found, returns -1.\n\n ",non-directive
+"@param item\n            the search item\n ",non-directive
+"@return the index of the item\n\n ",non-directive
+"@since 3.3\n",non-directive
+" Clears all the items in the receiver. ",non-directive
+"The text, icon and other attributes\n of the items are set to their default values. ",non-directive
+"If the table was created\n with the <code>SWT.VIRTUAL</code> style, these attributes are requested\n again as needed.\n\n ",non-directive
+"@since 3.3\n",non-directive
+" Resets the given item in the receiver. ",non-directive
+"The text, icon and other attributes\n of the item are set to their default values.\n\n ",non-directive
+"@param item the item to reset\n\n ",non-directive
+"@since 3.3\n",non-directive
+" Sets the receiver's selection to be the given array of items. ",non-directive
+"The current\n selection is cleared before the new items are selected.\n ",non-directive
+"<p>\n Items that are not in the receiver are ignored. ",non-directive
+"If the receiver is\n single-select and multiple items are specified, then all items are\n ignored.\n ",non-directive
+"</p>\n\n ",non-directive
+"@param items\n            the array of items\n\n ",non-directive
+"@since 3.3\n",non-directive
+" Selects the items at the given zero-relative indices in the receiver.\n ",non-directive
+"The current selection is not cleared before the new items are selected.\n ",non-directive
+"<p>\n If the item at a given index is not selected, it is selected.\n ",non-directive
+"If the item at a given index was already selected, it remains selected.\n ",non-directive
+"Indices that are out of range and duplicate indices are ignored.\n ",non-directive
+"If the receiver is single-select and multiple indices are specified,\n then all indices are ignored.\n ",non-directive
+"</p>\n\n ",non-directive
+"@param indices the array of indices for the items to select\n\n ",non-directive
+" Adds a listener for expand and collapse events in this viewer. ",non-directive
+"Has no\n effect if an identical listener is already registered.\n\n ",directive
+"@param listener\n            a tree viewer listener\n",non-directive
+" Collapses the subtree rooted at the given element or tree path to the\n given level.\n\n ",non-directive
+"@param elementOrTreePath\n            the element or tree path\n ",non-directive
+"@param level\n            non-negative level, or <code>ALL_LEVELS</code> to collapse\n            all levels of the tree\n",non-directive
+" Fires a tree collapsed event. ",non-directive
+"Only listeners registered at the time this\n method is called are notified.\n\n ",directive
+"@param event\n            the tree expansion event\n ",non-directive
+"@see ITreeViewerListener#treeCollapsed\n",non-directive
+" Returns whether the given SWT item is expanded or collapsed.\n\n ",non-directive
+"@param item\n            the item\n ",non-directive
+"@return <code>true</code> if the item is considered expanded and\n         <code>false</code> if collapsed\n",non-directive
+" Returns a list of elements corresponding to expanded nodes in this\n viewer's tree, including currently hidden ones that are marked as\n expanded but are under a collapsed ancestor.\n ",non-directive
+"<p>\n This method is typically used when preserving the interesting state of a\n viewer; <code>setExpandedElements</code> is used during the restore.\n ",semi-directive
+"</p>\n\n ",non-directive
+"@return the array of expanded elements\n ",non-directive
+"@see #setExpandedElements\n",non-directive
+" Returns the item before the given item in the tree, or <code>null</code>\n if there is no previous item.\n\n ",non-directive
+"@param item\n            the item\n ",non-directive
+"@return the previous item, or <code>null</code> if none\n",null-directive
+" This method takes a tree path or an element. ",non-directive
+"If the argument is not a\n tree path, returns the parent of the given element or <code>null</code>\n if the parent is not known. ",non-directive
+"If the argument is a tree path with more than\n one segment, returns its parent tree path, otherwise returns\n <code>null</code>.\n\n ",non-directive
+"@param elementOrTreePath\n ",non-directive
+"@return the parent element, or parent path, or <code>null</code>\n\n ",null-directive
+"@since 3.2\n",non-directive
+" Sets the auto-expand level to be used when the input of the viewer is set\n using {@link #setInput(Object)}. ",non-directive
+"The value 0 means that there is no\n auto-expand; 1 means that the invisible root element is expanded (since\n most concrete subclasses do not show the root element, there is usually\n no practical difference between using the values 0 and 1); 2 means that\n top-level elements are expanded, but not their children; 3 means that\n top-level elements are expanded, and their children, but not\n grandchildren; and so on.\n ",non-directive
+"<p>\n The value <code>ALL_LEVELS</code> means that all subtrees should be\n expanded.\n ",non-directive
+"</p>\n <p>\n Note that in previous releases, the Javadoc for this method had an off-by\n one error. ",directive
+"See bug 177669 for details.\n ",semi-directive
+"</p>\n \n ",non-directive
+"@param level\n            non-negative level, or <code>ALL_LEVELS</code> to expand all\n            levels of the tree\n",non-directive
+" Returns the tree path for the given item.\n ",non-directive
+"@param item\n ",non-directive
+"@return {@link TreePath}\n\n ",non-directive
+"@since 3.2\n",non-directive
+" Inserts the given element as a new child element of the given parent\n element at the given position. ",non-directive
+"If this viewer has a sorter, the position\n is ignored and the element is inserted at the correct position in the\n sort order.\n ",non-directive
+"<p>\n This method should be called (by the content provider) when elements have\n been added to the model, in order to cause the viewer to accurately\n reflect the model. ",directive
+"This method only affects the viewer, not the model.\n ",directive
+"</p>\n\n ",non-directive
+"@param parentElementOrTreePath\n            the parent element, or the tree path to the parent\n ",non-directive
+"@param element\n            the element\n ",non-directive
+"@param position\n            a 0-based position relative to the model, or -1 to indicate\n            the last position\n\n ",non-directive
+"@since 3.2\n",non-directive
+" Indicates if an element's representation should appear as checked or \n gray instead of unchecked. ",non-directive
+"If this method returns <code>true</code>\n the {@link ICheckStateProvider#isGrayed(Object)} method will determine\n whether the check box displays a check mark (\"checked\") or a box \n (\"grayed\").\n ",non-directive
+"@param element \n ",non-directive
+"@return true if the element should be checked or grayed, false if it \n 		should be unchecked\n",non-directive
+" Create a new row with style at index\n \n ",non-directive
+"@param style\n ",non-directive
+"@param rowIndex\n ",non-directive
+"@return ViewerRow\n ",non-directive
+"@since 3.3\n",non-directive
+" Creates a table viewer on a newly-created table control under the given\n parent. ",non-directive
+"The table control is created using the SWT style bits\n <code>MULTI, H_SCROLL, V_SCROLL,</code> and <code>BORDER</code>. ",non-directive
+"The\n viewer has no input, no content provider, a default label provider, no\n sorter, and no filters. ",non-directive
+"The table has no columns.\n \n",non-directive
+"@param parent\n 		the parent control\n",non-directive
+" Creates a table viewer on a newly-created table control under the given\n parent. ",non-directive
+"The table control is created using the given style bits. ",non-directive
+"The\n viewer has no input, no content provider, a default label provider, no\n sorter, and no filters. ",non-directive
+"The table has no columns.\n \n",non-directive
+"@param parent\n 		the parent control\n ",non-directive
+"@param style\n 		SWT style bits\n",non-directive
+" Creates a table viewer on the given table control. ",non-directive
+"The viewer has no\n input, no content provider, a default label provider, no sorter, and no\n filters.\n \n",non-directive
+"@param table\n 		the table control\n",non-directive
+" Sets the grayed state for the given element in this viewer.\n\n ",non-directive
+"@param element the element\n ",non-directive
+"@param state <code>true</code> if the item should be grayed,\n  and <code>false</code> if it should be ungrayed\n ",non-directive
+"@return <code>true</code> if the gray state could be set, \n  and <code>false</code> otherwise\n",non-directive
+" Sets the style bits for this cell editor.\n\n ",non-directive
+"@param style\n            the SWT style bits for this cell editor\n ",non-directive
+"@since 2.1\n",non-directive
+" Returns the style bits for this cell editor.\n\n ",non-directive
+"@return the style for this cell editor\n ",non-directive
+"@since 2.1\n",non-directive
+" Removes the given property change listener from this cell editor. ",non-directive
+"Has no\n affect if an identical property change listener is not registered.\n\n ",directive
+"@param listener\n            a property change listener\n",non-directive
+" Notifies any help listeners that help has been requested.\n ",non-directive
+"Only listeners registered at the time this method is called are notified.\n\n ",directive
+"@param event a help event\n\n ",non-directive
+"@see HelpListener#helpRequested(org.eclipse.swt.events.HelpEvent)\n",non-directive
+" Removes the given help listener from this viewer.\n ",non-directive
+"Has no affect if an identical listener is not registered.\n\n ",non-directive
+"@param listener a help listener\n",non-directive
+" Returns a text label that is based on the given text label,\n but decorated with additional information relating to the state\n of the provided element.\n \n",non-directive
+" Text and image decoration updates can occur as a result of other updates\n within the workbench including deferred decoration by background processes.\n ",non-directive
+"Clients should handle labelProviderChangedEvents for the given element to get\n the complete decoration.\n ",semi-directive
+"@see LabelProviderChangedEvent\n ",non-directive
+"@see IBaseLabelProvider#addListener\n\n ",non-directive
+"@param text the input text label to decorate\n ",non-directive
+"@param element the element whose image is being decorated\n ",non-directive
+"@return the decorated text label, or <code>null</code> if no decoration is to be applied\n",null-directive
+" Creates a new cell editor with a combo containing the given list of\n choices and parented under the given control. ",non-directive
+"The cell editor value is\n the zero-based index of the selected item. ",non-directive
+"Initially, the cell editor has\n no cell validator and the first item in the list is selected.\n\n ",non-directive
+"@param parent\n            the parent control\n ",non-directive
+"@param items\n            the list of strings for the combo box\n",non-directive
+" Returns the paths in this selection whose last segment is equal\n to the given element\n \n ",non-directive
+"@param element the element to get the tree paths for\n \n ",non-directive
+"@return the array of tree paths\n",non-directive
+" Is the cell editable\n\n ",non-directive
+"@param element\n            the model element\n ",non-directive
+"@return true if editable\n",non-directive
+" Return the font for element or <code>null</code> if there\n is not one.\n \n",non-directive
+"@param element\n ",non-directive
+"@return Font or <code>null</code>\n",null-directive
+" Returns the viewer of this viewer column.\n \n",non-directive
+"@return Returns the viewer.\n \n",non-directive
+"@since 3.4\n",non-directive
+" Create a new instance of the receiver at columnIndex.\n \n",non-directive
+"@param viewer\n            the viewer the column is part of\n ",non-directive
+"@param columnOwner\n            the widget owning the viewer in case the widget has no columns\n            this could be the widget itself\n",non-directive
+" Provides a background color for the given element.\n \n",non-directive
+"@param element\n            the element\n ",non-directive
+"@return the background color for the element, or <code>null</code> to\n         use the default background color\n",null-directive
+" Returns the styled text for the label of the given element.\n \n",non-directive
+"@param element\n            the element for which to provide the styled label text\n ",non-directive
+"@return the styled text string used to label the element\n",non-directive
+" For a TreeViewer with a tree with the VIRTUAL style bit set, set the\n number of children of the given element or tree path. ",non-directive
+"To set the number\n of children of the invisible root of the tree, you can pass the input\n object or an empty tree path.\n\n ",non-directive
+"@param elementOrTreePath\n            the element, or tree path\n ",non-directive
+"@param count\n\n ",non-directive
+"@since 3.2\n",non-directive
+" Sets a new selection for this viewer and optionally makes it visible.\n ",non-directive
+"<p>\n <b>Currently the <code>reveal</code> parameter is not honored because\n {@link Tree} does not provide an API to only select an item without\n scrolling it into view</b>\n </p>\n\n ",directive
+"@param selection\n            the new selection\n ",non-directive
+"@param reveal\n            <code>true</code> if the selection is to be made visible,\n            and <code>false</code> otherwise\n",non-directive
+" Creates a tree viewer on a newly-created tree control under the given\n parent. ",non-directive
+"The tree control is created using the given SWT style bits. ",non-directive
+"The\n viewer has no input, no content provider, a default label provider, no\n sorter, and no filters.\n\n ",non-directive
+"@param parent\n            the parent control\n ",non-directive
+"@param style\n            the SWT style bits used to create the tree.\n",non-directive
+"@param viewer\n            the viewer this editor is attached to\n ",non-directive
+"@param editorActivationStrategy\n            the strategy used to decide about editor activation\n ",non-directive
+"@param feature\n            bit mask controlling the editor\n            \n            ",non-directive
+"--  {@link ColumnViewerEditor#DEFAULT}\n            ",non-directive
+"--  {@link ColumnViewerEditor#TABBING_CYCLE_IN_ROW}\n            ",non-directive
+"--  {@link ColumnViewerEditor#TABBING_HORIZONTAL}\n            ",non-directive
+"--  {@link ColumnViewerEditor#TABBING_MOVE_TO_ROW_NEIGHBOR}\n            ",non-directive
+"--  {@link ColumnViewerEditor#TABBING_VERTICAL}\n            \n",non-directive
+" Sets the filter for this content provider. ",non-directive
+"This filter takes priority over\n anything that was supplied to the <code>TableViewer</code>. ",non-directive
+"The filter\n must be capable of being used in a background thread.\n \n",directive
+"@param toSet filter to set\n",non-directive
+" Returns the item at the given index. ",non-directive
+"Indexes are based on sorted order.\n \n",non-directive
+"@param index index to test\n ",non-directive
+"@return the item at the given index\n",non-directive
+" Returns true iff this collection contains the given item\n \n ",non-directive
+"@param item item to test\n ",non-directive
+"@return true iff this collection contains the given item\n",non-directive
+" Adds a listener to this model. ",non-directive
+"The listener should be given the model's\n current contents (either through setContents or a sequence of adds) at the\n receiver's earliest convenience. ",directive
+"The receiver will notify the listener\n about any changes in state until the listener is removed.\n \n",non-directive
+" <p>\n Has no effect if an identical listener is already registered.\n ",directive
+"</p>\n \n ",non-directive
+"@param listener listener to add\n",non-directive
+" Adds the given elements to the set. ",non-directive
+"Duplicate elements are ignored.\n \n",non-directive
+"@param toAdd elements to add\n",non-directive
+" Adds the given window to the set of windows managed by\n this window manager. ",non-directive
+"Does nothing is this window is\n already managed by this window manager.\n\n ",non-directive
+"@param window the window\n",non-directive
+" Creates this window's widgetry in a new top-level shell.\n ",non-directive
+"<p>\n The default implementation of this framework method creates this window's\n shell (by calling <code>createShell</code>), and its controls (by\n calling <code>createContents</code>), then initializes this window's\n shell bounds (by calling <code>initializeBounds</code>).\n ",directive
+"</p>\n",non-directive
+" Returns the top level control for this window. ",non-directive
+"The parent of this control\n is the shell.\n \n",non-directive
+"@return the top level control, or <code>null</code> if this window's\n         control has not been created yet\n",null-directive
+" Returns the initial location to use for the shell. ",non-directive
+"The default\n implementation centers the shell horizontally (1/2 of the difference to\n the left and 1/2 to the right) and vertically (1/3 above and 2/3 below)\n relative to the parent shell, or display bounds if there is no parent\n shell.\n \n",non-directive
+"@param initialSize\n            the initial size of the shell, as returned by\n            <code>getInitialSize</code>.\n ",non-directive
+"@return the initial location of the shell\n",non-directive
+" Gets the default orientation for windows. ",non-directive
+"If it is not\n set the default value will be unspecified (SWT#NONE).\n \n",non-directive
+" \n ",non-directive
+"@return SWT#NONE, SWT.RIGHT_TO_LEFT or SWT.LEFT_TO_RIGHT\n ",non-directive
+"@see SWT#RIGHT_TO_LEFT\n ",non-directive
+"@see SWT#LEFT_TO_RIGHT\n ",non-directive
+"@see SWT#NONE\n ",non-directive
+"@since 3.1\n",non-directive
+" Creates a window instance, whose shell will be created under the given\n parent shell. ",non-directive
+"Note that the window will have no visual representation\n until it is told to open. ",directive
+"By default, <code>open</code> does not block.\n \n",non-directive
+"@param parentShell\n            the parent shell, or <code>null</code> to create a top-level\n            shell. ",null-directive
+"Try passing \"(Shell)null\" to this method instead of \"null\"\n            if your compiler complains about an ambiguity error.\n ",semi-directive
+"@see #setBlockOnOpen\n ",non-directive
+"@see #getDefaultOrientation()\n",non-directive
+" Returns the menu bar manager for this window (if it has one).\n\n ",non-directive
+"@return the menu bar manager, or <code>null</code> if\n   this window does not have a menu bar\n ",null-directive
+"@see #addMenuBar()\n",non-directive
+" Returns the cool bar manager for this window.\n \n",non-directive
+"@return the cool bar manager, or <code>null</code> if\n   this window does not have a cool bar\n ",null-directive
+"@see #addCoolBar(int)\n ",non-directive
+"@since 3.2\n",non-directive
+" Returns whether or not children exist for the Application Window's\n toolbar control.\n ",non-directive
+"<p>\n ",non-directive
+"@return boolean true if children exist, false otherwise\n",non-directive
+" Returns whether or not children exist for this application window's\n cool bar control.\n \n",non-directive
+"@return boolean true if children exist, false otherwise\n ",non-directive
+"@since 3.0\n",non-directive
+" Create an application window instance, whose shell will be created under the\n given parent shell.\n ",non-directive
+"Note that the window will have no visual representation (no widgets)\n until it is told to open. ",directive
+"By default, <code>open</code> does not block.\n\n ",non-directive
+"@param parentShell the parent shell, or <code>null</code> to create a top-level shell\n",null-directive
+" Get the data restored under the key\n \n ",non-directive
+"@param key\n            the key\n ",non-directive
+"@return data or <code>null</code> if no entry is restored under the key\n",null-directive
+" Set to <code>false</code> if display bounds should not be respected or\n to <code>true</code> if the tooltip is should repositioned to not\n overlap the display bounds.\n ",non-directive
+"<p>\n Default is <code>true</code>\n </p>\n \n ",non-directive
+"@param respectDisplayBounds\n",non-directive
+" Set to <code>false</code> if monitor bounds should not be respected or\n to <code>true</code> if the tooltip is should repositioned to not\n overlap the monitors bounds. ",non-directive
+"The monitor the tooltip belongs to is the\n same is control's monitor the tooltip is shown for.\n ",non-directive
+"<p>\n Default is <code>true</code>\n </p>\n \n ",non-directive
+"@param respectMonitorBounds\n",non-directive
+" Creates the content area of the the tooltip.\n \n",non-directive
+"@param event\n            the event that triggered the activation of the tooltip\n ",non-directive
+"@param parent\n            the parent of the content area\n ",non-directive
+"@return the content area created\n",non-directive
+" Set the popup delay.\n \n",non-directive
+"@param popupDelay\n            the delay before the tooltip is shown to the user. ",non-directive
+"If\n            <code>0</code> the tooltip is shown immediately\n",non-directive
+" The foreground {@link Color} used by {@link CLabel} in the default\n implementation\n \n ",non-directive
+"@param event\n            the event triggered the popup of the tooltip\n ",non-directive
+"@return the {@link Color} or <code>null</code> if default foreground\n         color should be used\n",null-directive
+" Performs the operation specified by the operation code on the target.\n ",non-directive
+"<code>doOperation</code> must only be called if <code>canDoOperation</code>\n returns <code>true</code>.\n\n ",directive
+"@param operation the operation code\n",non-directive
+" Sets this viewer's hyperlink detectors for the given state mask.\n\n ",non-directive
+"@param hyperlinkDetectors	the new array of hyperlink detectors, <code>null</code>\n 									or an empty array to disable hyperlinking\n ",null-directive
+"@param eventStateMask		the SWT event state mask to activate hyperlink mode\n",non-directive
+" Sets the hover enrich mode.\n ",non-directive
+"A non-<code>null</code> <code>mode</code> defines when hovers\n should be enriched once the mouse is moved into them.\n ",non-directive
+"If <code>mode</code> is <code>null</code>, hovers are automatically closed\n when the mouse is moved out of the {@link ITextHover#getHoverRegion(ITextViewer, int) hover region}.\n ",non-directive
+"<p>\n Note that a hover can only be enriched if its {@link IInformationControlExtension5#getInformationPresenterControlCreator()}\n is not <code>null</code>.\n ",directive
+"</p>\n\n ",non-directive
+"@param mode the enrich mode, or <code>null</code>\n",null-directive
+" Called before the input document is replaced.\n\n ",non-directive
+"@param oldInput the text viewer's previous input document\n ",non-directive
+"@param newInput the text viewer's new input document\n",non-directive
+" Called after the input document has been replaced.\n\n ",non-directive
+"@param oldInput the text viewer's previous input document\n ",non-directive
+"@param newInput the text viewer's new input document\n",non-directive
+" Creates a default information control with the given shell as parent. ",non-directive
+"An information\n presenter that can handle simple HTML is used to process the information to be displayed.\n\n ",non-directive
+"@param parent the parent shell\n ",non-directive
+"@param isResizeable <code>true</code> if the control should be resizable\n ",non-directive
+"@since 3.4\n",non-directive
+" Creates a resizable default information control with the given shell as parent. ",non-directive
+"An\n information presenter that can handle simple HTML is used to process the information to be\n displayed.\n\n ",non-directive
+"@param parent the parent shell\n ",non-directive
+"@param toolBarManager the manager or <code>null</code> if toolbar is not desired\n ",null-directive
+"@since 3.4\n",non-directive
+" Creates a default information control with the given shell as parent. ",non-directive
+"The\n given information presenter is used to process the information to be\n displayed. ",non-directive
+"The given styles are applied to the created styled text\n widget.\n\n ",non-directive
+"@param parentShell the parent shell\n ",non-directive
+"@param shellStyle the additional styles for the shell\n ",non-directive
+"@param style the additional styles for the styled text widget\n ",non-directive
+"@param presenter the presenter to be used\n ",non-directive
+"@param statusFieldText the text to be used in the status field or <code>null</code> to hide the status field\n ",null-directive
+"@since 3.0\n ",non-directive
+"@deprecated As of 3.4, replaced by simpler constructors\n",non-directive
+" Creates a default information control with the given shell as parent. ",non-directive
+"The\n given information presenter is used to process the information to be\n displayed.\n\n ",non-directive
+"@param parent the parent shell\n ",non-directive
+"@param textStyles the additional styles for the styled text widget\n ",non-directive
+"@param presenter the presenter to be used\n ",non-directive
+"@deprecated As of 3.4, replaced by {@link #DefaultInformationControl(Shell, DefaultInformationControl.IInformationPresenter)}\n",non-directive
+" Informs that the view port changed. ",non-directive
+"The given vertical position is the new vertical scrolling\n offset measured in pixels.\n ",non-directive
+"<p>\n <strong>Note:</strong> This event will not be sent when the viewer is resized.\n ",directive
+"</p>\n \n ",non-directive
+"@param verticalOffset the vertical offset measured in pixels\n",non-directive
+" Requests the widget token from this token owner. ",non-directive
+"Returns\n <code>true</code> if the token has been acquired or is already owned by\n the requester. ",non-directive
+"This method is non-blocking.\n ",non-directive
+"<p>\n Replaced by\n {@link IWidgetTokenOwnerExtension#requestWidgetToken(IWidgetTokenKeeper, int)}.\n\n ",semi-directive
+"@param requester the token requester\n ",non-directive
+"@return <code>true</code> if requester acquires the token,\n         <code>false</code> otherwise\n",non-directive
+" Searches for a string starting at the given offset and using the specified search\n directives. ",non-directive
+"If a string has been found it is selected and its start offset is\n returned. ",non-directive
+"If regExSearch is <code>true</code> the findString is\n interpreted as a regular expression.\n\n ",non-directive
+"@param offset the offset at which searching starts\n ",non-directive
+"@param findString the specification of what should be found\n ",non-directive
+"@param searchForward <code>true</code> searches forward, <code>false</code> backwards\n ",non-directive
+"@param caseSensitive <code>true</code> performs a case sensitive search, <code>false</code> an insensitive search\n ",non-directive
+"@param wholeWord if <code>true</code> only occurrences are reported in which the findString stands as a word by itself.\n 				",non-directive
+"Must not be used in combination with <code>regExSearch</code>.\n ",directive
+"@param regExSearch if <code>true</code> findString represents a regular expression\n 				Must not be used in combination with <code>wholeWord</code>.\n ",directive
+"@return the position of the specified string, or -1 if the string has not been found\n ",non-directive
+" Creates the viewer's SWT control. ",non-directive
+"The viewer's text widget either is\n the control or is a child of the control.\n\n ",non-directive
+"@param parent the parent of the viewer's control\n ",non-directive
+"@param styles the SWT style bits for the viewer's control\n",non-directive
+" Sets the creator for the hover controls.\n\n ",non-directive
+"@param creator the hover control creator\n ",non-directive
+"@since 2.0\n",non-directive
+" Informs all registered text input listeners about the successful input change,\n This method does not use a robust iterator.\n\n ",non-directive
+"@param oldInput the old input document\n ",non-directive
+"@param newInput the new input document\n",non-directive
+" Returns the number of lines that can fully fit into the viewport. ",non-directive
+"This is computed by\n dividing the widget's client area height by the widget's line height. ",non-directive
+"The result is only\n accurate if the widget does not use variable line heights - for that reason, clients should\n not use this method any longer and use the client area height of the text widget to find out\n how much content fits into it.\n\n ",directive
+"@return the view port height in lines\n ",non-directive
+"@deprecated as of 3.2\n",non-directive
+" Returns the width of the representation of a text range in the\n visible region of the viewer's document as drawn in this viewer's\n widget.\n\n ",non-directive
+"@param offset the offset of the text range in the visible region\n ",non-directive
+"@param length the length of the text range in the visible region\n ",non-directive
+"@return the width of the presentation of the specified text range\n ",non-directive
+"@since 2.0\n",non-directive
+" Returns <code>true</code> if one line is completely selected or if multiple lines are selected.\n ",non-directive
+"Being completely selected means that all characters except the new line characters are\n selected.\n\n ",non-directive
+"@return <code>true</code> if one or multiple lines are selected\n ",non-directive
+"@since 2.0\n",non-directive
+" Shifts a text block to the right or left using the specified set of prefix characters.\n ",non-directive
+"If white space should be ignored the prefix characters must not be at the beginning of\n the line when shifting to the left. ",directive
+"There may be whitespace in front of the prefixes.\n\n ",non-directive
+"@param useDefaultPrefixes says whether the configured default or indent prefixes should be used\n ",non-directive
+"@param right says whether to shift to the right or the left\n ",non-directive
+"@param ignoreWhitespace says whether whitespace in front of prefixes is allowed\n ",non-directive
+"@since 2.0\n",non-directive
+" Starts  the sequential rewrite mode of the viewer's document.\n\n ",non-directive
+"@param normalized <code>true</code> if the rewrite is performed from the start to the end of the document\n ",non-directive
+"@since 2.0\n ",non-directive
+"@deprecated since 3.1 use {@link IDocumentExtension4#startRewriteSession(DocumentRewriteSessionType)} instead\n",directive
+" Implements the contract of {@link ITextViewerExtension5#widgetLine2ModelLine(int)}.\n\n ",non-directive
+"@param widgetLine the widget line\n ",non-directive
+"@return the corresponding model line\n ",non-directive
+"@since 2.1\n",non-directive
+" Translates the given selection range of the viewer's document into\n the corresponding widget range or returns <code>null</code> of this fails.\n\n ",non-directive
+"@param modelSelection the selection range of the viewer's document\n ",non-directive
+"@return the widget range corresponding to the selection range or <code>null</code>\n ",null-directive
+"@since 2.1\n",non-directive
+" Create a new text viewer with the given SWT style bits.\n ",non-directive
+"The viewer is ready to use but does not have any plug-in installed.\n\n ",non-directive
+"@param parent the parent of the viewer's control\n ",non-directive
+"@param styles the SWT style bits for the viewer's control,\n 			<em>if <code>SWT.WRAP</code> is set then a custom document adapter needs to be provided, see {@link #createDocumentAdapter()}\n",non-directive
+" Returns the size constraints.\n\n ",non-directive
+"@return the size constraints or <code>null</code> if not set\n ",null-directive
+"@see #setSizeConstraints(int, int)\n",non-directive
+" Sets the find scope of the target to operate on. ",non-directive
+"<code>null</code>\n indicates that the global scope should be used.\n\n ",non-directive
+"@param scope the find scope of the target, may be <code>null</code>\n",null-directive
+" Sets the result window for this presentation. ",non-directive
+"When dealing with\n this presentation all ranges which are outside the result window\n are ignored. ",non-directive
+"For example, the size of the presentation is 0\n when there is no range inside the window even if there are ranges\n outside the window. ",non-directive
+"All methods are aware of the result window.\n\n ",non-directive
+"@param resultWindow the result window\n",non-directive
+" Returns this presentation's default style range. ",non-directive
+"The returned <code>StyleRange</code>\n is relative to the start of the result window.\n\n ",non-directive
+"@return this presentation's default style range\n",non-directive
+" Add the given range to the presentation. ",non-directive
+"The range must be a\n subrange of the presentation's default range.\n\n ",directive
+"@param range the range to be added\n",non-directive
+" Inserts the verify key listener at the beginning of the viewer's list of\n verify key listeners. ",non-directive
+"If the listener is already registered with the\n viewer this call moves the listener to the beginning of the list.\n\n ",directive
+"@param listener the listener to be inserted\n",non-directive
+" Returns the document underlying the receiver, possibly <code>null</code>.\n \n",non-directive
+"@return the document underlying the receiver, possibly <code>null</code>\n ",null-directive
+"@since 3.5\n",non-directive
+" Sets the parameters of the information to be displayed. ",non-directive
+"These are the information itself and\n the area for which the given information is valid. ",non-directive
+"This so called subject area is a graphical\n region of the information control's subject control. ",non-directive
+"This method calls <code>presentInformation()</code>\n to trigger the presentation of the computed information.\n\n ",directive
+"@param information the information, or <code>null</code> if none is available\n ",null-directive
+"@param subjectArea the subject area, or <code>null</code> if none is available\n ",null-directive
+"@since  2.1\n",non-directive
+" Installs this manager on the given control. ",non-directive
+"The control is now taking the role of\n the subject control. ",non-directive
+"This implementation sets the control also as the information\n control closer's subject control and automatically enables this manager.\n\n ",non-directive
+"@param subjectControl the subject control\n",non-directive
+" Sets the enable state of this manager.\n\n ",non-directive
+"@param enabled the enable state\n ",non-directive
+"@deprecated visibility will be changed to protected\n",non-directive
+" Returns the information control. ",non-directive
+"If the information control has not been created yet,\n it is automatically created.\n\n ",non-directive
+"@return the information control\n",non-directive
+" Creates a new information control manager using the given information control creator.\n ",non-directive
+"By default the following configuration is given:\n \n ",non-directive
+"--   enabled == false\n ",non-directive
+"--   horizontal margin == 5 points\n ",non-directive
+"--   vertical margin == 5 points\n ",non-directive
+"--   width constraint == 60 characters\n ",non-directive
+"--   height constraint == 6 characters\n ",non-directive
+"--   enforce constraints as minimal size == false\n ",non-directive
+"--   enforce constraints as maximal size == false\n ",non-directive
+"--   layout anchor == ANCHOR_BOTTOM\n ",non-directive
+"--   fall back anchors == { ANCHOR_TOP, ANCHOR_BOTTOM, ANCHOR_LEFT, ANCHOR_RIGHT, ANCHOR_GLOBAL }\n ",non-directive
+"--   takes focus when visible == false\n \n\n ",non-directive
+"@param creator the information control creator\n",non-directive
+" Returns the column on the {@linkplain ITextSelection#getStartLine() start line} at which the\n selection starts. ",non-directive
+"The returned column is a character count measured from the start of the\n line. ",non-directive
+"It may be larger than the length of the line, in which case it is a <a\n href=\"#virtual\">virtual</a> offset.\n \n",non-directive
+"@return the start column measured from the line start\n",non-directive
+" Creates a new information control with the given shell as the control's parent.\n\n ",non-directive
+"@param parent the parent shell\n ",non-directive
+"@return the created information control\n",non-directive
+" Starts the propagation of the font preference stored in the source preference\n store under the source key to the target preference store using the target\n preference key.\n\n ",non-directive
+"@param source the source preference store\n ",non-directive
+"@param sourceKey the key to be used in the source preference store\n ",non-directive
+"@param target the target preference store\n ",non-directive
+"@param targetKey the key to be used in the target preference store\n",non-directive
+" Computes the line height for the given line range.\n\n ",non-directive
+"@param textWidget the <code>StyledText</code> widget\n ",non-directive
+"@param startLine the start line\n ",non-directive
+"@param endLine the end line (exclusive)\n ",non-directive
+"@param lineCount the line count used by the old API\n ",non-directive
+"@return the height of all lines starting with <code>startLine</code> and ending above <code>endLime</code>\n",non-directive
+" Returns the index of the last (possibly only partially) visible line of the widget\n\n ",non-directive
+"@param widget the text widget\n ",non-directive
+"@return the index of the last line of which a pixel is visible\n",non-directive
+" Returns the number of hidden pixels of the first partially visible line. ",non-directive
+"If there is no\n partially visible line, zero is returned.\n\n ",non-directive
+"@param textWidget the widget\n ",non-directive
+"@return the number of hidden pixels of the first partial line, always &gt;= 0\n",non-directive
+" Returns <code>true</code> if the widget displays the entire contents, i.e. ",non-directive
+"it cannot\n be vertically scrolled.\n\n ",non-directive
+"@param widget the widget\n ",non-directive
+"@return <code>true</code> if the widget displays the entire contents, i.e. ",non-directive
+"it cannot\n         be vertically scrolled, <code>false</code> otherwise\n",non-directive
+" Returns the average character width of the given control's font.\n\n ",non-directive
+"@param control the control to calculate the average char width for\n ",non-directive
+"@return the average character width of the controls font\n\n ",non-directive
+"@since 3.4\n",non-directive
+" Returns the offset in the given viewer that corresponds to the current cursor location.\n \n",non-directive
+"@param viewer the viewer\n ",non-directive
+"@return the offset for the current cursor location or -1 if not available\n ",non-directive
+"@since 3.5\n",non-directive
+" Sets the information control's size constraints. ",non-directive
+"A constraint value of\n {@link SWT#DEFAULT} indicates no constraint. ",non-directive
+"This method must be called before\n {@link #computeSizeHint()} is called.\n ",directive
+"<p>\n Note: An information control which implements {@link IInformationControlExtension3}\n may ignore this method or use it as hint for its very first appearance.\n ",directive
+"</p>\n ",non-directive
+"@param maxWidth the maximal width of the control  to present the information, or {@link SWT#DEFAULT} for not constraint\n ",non-directive
+"@param maxHeight the maximal height of the control to present the information, or {@link SWT#DEFAULT} for not constraint\n",non-directive
+" Controls the visibility of this information control.\n ",non-directive
+"<p>\n <strong>Note:</strong> The information control must not grab focus when\n made visible.\n ",directive
+"</p>\n\n ",non-directive
+"@param visible <code>true</code> if the control should be visible\n",non-directive
+" Sets the size of this information control.\n\n ",non-directive
+"@param width the width of the control\n ",non-directive
+"@param height the height of the control\n",non-directive
+" Removes the given listeners from the list of dispose listeners.\n ",non-directive
+"If the listener is not registered this call has no effect.\n\n ",directive
+"@param listener the listener to be removed\n",non-directive
+" Removes the given listeners from the list of focus listeners.\n ",non-directive
+"If the listener is not registered this call has no affect.\n\n ",directive
+"@param listener the listener to be removed\n",non-directive
+" Returns the widget offset that corresponds to the given offset in the viewer's document\n or <code>-1</code> if there is no such offset\n\n ",non-directive
+"@param modelOffset the offset in the viewer's document\n ",non-directive
+"@return the corresponding widget offset or <code>-1</code>\n",non-directive
+" Returns the widget line of the given widget offset.\n\n ",non-directive
+"@param widgetOffset the widget offset\n ",non-directive
+"@return the widget line of the widget offset\n",non-directive
+" Disposes this paint manager. ",non-directive
+"The paint manager uninstalls itself\n and clears all registered painters. ",non-directive
+"This method is also called when the\n last painter is removed from the list of managed painters.\n",non-directive
+" Creates a text attribute with the given colors and style.\n\n ",non-directive
+"@param foreground the foreground color, <code>null</code> if none\n ",null-directive
+"@param background the background color, <code>null</code> if none\n ",null-directive
+"@param style the style\n",non-directive
+" Adds a text listener to this viewer. ",non-directive
+"If the listener is already registered\n with this viewer, this call has no effect.\n\n ",directive
+"@param listener the listener to be added\n",non-directive
+" Removes the given listener from this viewer's set of text listeners.\n ",non-directive
+"If the listener is not registered with this viewer, this call has\n no effect.\n\n ",directive
+"@param listener the listener to be removed\n",non-directive
+" Returns whether a given range overlaps with the visible region of this\n viewer's document.\n ",non-directive
+"<p>\n Viewers implementing {@link ITextViewerExtension5}may be forced to\n change the fractions of the input document that are shown in order to\n fulfill this request. ",directive
+"This is because the overlap is supposed to be\n without gaps.\n\n ",non-directive
+"@param offset the offset\n ",non-directive
+"@param length the length\n ",non-directive
+"@return <code>true</code> if the specified range overlaps with the\n         visible region\n",non-directive
+" Sets the strings that are used as prefixes when lines of the given content type\n are shifted using the shift text operation. ",non-directive
+"The prefixes are considered equivalent.\n ",non-directive
+"Thus \"\t\" and \"    \" can both be used as prefix characters.\n ",non-directive
+"Shift right always inserts the indentPrefixes[0].\n ",non-directive
+"Shift left removes all of the specified prefixes.\n\n ",non-directive
+"@param indentPrefixes the prefixes to be used\n ",non-directive
+"@param contentType the content type for which the prefixes are specified\n",non-directive
+" Sets the selection to the specified range.\n\n ",non-directive
+"@param offset the offset of the selection range\n ",non-directive
+"@param length the length of the selection range. ",non-directive
+"A negative length places\n            the caret at the visual start of the selection.\n",non-directive
+" Ensures that the given range is visible.\n\n ",non-directive
+"@param offset the offset of the range to be revealed\n ",non-directive
+"@param length the length of the range to be revealed\n",non-directive
+" Returns the contained {@link RevisionRange}s adapted to the current diff state. ",non-directive
+"The returned\n information is only valid at the moment it is returned, and may change as the annotated\n document is modified.\n\n ",directive
+"@return an unmodifiable view of the contained ranges (element type: {@link RevisionRange})\n",non-directive
+" Returns the author color for this revision. ",non-directive
+"This color can be used to visually distinguish\n one revision from another, for example as background color.\n ",non-directive
+"<p>\n Revisions from the same author must return the same color and revisions from different authors\n must return distinct colors.</p>\n\n ",directive
+"@return the RGB color for this revision's author\n",non-directive
+" Returns the line ranges of this revision information. ",non-directive
+"The returned information is only valid\n at the moment it is returned, and may change as the annotated document is modified. ",directive
+"See\n {@link IRevisionListener} for a way to be informed when the revision information changes. ",non-directive
+"The\n returned list is sorted by document offset.\n\n ",non-directive
+"@return an unmodifiable view of the line ranges (element type: {@link RevisionRange})\n ",non-directive
+"@see IRevisionListener\n ",non-directive
+"@since 3.3\n",non-directive
+" Installs the reconciler on the given text viewer. ",non-directive
+"After this method has been\n finished, the reconciler is operational, i.e., it works without requesting\n further client actions until <code>uninstall</code> is called.\n\n ",non-directive
+"@param textViewer the viewer on which the reconciler is installed\n",non-directive
+" Tells whether the code is running in this reconciler's\n background thread.\n\n ",non-directive
+"@return <code>true</code> if running in this reconciler's background thread\n ",non-directive
+"@since 3.4\n",non-directive
+" Sets the exit position to move the caret to when linked mode is exited.\n\n ",non-directive
+"@param viewer the viewer where the exit position is located\n ",non-directive
+"@param offset the offset of the exit position\n ",non-directive
+"@param length the length of the exit position (in case there should be a\n        selection)\n ",non-directive
+"@param sequence set to the tab stop position of the exit position, or\n 		  <code>LinkedPositionGroup.NO_STOP</code> if there should be no tab stop.\n ",non-directive
+" Sets the context info property. ",non-directive
+"If set to <code>true</code>, context\n info will be invoked on the current target's viewer whenever a position\n is switched.\n\n ",non-directive
+"@param doContextInfo <code>true</code> if context information should be\n        displayed\n",non-directive
+" Sets the focus callback which will get informed when the focus of the\n linked mode UI changes.\n ",non-directive
+"<p>\n If there is a listener installed already, it will be replaced.\n ",non-directive
+"</p>\n\n ",non-directive
+"@param listener the new listener, never <code>null</code>.\n",null-directive
+" Sets the \"simple\" mode of the receiver. ",non-directive
+"A linked mode UI in simple mode\n merely draws the exit position, but not the target, focus, and slave\n positions. ",non-directive
+"Default is <code>false</code>. ",non-directive
+"This method must be called\n before it is entered.\n\n ",directive
+"@param simple <code>true</code> if the UI should be in simple mode.\n",non-directive
+" Convenience constructor for multiple viewers.\n\n ",non-directive
+"@param model the linked mode model\n ",non-directive
+"@param viewers the non-empty list of viewers upon which the linked mode\n        UI should act\n",non-directive
+" Convenience constructor for one target.\n\n ",non-directive
+"@param model the linked mode model\n ",non-directive
+"@param target the target upon which the linked mode UI should act\n",non-directive
+" Called when the UI for the linked mode gives focus to a linked position.\n\n ",non-directive
+"@param position the position being entered\n ",non-directive
+"@param target the target where <code>position</code> resides in\n",non-directive
+" Checks whether the linked mode should be left after receiving the\n given <code>VerifyEvent</code> and selection. ",directive
+"Note that the event\n carries widget coordinates as opposed to <code>offset</code> and\n <code>length</code> which are document coordinates.\n\n ",directive
+"@param model the linked mode model\n ",non-directive
+"@param event the verify event\n ",non-directive
+"@param offset the offset of the current selection\n ",non-directive
+"@param length the length of the current selection\n ",non-directive
+"@return valid exit flags or <code>null</code> if no special action\n         should be taken\n",directive
+" This method allows subclasses to provide their own {@link AutoAssistListener}.\n\n ",non-directive
+"@return a new auto assist listener\n ",non-directive
+"@since 3.4\n",non-directive
+" Sets the context information popup's foreground color.\n\n ",non-directive
+"@param foreground the foreground color\n ",non-directive
+"@since 2.0\n",non-directive
+" Creates a new content assistant. ",non-directive
+"The content assistant is not automatically activated,\n overlays the completion proposals with context information list if necessary, and shows the\n context information above the location at which it was activated. ",directive
+"If auto activation will be\n enabled, without further configuration steps, this content assistant is activated after a 500\n milliseconds delay. ",directive
+"It uses the default partitioning.\n",non-directive
+" Called when the proposal is selected.\n\n ",non-directive
+"@param viewer the text viewer.\n ",non-directive
+"@param smartToggle the smart toggle key was pressed\n",non-directive
+" Returns optional context information associated with this proposal.\n ",non-directive
+"The context information will automatically be shown if the proposal\n has been applied.\n\n ",non-directive
+"@return the context information for this proposal or <code>null</code>\n",null-directive
+" Returns the image for this context information.\n ",non-directive
+"The image will be shown to the left of the display string.\n\n ",non-directive
+"@return the image to be shown or <code>null</code> if no image is desired\n",null-directive
+" Returns a list of completion proposals based on the\n specified location within the document that corresponds\n to the current cursor position within the text viewer.\n\n ",non-directive
+"@param viewer the viewer whose document is used to compute the proposals\n ",non-directive
+"@param offset an offset within the document for which completions should be computed\n ",non-directive
+"@return an array of completion proposals or <code>null</code> if no proposals are possible\n",null-directive
+" Returns information about possible contexts based on the\n specified location within the document that corresponds\n to the current cursor position within the text viewer.\n\n ",non-directive
+"@param viewer the viewer whose document is used to compute the possible contexts\n ",non-directive
+"@param offset an offset within the document for which context information should be computed\n ",non-directive
+"@return an array of context information objects or <code>null</code> if no context could be found\n",null-directive
+" Installs this presenter for the given context information.\n\n ",non-directive
+"@param info the context information which this presenter should style\n ",non-directive
+"@param viewer the text viewer on which the information is presented\n ",non-directive
+"@param offset the document offset for which the information has been computed\n",non-directive
+" Inserts the common prefix of the available completions. ",non-directive
+"If no common\n prefix can be computed it is identical to\n {@link IContentAssistant#showPossibleCompletions()}.\n\n ",non-directive
+"@return an optional error message if no proposals can be computed\n",non-directive
+" Returns the offset of the range in the document that will be replaced by\n applying this template.\n\n ",non-directive
+"@return the offset of the range in the document that will be replaced by\n         applying this template\n ",non-directive
+"@since 3.1\n",non-directive
+" Creates a template proposal with a template and its context.\n\n ",non-directive
+"@param template  the template\n ",non-directive
+"@param context   the context in which the template was requested.\n ",non-directive
+"@param image     the icon of the proposal.\n ",non-directive
+"@param region	the region this proposal is applied to\n ",non-directive
+"@param relevance the relevance of the proposal\n",non-directive
+" Saves the templates as XML, encoded as UTF-8 onto the given byte stream.\n\n ",non-directive
+"@param templates the templates to save\n ",non-directive
+"@param stream the byte output to write the templates to in XML\n ",non-directive
+" Saves the templates as XML.\n\n ",non-directive
+"@param templates the templates to save\n ",non-directive
+"@param writer the writer to write the templates to in XML\n ",non-directive
+" Returns whether the receiver represents a custom template, i.e. ",non-directive
+"is either\n a user-added template or a contributed template that has been modified.\n\n ",non-directive
+"@return <code>true</code> if the contained template is a custom\n         template and cannot be reconstructed from the contributed\n         templates\n",non-directive
+" Returns whether the receiver represents a modified template, i.e. ",non-directive
+"a\n contributed template that has been changed.\n\n ",non-directive
+"@return <code>true</code> if the contained template is contributed but has been modified, <code>false</code> otherwise\n",non-directive
+" Creates a new, user-added instance that is not linked to a contributed\n template.\n\n ",non-directive
+"@param template the template which is stored by the new instance\n ",non-directive
+"@param enabled whether the template is enabled\n",non-directive
+" Deletes all user-added templates and reverts all contributed templates.\n\n ",non-directive
+"@param doSave <code>true</code> if the store should be saved after restoring\n ",non-directive
+"@since 3.5\n",non-directive
+" Deletes all user-added templates and reverts all contributed templates.\n ",non-directive
+"<p>\n <strong>Note:</strong> the store will be saved after restoring.\n ",directive
+"</p>\n",non-directive
+" Returns the first enabled template that matches both name and context type id.\n\n ",non-directive
+"@param name the name of the template searched for\n ",non-directive
+"@param contextTypeId the context type id to clip unwanted templates, or <code>null</code> if any context type is OK\n ",null-directive
+"@return the first enabled template that matches both name and context type id, or <code>null</code> if none is found\n",null-directive
+" Returns the first enabled template that matches the given template id.\n\n ",non-directive
+"@param id the id of the template searched for\n ",non-directive
+"@return the first enabled template that matches id, or <code>null</code> if none is found\n ",null-directive
+"@since 3.1\n",non-directive
+" Returns all template data.\n\n ",non-directive
+"@param includeDeleted whether to include deleted data\n ",non-directive
+"@return all template data, whether enabled or not\n",non-directive
+" Creates a new information presenter that uses the given information control creator.\n ",non-directive
+"The presenter is not installed on any text viewer yet. ",non-directive
+"By default, an information\n control closer is set that closes the information control in the event of key strokes,\n resizing, moves, focus changes, mouse clicks, and disposal - all of those applied to\n the information control's parent control. ",non-directive
+"Also, the setup ensures that the information\n control when made visible will request the focus. ",non-directive
+"By default, the default document\n partitioning {@link IDocumentExtension3#DEFAULT_PARTITIONING} is used.\n\n ",non-directive
+"@param creator the information control creator to be used\n",non-directive
+" Creates a rule for the given starting sequence\n which, if detected, will return the specified token.\n\n ",non-directive
+"@param startSequence the pattern's start sequence\n ",non-directive
+"@param token the token to be returned on success\n",non-directive
+" Creates a rule for the given starting sequence\n which, if detected, will return the specified token.\n ",non-directive
+"Any character which follows the given escape character\n will be ignored.\n\n ",non-directive
+"@param startSequence the pattern's start sequence\n ",non-directive
+"@param token the token to be returned on success\n ",non-directive
+"@param escapeCharacter the escape character\n",non-directive
+" Sets a column constraint for this rule. ",non-directive
+"If set, the rule's token\n will only be returned if the pattern is detected starting at the\n specified column. ",non-directive
+"If the column is smaller then 0, the column\n constraint is considered removed.\n\n ",non-directive
+"@param column the column in which the pattern starts\n",non-directive
+" Return a data attached to this token. ",non-directive
+"The semantics of this data kept undefined by this interface.\n\n ",non-directive
+"@return the data attached to this token.\n",non-directive
+" Sets a column constraint for this rule. ",non-directive
+"If set, the rule's token\n will only be returned if the pattern is detected starting at the\n specified column. ",non-directive
+"If the column is smaller then 0, the column\n constraint is considered removed.\n\n ",non-directive
+"@param column the column in which the pattern starts\n",non-directive
+" Evaluates this rules without considering any column constraints. ",non-directive
+"Resumes\n detection, i.e. ",non-directive
+"look sonly for the end sequence required by this rule if the\n <code>resume</code> flag is set.\n\n ",non-directive
+"@param scanner the character scanner to be used\n ",non-directive
+"@param resume <code>true</code> if detection should be resumed, <code>false</code> otherwise\n ",non-directive
+"@return the token resulting from this evaluation\n ",non-directive
+"@since 2.0\n",non-directive
+" Creates a rule for the given starting and ending sequence.\n ",non-directive
+"When these sequences are detected the rule will return the specified token.\n ",non-directive
+"Alternatively, the sequence can also be ended by the end of the line or the end of the file.\n ",non-directive
+"Any character which follows the given escapeCharacter will be ignored.\n\n ",non-directive
+"@param startSequence the pattern's start sequence\n ",non-directive
+"@param endSequence the pattern's end sequence, <code>null</code> is a legal value\n ",null-directive
+"@param token the token which will be returned on success\n ",non-directive
+"@param escapeCharacter any character following this one will be ignored\n ",non-directive
+"@param breaksOnEOL indicates whether the end of the line also terminates the pattern\n ",non-directive
+"@param breaksOnEOF indicates whether the end of the file also terminates the pattern\n ",non-directive
+"@since 2.1\n",non-directive
+" Creates a rule for the given starting and ending sequence.\n ",non-directive
+"When these sequences are detected the rule will return the specified token.\n ",non-directive
+"Alternatively, the sequence can also be ended by the end of the line or the end of the file.\n ",non-directive
+"Any character which follows the given escapeCharacter will be ignored. ",non-directive
+"An end of line\n immediately after the given <code>lineContinuationCharacter</code> will not cause the\n pattern to terminate even if <code>breakOnEOL</code> is set to true.\n\n ",directive
+"@param startSequence the pattern's start sequence\n ",non-directive
+"@param endSequence the pattern's end sequence, <code>null</code> is a legal value\n ",non-directive
+"@param token the token which will be returned on success\n ",non-directive
+"@param escapeCharacter any character following this one will be ignored\n ",non-directive
+"@param breaksOnEOL indicates whether the end of the line also terminates the pattern\n ",non-directive
+"@param breaksOnEOF indicates whether the end of the file also terminates the pattern\n ",non-directive
+"@param escapeContinuesLine indicates whether the specified escape character is used for line\n        continuation, so that an end of line immediately after the escape character does not\n        terminate the pattern, even if <code>breakOnEOL</code> is set\n ",non-directive
+"@since 3.0\n",non-directive
+" Creates a new partitioner that uses the given scanner and may return\n partitions of the given legal content types.\n\n ",non-directive
+"@param scanner the scanner this partitioner is supposed to use\n ",non-directive
+"@param legalContentTypes the legal content types of this partitioner\n",non-directive
+" Adds a word and the token to be returned if it is detected.\n\n ",non-directive
+"@param word the word this rule will search for, may not be <code>null</code>\n ",null-directive
+"@param token the token to be returned if the word has been found, may not be <code>null</code>\n",null-directive
+" Creates a rule which, with the help of an word detector, will return the token\n associated with the detected word. ",non-directive
+"If no token has been associated, the scanner\n will be rolled back and an undefined token will be returned in order to allow\n any subsequent rules to analyze the characters.\n\n ",non-directive
+"@param detector the word detector to be used by this rule, may not be <code>null</code>\n ",null-directive
+"@see #addWord(String, IToken)\n",non-directive
+" Creates a rule which, with the help of a word detector, will return the token\n associated with the detected word. ",non-directive
+"If no token has been associated, the\n specified default token will be returned.\n\n ",non-directive
+"@param detector the word detector to be used by this rule, may not be <code>null</code>\n ",null-directive
+"@param defaultToken the default token to be returned on success\n			if nothing else is specified, may not be <code>null</code>\n ",null-directive
+"@param ignoreCase the case sensitivity associated with this rule\n ",non-directive
+"@see #addWord(String, IToken)\n ",non-directive
+"@since 3.3\n",non-directive
+" Creates a rule for the given starting and ending word\n pattern which, if detected, will return the specified token.\n ",non-directive
+"A word detector is used to identify words.\n\n ",non-directive
+"@param detector the word detector to be used\n ",non-directive
+"@param startSequence the start sequence of the word pattern\n ",non-directive
+"@param endSequence the end sequence of the word pattern\n ",non-directive
+"@param token the token to be returned on success\n",non-directive
+" Creates a rule for the given starting and ending sequence\n which, if detected, will return the specified token.\n\n ",non-directive
+"@param startSequence the pattern's start sequence\n ",non-directive
+"@param endSequence the pattern's end sequence\n ",non-directive
+"@param token the token to be returned on success\n",non-directive
+" Creates a rule for the given starting and ending sequence\n which, if detected, will return the specific token. ",non-directive
+"Any character that follows the\n given escape character will be ignored. ",non-directive
+"<code>breakOnEOF</code> indicates whether\n EOF is equivalent to detecting the <code>endSequence</code>.\n\n ",non-directive
+"@param startSequence the pattern's start sequence\n ",non-directive
+"@param endSequence the pattern's end sequence\n ",non-directive
+"@param token the token to be returned on success\n ",non-directive
+"@param escapeCharacter the escape character\n ",non-directive
+"@param breaksOnEOF indicates whether the end of the file terminates this rule successfully\n ",non-directive
+"@since 2.1\n",non-directive
+" Returns whether the given type is one of the legal content types.\n\n ",non-directive
+"@param contentType the content type to check\n ",non-directive
+"@return <code>true</code> if the content type is a legal content type\n",non-directive
+" Creates a rule for the given starting and ending sequence\n which, if detected, will return the specified token. ",non-directive
+"Alternatively, the\n line can also be ended with the end of the file.\n ",non-directive
+"Any character which follows the given escape character\n will be ignored. ",non-directive
+"In addition, an escape character immediately before an\n end of line can be set to continue the line.\n\n ",non-directive
+"@param startSequence the pattern's start sequence\n ",non-directive
+"@param endSequence the pattern's end sequence\n ",non-directive
+"@param token the token to be returned on success\n ",non-directive
+"@param escapeCharacter the escape character\n ",non-directive
+"@param breaksOnEOF indicates whether the end of the file successfully terminates this rule\n ",non-directive
+"@param escapeContinuesLine indicates whether the specified escape character is used for line\n        continuation, so that an end of line immediately after the escape character does not\n        terminate the line, even if <code>breakOnEOL</code> is true\n ",non-directive
+"@since 3.0\n",non-directive
+" Creates a damager/repairer that uses the given scanner and returns the given default\n text attribute if the current token does not carry a text attribute.\n\n ",non-directive
+"@param scanner the token scanner to be used\n ",non-directive
+"@param defaultTextAttribute the text attribute to be returned if non is specified by the current token,\n 			may not be <code>null</code>\n\n ",null-directive
+"@deprecated use DefaultDamagerRepairer(ITokenScanner) instead\n",non-directive
+" Retrieves the property <code>key</code> from the formatting context\n\n ",non-directive
+"@param key the key of the property to store in the context\n ",non-directive
+"@return the property <code>key</code> if available, <code>null</code> otherwise\n",null-directive
+" Retrieves the preferences from a preference store in a map.\n ",non-directive
+"<p>\n Note that the preference keys returned by {@link #getPreferenceKeys()} must not be used in\n the map. ",directive
+"Otherwise the preferences are overwritten.\n ",non-directive
+"</p>\n\n ",non-directive
+"@param store Preference store to retrieve the preferences from\n ",non-directive
+"@param map Map to store the preferences in\n ",non-directive
+"@param useDefault <code>true</code> if the default preferences should be used,\n            <code>false</code> otherwise\n",non-directive
+" Formats the document specified in the formatting context with the\n formatting strategy registered for the content type.\n ",non-directive
+"<p>\n For this formatting type only slave strategies are used. ",non-directive
+"The region to be\n formatted is aligned on partition boundaries of the underlying content\n type. ",non-directive
+"The exact formatting strategy is determined by the underlying\n content type of the document partitioning.\n\n ",non-directive
+"@param context The formatting context to use\n ",non-directive
+"@param document The document to operate on\n ",non-directive
+"@param offset The offset of the region to format\n ",non-directive
+"@param length The length of the region to format\n ",non-directive
+"@param type The content type of the region to format\n",non-directive
+" Registers a strategy for a particular content type. ",non-directive
+"If there is already a strategy\n registered for this type, the new strategy is registered instead of the old one.\n ",non-directive
+"If the given content type is <code>null</code> the given strategy is registered for\n all content types as is called only once per formatting session.\n\n ",non-directive
+"@param strategy the formatting strategy to register, or <code>null</code> to remove an existing one\n ",null-directive
+"@param contentType the content type under which to register\n",non-directive
+" Updates all the overlapping positions. ",non-directive
+"Note, all other positions are\n automatically updated by their document position updaters.\n\n ",directive
+"@param document the document to has been formatted\n ",non-directive
+"@param positions the adapted character positions to be used to update the document positions\n ",non-directive
+"@param offset the offset of the document region that has been formatted\n",non-directive
+" Returns the presentation damager registered with this presentation reconciler\n for the specified content type.\n\n ",non-directive
+"@param contentType the content type for which to determine the damager\n ",non-directive
+"@return the presentation damager registered for the given content type, or\n		<code>null</code> if there is no damager\n",null-directive
+" Returns the presentation repairer registered with this presentation reconciler\n for the specified content type.\n\n ",non-directive
+"@param contentType the content type for which to determine the repairer\n ",non-directive
+"@return the presentation repairer registered for the given content type, or\n		<code>null</code> if there is no repairer\n",null-directive
+" Creates a new presentation reconciler. ",non-directive
+"There are no damagers or repairers\n registered with this reconciler by default. ",non-directive
+"The default partitioning\n <code>IDocumentExtension3.DEFAULT_PARTITIONING</code> is used.\n",non-directive
+" Creates an annotation hover manager with the given parameters. ",non-directive
+"In addition,\n the hovers anchor is RIGHT and the margin is 5 points to the right.\n\n ",non-directive
+"@param sourceViewer the source viewer this manager connects to\n ",non-directive
+"@param ruler the vertical ruler this manager connects to\n ",non-directive
+"@param annotationHover the annotation hover providing the information to be displayed\n ",non-directive
+"@param creator the information control creator\n ",non-directive
+"@deprecated As of 2.1, replaced by {@link AnnotationBarHoverManager#AnnotationBarHoverManager(IVerticalRulerInfo, ISourceViewer, IAnnotationHover, IInformationControlCreator)}\n",directive
+" Creates an annotation hover manager with the given parameters. ",non-directive
+"In addition,\n the hovers anchor is RIGHT and the margin is 5 points to the right.\n\n ",non-directive
+"@param rulerInfo the vertical ruler this manager connects to\n ",non-directive
+"@param sourceViewer the source viewer this manager connects to\n ",non-directive
+"@param annotationHover the annotation hover providing the information to be displayed or <code>null</code> if none\n ",null-directive
+"@param creator the information control creator\n ",non-directive
+"@since 2.1\n",non-directive
+" Clears this pair matcher. ",non-directive
+"I.e. ",non-directive
+"the matcher throws away all state it might\n remember and prepares itself for a new call of the <code>match</code>\n method.\n",non-directive
+" Returns the anchor for the region of the matching peer characters. ",non-directive
+"The anchor\n says whether the character that has been chosen to search for its peer character\n has been left or right of the initial offset.\n\n ",non-directive
+"@return <code>RIGHT</code> or <code>LEFT</code>\n",non-directive
+" Creates a new line range with the given specification.\n\n ",non-directive
+"@param startLine the start line\n ",non-directive
+"@param numberOfLines the number of lines\n",non-directive
+" Sets the background color for normal lines. ",non-directive
+"The color has to be disposed of by the caller when\n the receiver is no longer used.\n\n ",directive
+"@param backgroundColor the new color to be used as standard line background\n",non-directive
+" Sets the background color for changed lines. ",non-directive
+"The color has to be disposed of by the caller when\n the receiver is no longer used.\n\n ",directive
+"@param changedColor the new color to be used for the changed lines background\n",non-directive
+" Sets the drawing layer for the given annotation type in this overview ruler.\n\n ",non-directive
+"@param annotationType the annotation type\n ",non-directive
+"@param layer the drawing layer\n",non-directive
+" Removes the given annotation type from this overview ruler. ",non-directive
+"Annotations\n of the given type are no longer shown in the overview ruler.\n\n ",non-directive
+"@param annotationType the annotation type\n",non-directive
+" Computes the block of lines which form a contiguous block of changes covering <code>line</code>.\n\n ",non-directive
+"@param viewer the source viewer showing\n ",non-directive
+"@param line the line which a hover is displayed for\n ",non-directive
+"@param min the first line in <code>viewer</code>'s document to consider\n ",non-directive
+"@param max the last line in <code>viewer</code>'s document to consider\n ",non-directive
+"@return the selection in the document displayed in <code>viewer</code> containing <code>line</code>\n that is covered by the hover information returned by the receiver.\n",non-directive
+" Sets the given document as this viewer's text model and the\n given annotation model as the model for this viewer's visual\n annotations. ",non-directive
+"The presentation is accordingly updated whereby\n only the specified region is exposed. ",non-directive
+"An appropriate\n <code>TextEvent</code> is issued. ",non-directive
+"The text event does not carry a\n related document event. ",non-directive
+"This method is a convenience method for\n <code>setDocument(document, annotationModel);setVisibleRegion(offset, length)</code>.\n\n ",semi-directive
+"@param document the new input document\n ",non-directive
+"@param annotationModel the model of the viewer's visual annotations\n ",non-directive
+"@param modelRangeOffset the offset of the model range\n ",non-directive
+"@param modelRangeLength the length of the model range\n\n ",non-directive
+"@see ITextViewer#setDocument(IDocument, int, int)\n",non-directive
+" Sets the annotation used by this viewer as range indicator. ",non-directive
+"The\n range covered by this annotation is referred to as range indication.\n\n ",non-directive
+"@param rangeIndicator the annotation to be used as this viewer's range indicator\n",non-directive
+" Returns the line of the viewer's document that corresponds to the given widget line.\n\n ",non-directive
+"@param viewer the viewer\n ",non-directive
+"@param widgetLine the widget line\n ",non-directive
+"@return the corresponding line of the viewer's document\n ",non-directive
+"@since 2.1\n",non-directive
+" Removes the given mouse listener.\n\n ",non-directive
+"@param listener the listener to be removed\n ",non-directive
+"@deprecated will be removed\n ",non-directive
+"@since 2.0\n",non-directive
+" Returns the line number of the last mouse button activity.\n ",non-directive
+"Based on the input document of the connected text viewer.\n\n ",non-directive
+"@return the line number of the last mouse button activity or <code>-1</code> if\n 			the last mouse activity does not correspond to a valid document line\n",non-directive
+" Adds the given annotation type to the list of annotation types whose\n annotations should be painted by this painter using squiggly drawing. ",non-directive
+"If the annotation  type\n is already in this list, this method is without effect.\n\n ",directive
+"@param annotationType the annotation type\n",non-directive
+" Retrieves the annotation model from the given source viewer.\n\n ",non-directive
+"@param sourceViewer the source viewer\n ",non-directive
+"@return the source viewer's annotation model or <code>null</code> if none can be found\n ",null-directive
+"@since 3.0\n",non-directive
+" Draws a decoration for an annotation onto the specified GC at the given text range. ",non-directive
+"There\n are two different invocation modes of the <code>draw</code> method:\n \n ",non-directive
+"--  <strong>drawing mode:</strong> the passed GC is the graphics context of a paint\n event occurring on the text widget. ",non-directive
+"The strategy should draw the decoration onto the\n graphics context, such that the decoration appears at the given range in the text\n widget.\n ",directive
+"--  <strong>clearing mode:</strong> the passed GC is <code>null</code>. ",non-directive
+"In this case\n the strategy must invalidate enough of the text widget's client area to cover any\n decoration drawn in drawing mode. ",directive
+"This can usually be accomplished by calling\n {@linkplain StyledText#redrawRange(int, int, boolean) textWidget.redrawRange(offset, length, true)}.\n \n\n ",semi-directive
+"@param annotation the annotation to be drawn\n ",non-directive
+"@param gc the graphics context, <code>null</code> when in clearing mode\n ",null-directive
+"@param textWidget the text widget to draw on\n ",non-directive
+"@param offset the offset of the line\n ",non-directive
+"@param length the length of the line\n ",non-directive
+"@param color the color of the line\n",non-directive
+" Returns the text inset for text drawn by {@link #paintLine(GC, int, int, int, int)}. ",non-directive
+"The\n <code>DEFAULT_TEXT_INSET</code> constant specifies the default inset in pixels.\n\n ",non-directive
+"@return the text inset for text\n",non-directive
+" Returns the background color. ",non-directive
+"May return <code>null</code> if the system is shutting down.\n\n ",null-directive
+"@return the background color\n",non-directive
+" Creates a new default annotation hover.\n\n ",non-directive
+"@param showLineNumber <code>true</code> if the line number should be shown when no annotation is found\n ",non-directive
+"@since 3.4\n",non-directive
+" Returns <code>true</code> if the ruler is showing line numbers, <code>false</code>\n otherwise\n\n ",non-directive
+"@return <code>true</code> if line numbers are shown, <code>false</code> otherwise\n ",non-directive
+"@since 3.3\n",non-directive
+" Returns <code>true</code> if the ruler is showing revision information, <code>false</code>\n otherwise\n\n ",non-directive
+"@return <code>true</code> if revision information is shown, <code>false</code> otherwise\n ",non-directive
+"@since 3.3\n",non-directive
+" Creates a new revision ruler column.\n\n ",non-directive
+"@param sharedColors the colors to look up RGBs\n ",non-directive
+"@since 3.2\n",non-directive
+" Draws an image aligned inside the given rectangle on the given canvas.\n\n ",non-directive
+"@param image the image to be drawn\n ",non-directive
+"@param gc the drawing GC\n ",non-directive
+"@param canvas the canvas on which to draw\n ",non-directive
+"@param r the clipping rectangle\n ",non-directive
+"@param align the alignment of the image to be drawn\n",non-directive
+" Hook method for a mouse click event on the given ruler line.\n ",non-directive
+"<p>\n <strong>Note:</strong> The event is sent on mouse up.\n ",directive
+"</p>\n \n ",non-directive
+"@param rulerLine the ruler line\n ",non-directive
+"@since 3.0\n",non-directive
+" Adds the given annotation type to this annotation ruler column. ",non-directive
+"Starting\n with this call, annotations of the given type are shown in this annotation\n ruler column.\n\n ",non-directive
+"@param annotationType the annotation type\n ",non-directive
+"@since 3.0\n",non-directive
+" Constructs this column with the given arguments.\n\n ",non-directive
+"@param model the annotation model to get the annotations from\n ",non-directive
+"@param width the width of the vertical ruler\n ",non-directive
+"@param annotationAccess the annotation access\n ",non-directive
+"@since 3.0\n",non-directive
+" Constructs this column with the given arguments.\n\n ",non-directive
+"@param width the width of the vertical ruler\n ",non-directive
+"@param annotationAccess the annotation access\n ",non-directive
+"@since 3.0\n",non-directive
+" Constructs this column with the given arguments.\n\n ",non-directive
+"@param model the annotation model to get the annotations from\n ",non-directive
+"@param width the width of the vertical ruler\n",non-directive
+" Returns the foreground color being used to print the line numbers.\n\n ",non-directive
+"@return the configured foreground color\n ",non-directive
+"@since 3.0\n",non-directive
+" Computes the number of digits to be displayed. ",non-directive
+"Returns\n <code>true</code> if the number of digits changed compared\n to the previous call of this method. ",non-directive
+"If the method is called\n for the first time, the return value is also <code>true</code>.\n\n ",non-directive
+"@return whether the number of digits has been changed\n ",non-directive
+"@since 3.0\n",non-directive
+" Returns the view port height in lines.\n\n ",non-directive
+"@return the view port height in lines\n ",non-directive
+"@deprecated as of 3.2 the number of lines in the viewport cannot be computed because\n             StyledText supports variable line heights\n",non-directive
+" Constructs a overview ruler of the given width using the given annotation\n access and the given color manager.\n\n ",non-directive
+"@param annotationAccess the annotation access\n ",non-directive
+"@param width the width of the vertical ruler\n ",non-directive
+"@param sharedColors the color manager\n ",non-directive
+"@param discolorTemporaryAnnotation <code>true</code> if temporary annotations should be discolored\n ",non-directive
+"@since 3.4\n",non-directive
+" Returns the range of lines that include the given line number for which\n the same hover information is valid.\n\n ",non-directive
+"@param viewer the viewer which the hover is queried for\n ",non-directive
+"@param lineNumber the line number of the line for which a hover is displayed for\n ",non-directive
+"@return the computed line range or <code>null</code> for no range\n",null-directive
+" Fires the annotation selected event to all registered vertical ruler\n listeners.\n ",non-directive
+"TODO use robust iterators\n\n ",non-directive
+"@param event the event to fire\n ",non-directive
+"@since 3.0\n",non-directive
+" Removes a previously registered listener. ",non-directive
+"If <code>listener</code> is not registered\n with the receiver, calling this method has no effect.\n\n ",directive
+"@param listener the listener to be removed\n",non-directive
+" Associates an annotation model with this ruler column.\n ",non-directive
+"A value <code>null</code> is acceptable and clears the ruler.\n\n ",non-directive
+"@param model the new annotation model, may be <code>null</code>\n",null-directive
+" Returns the auto indentation strategy ready to be used with the given source viewer\n when manipulating text of the given content type. ",non-directive
+"This implementation always\n returns an new instance of <code>DefaultAutoIndentStrategy</code>.\n\n ",non-directive
+"@param sourceViewer the source viewer to be configured by this configuration\n ",non-directive
+"@param contentType the content type for which the strategy is applicable\n ",non-directive
+"@return the auto indent strategy or <code>null</code> if automatic indentation is not to be enabled\n ",null-directive
+"@deprecated since 3.1 use {@link #getAutoEditStrategies(ISourceViewer, String)} instead\n",directive
+" Returns the annotation hover which will provide the information to be\n shown in a hover popup window when requested for the given\n source viewer. ",non-directive
+"This implementation always returns <code>null</code>.\n\n ",directive
+"@param sourceViewer the source viewer to be configured by this configuration\n ",non-directive
+"@return an annotation hover or <code>null</code> if no hover support should be installed\n",null-directive
+" Returns the configured partitioning for the given source viewer. ",non-directive
+"The partitioning is\n used when the querying content types from the source viewer's input document.  ",non-directive
+"This\n implementation always returns <code>IDocumentExtension3.DEFAULT_PARTITIONING</code>.\n\n ",directive
+"@param sourceViewer the source viewer to be configured by this configuration\n ",non-directive
+"@return the configured partitioning\n ",non-directive
+"@see #getConfiguredContentTypes(ISourceViewer)\n ",non-directive
+"@since 3.0\n",non-directive
+" Returns the label for the given annotation's type.\n\n ",non-directive
+"@param annotation the annotation\n ",non-directive
+"@return the label the given annotation's type or <code>null</code> if no such label exists\n",null-directive
+" Draws a graphical representation of the given annotation within the given bounds.\n ",non-directive
+"<p>\n <em>Note that this method is not used when drawing annotations on the editor's\n text widget. ",directive
+"This is handled trough a {@link org.eclipse.jface.text.source.AnnotationPainter.IDrawingStrategy}.</em>\n </p>\n ",non-directive
+"@param annotation the given annotation\n ",non-directive
+"@param gc the drawing GC\n ",non-directive
+"@param canvas the canvas to draw on\n ",non-directive
+"@param bounds the bounds inside the canvas to draw on\n",non-directive
+" Registers a given quick assist processor for a particular content type. ",non-directive
+"If there is already\n a processor registered, the new processor is registered instead of the old one.\n\n ",non-directive
+"@param processor the quick assist processor to register, or <code>null</code> to remove\n        an existing one\n",null-directive
+" Returns a list of quick assist and quick fix proposals for the\n given invocation context.\n\n ",non-directive
+"@param invocationContext the invocation context\n ",non-directive
+"@return an array of completion proposals or <code>null</code> if no proposals are available\n",null-directive
+" Returns the handler for the given command identifier.\n ",non-directive
+"<p>\n The same handler instance will be returned when called a more than once\n with the same command identifier.\n ",non-directive
+"</p>\n\n ",non-directive
+"@param commandId the command identifier\n ",non-directive
+"@return the handler for the given command identifier\n ",non-directive
+" Enables the support for colored labels in the proposal popup.\n ",non-directive
+"<p>Completion proposals can implement {@link ICompletionProposalExtension6}\n to provide colored proposal labels.</p>\n\n ",non-directive
+"@param isEnabled if <code>true</code> the support for colored labels is enabled in the proposal popup\n ",non-directive
+"@since 3.4\n",non-directive
+" Fills the given composite control with controls representing this \n contribution item.  ",non-directive
+"Used by <code>StatusLineManager</code>.\n\n ",non-directive
+"@param parent the parent control\n",non-directive
+" Returns whether this contribution item is dynamic. ",non-directive
+"A dynamic contribution\n item contributes items conditionally, dependent on some internal state.\n\n ",non-directive
+"@return <code>true</code> if this item is dynamic, and\n  <code>false</code> for normal items\n",non-directive
+" Returns whether this contribution item is a group marker.\n ",non-directive
+"This information is used when adding items to a group.\n\n ",non-directive
+"@return <code>true</code> if this item is a group marker, and\n  <code>false</code> for normal items\n\n ",non-directive
+"@see GroupMarker\n ",non-directive
+"@see IContributionManager#appendToGroup(String, IContributionItem)\n ",non-directive
+"@see IContributionManager#prependToGroup(String, IContributionItem)\n",non-directive
+" Returns whether this contribution item is a separator.\n ",non-directive
+"This information is used to enable hiding of unnecessary separators.\n\n ",non-directive
+"@return <code>true</code> if this item is a separator, and\n  <code>false</code> for normal items\n ",non-directive
+"@see Separator\n",non-directive
+" Updates any SWT controls cached by this contribution item with changes\n for the the given property. \n \n",non-directive
+"@param id the id of the changed property\n ",non-directive
+"@since 2.0\n",non-directive
+" Sets the overrides for this contribution manager\n \n ",non-directive
+"@param newOverrides the overrides for the items of this manager\n ",non-directive
+"@since 2.0\n",non-directive
+" Replaces the current items with the given items.\n ",non-directive
+"Forces an update.\n \n",non-directive
+"@param newItems the items with which to replace the current items\n",non-directive
+" Converts an accelerator key code to a string representation.\n \n",non-directive
+"@param keyCode\n            the key code to be translated\n ",non-directive
+"@return a string representation of the key code\n",non-directive
+" Maps a standard keyboard key name to an SWT key code. ",non-directive
+"Key names are\n converted to upper case before comparison. ",non-directive
+"If the key name is a single\n letter, for example \"S\", its character code is returned.\n ",non-directive
+"<p>\n The following key names are known (case is ignored):\n \n ",non-directive
+"--  <code>\"BACKSPACE\"</code>\n ",non-directive
+"--  <code>\"TAB\"</code>\n ",non-directive
+"--  <code>\"RETURN\"</code>\n ",non-directive
+"--  <code>\"ENTER\"</code>\n ",non-directive
+"--  <code>\"ESC\"</code>\n ",non-directive
+"--  <code>\"ESCAPE\"</code>\n ",non-directive
+"--  <code>\"DELETE\"</code>\n ",non-directive
+"--  <code>\"SPACE\"</code>\n ",non-directive
+"--  <code>\"ARROW_UP\"</code>, <code>\"ARROW_DOWN\"</code>,\n <code>\"ARROW_LEFT\"</code>, and <code>\"ARROW_RIGHT\"</code>\n ",non-directive
+"--  <code>\"PAGE_UP\"</code> and <code>\"PAGE_DOWN\"</code>\n ",non-directive
+"--  <code>\"HOME\"</code>\n ",non-directive
+"--  <code>\"END\"</code>\n ",non-directive
+"--  <code>\"INSERT\"</code>\n ",non-directive
+"--  <code>\"F1\"</code>, <code>\"F2\"</code> through <code>\"F12\"</code>\n \n ",non-directive
+"</p>\n \n ",non-directive
+"@param token\n            the key name\n ",non-directive
+"@return the SWT key code, <code>-1</code> if no match was found\n ",non-directive
+"@see SWT\n",non-directive
+" Maps an SWT key code to a standard keyboard key name. ",non-directive
+"The key code is\n stripped of modifiers (SWT.CTRL, SWT.ALT, SWT.SHIFT, and SWT.COMMAND). ",non-directive
+"If\n the key code is not an SWT code (for example if it a key code for the key\n 'S'), a string containing a character representation of the key code is\n returned.\n \n",non-directive
+"@param keyCode\n            the key code to be translated\n ",non-directive
+"@return the string representation of the key code\n ",non-directive
+"@see SWT\n ",non-directive
+"@since 2.0\n",non-directive
+" Returns a string representation of an SWT modifier bit (SWT.CTRL,\n SWT.ALT, SWT.SHIFT, and SWT.COMMAND). ",non-directive
+"Returns <code>null</code> if the\n key code is not an SWT modifier bit.\n \n",null-directive
+"@param keyCode\n            the SWT modifier bit to be translated\n ",non-directive
+"@return the string representation of the SWT modifier bit, or\n         <code>null</code> if the key code was not an SWT modifier bit\n ",null-directive
+"@see SWT\n",non-directive
+" Convenience method for removing any mnemonics from the given string. ",non-directive
+"For\n example, <code>removeMnemonics(\"&Open\")</code> will return\n <code>\"Open\"</code>.\n \n",non-directive
+"@param text\n            the text\n ",non-directive
+"@return the text sans mnemonics\n",non-directive
+" Re-lays out the tool bar.\n ",non-directive
+"<p>\n The default implementation of this framework method re-lays out the\n parent when the number of items are different and the new count != 0\n \n ",non-directive
+"@param layoutBar\n            the tool bar control\n ",non-directive
+"@param oldCount\n            the old number of items\n ",non-directive
+"@param newCount\n            the new number of items\n",non-directive
+" Returns the context menu manager for this tool bar manager.\n \n",non-directive
+"@return the context menu manager, or <code>null</code> if none\n ",null-directive
+"@since 3.0\n",non-directive
+" Sets the context menu manager for this tool bar manager to the given menu\n manager. ",non-directive
+"If the tool bar control exists, it also adds the menu control to\n the tool bar.\n \n",non-directive
+"@param contextMenuManager\n            the context menu manager, or <code>null</code> if none\n ",null-directive
+"@since 3.0\n",non-directive
+" Creates a tool bar manager with the given SWT button style. ",non-directive
+"Use the\n <code>createControl</code> method to create the tool bar control.\n \n",non-directive
+"@param style\n            the tool bar item style\n ",non-directive
+"@see org.eclipse.swt.widgets.ToolBar for valid style bits\n",non-directive
+" Inserts a contribution item after the item with the given id.\n\n ",non-directive
+"@param id the contribution item id\n ",non-directive
+"@param item the contribution item to insert\n ",non-directive
+" Adds a contribution item for the given action at the beginning of the \n group with the given name.\n ",non-directive
+"Equivalent to\n <code>prependToGroup(groupName,new ActionContributionItem(action))</code>.\n\n ",non-directive
+"@param groupName the name of the group\n ",non-directive
+"@param action the action\n ",non-directive
+" Creates a new separator which also defines a new group having the given group name.\n ",non-directive
+"The group name must not be <code>null</code> or the empty string.\n ",directive
+"The group name is also used as the item id.\n \n",non-directive
+"@param groupName the group name of the separator\n",non-directive
+" Returns whether this contribution manager contains dynamic items. ",non-directive
+"A\n dynamic contribution item contributes items conditionally, dependent on\n some internal state.\n \n",non-directive
+"@return <code>true</code> if this manager contains dynamic items, and\n         <code>false</code> otherwise\n",non-directive
+" Returns the index of the item with the given id.\n \n",non-directive
+"@param id\n            The id of the item whose index is requested.\n \n",non-directive
+"@return <code>int</code> the index or -1 if the item is not found\n",non-directive
+" Finds the manager for the menu at the given path. ",non-directive
+"A path\n consists of contribution item ids separated by the separator \n character.  ",non-directive
+"The path separator character is <code>'/'</code>.\n ",non-directive
+"<p>\n Convenience for <code>findUsingPath(path)</code> which\n extracts an <code>IMenuManager</code> if possible.\n ",non-directive
+"</p>\n\n ",non-directive
+"@param path the path string\n ",non-directive
+"@return the menu contribution item, or <code>null</code>\n   if there is no such contribution item or if the item does\n   not have an associated menu manager\n",null-directive
+" Returns the action's description if it has one.\n ",non-directive
+"Otherwise it returns <code>getToolTipText()</code>.\n \n",non-directive
+"@return a description for the action; may be <code>null</code> \n",null-directive
+" Returns the hover image for this action as an image descriptor.\n ",non-directive
+"<p>\n Hover images will be used on platforms that support changing the image\n when the user hovers over the item. ",non-directive
+"This method is associated with \n the <code>IMAGE</code> property;\n property change events are reported when its value changes.\n ",non-directive
+"</p>\n\n ",non-directive
+"@return the image, or <code>null</code> if this action has no image\n ",null-directive
+"@see #IMAGE\n",non-directive
+" Returns the image for this action as an image descriptor.\n ",non-directive
+"<p>\n This method is associated with the <code>IMAGE</code> property;\n property change events are reported when its value changes.\n ",non-directive
+"</p>\n\n ",non-directive
+"@return the image, or <code>null</code> if this action has no image\n ",null-directive
+"@see #IMAGE\n",non-directive
+" Returns whether this action is handled. ",non-directive
+"In the default case, this is\n always <code>true</code>. ",non-directive
+"However, if the action delegates some of its\n behaviour to some other object, then this method should answer whether\n such an object is currently available.\n \n",directive
+"@return <code>true</code> if all of the action's behaviour is\n         available; <code>false</code> otherwise.\n ",non-directive
+"@since 3.1\n",non-directive
+" Runs this action, passing the triggering SWT event.\n ",non-directive
+"As of 2.0, <code>ActionContributionItem</code> calls this method\n instead of <code>run()</code>.  \n ",semi-directive
+"The default implementation of this method in <code>Action</code>\n simply calls <code>run()</code> for backwards compatibility.\n \n",semi-directive
+"@param event the SWT event which triggered this action being run \n ",non-directive
+"@since 2.0\n",non-directive
+" Sets the checked status of this action. ",non-directive
+"Applicable for the styles\n <code>AS_CHECK_BOX</code> or <code>AS_RADIO_BUTTON</code>.\n ",non-directive
+"<p>\n Fires a property change event for the <code>CHECKED</code> property\n if the checked status actually changes as a consequence.\n ",non-directive
+"</p>\n\n ",non-directive
+"@param checked the new checked status\n ",non-directive
+"@see #CHECKED\n",non-directive
+" Sets this action's description.\n ",non-directive
+"Typically the description is shown as a (longer) help text in the status line.\n ",non-directive
+"<p>\n Fires a property change event for the <code>DESCRIPTION</code> property\n if the description actually changes as a consequence.\n ",non-directive
+"</p>\n\n ",non-directive
+"@param text the description, or <code>null</code> to clear the description\n ",null-directive
+"@see #DESCRIPTION\n",non-directive
+" Sets the hover image for this action, as an image descriptor.\n ",non-directive
+"<p>\n Hover images will be used on platforms that support changing the image\n when the user hovers over the item.Fires a property change event for \n the <code>IMAGE</code> property\n if the image actually changes as a consequence.\n ",non-directive
+"</p>\n\n ",non-directive
+"@param newImage the image, or <code>null</code> if this \n   action should not have an image\n ",null-directive
+"@see #IMAGE\n",non-directive
+" Sets the menu creator for this action. ",non-directive
+"Applicable for style\n <code>AS_DROP_DOWN_MENU</code>.\n\n ",non-directive
+"@param creator the menu creator, or <code>null</code> if none\n",null-directive
+" Sets the tool tip text for this action.\n ",non-directive
+"<p>\n Fires a property change event for the <code>TOOL_TIP_TEXT</code> property\n if the tool tip text actually changes as a consequence.\n ",non-directive
+"</p>\n\n ",non-directive
+"@param text the tool tip text, or <code>null</code> if none\n ",null-directive
+"@see #TOOL_TIP_TEXT\n",non-directive
+" Constructs a new manager.\n\n ",non-directive
+"@param mgr the parent manager.  ",non-directive
+"All contributions made to the \n      <code>SubCoolBarManager</code> are forwarded and appear in the\n      parent manager.\n",non-directive
+" Maps an SWT key code to a standard keyboard key name. ",non-directive
+"The key code is\n stripped of modifiers (SWT.CTRL, SWT.ALT, SWT.SHIFT, and SWT.COMMAND). ",non-directive
+"If\n the key code is not an SWT code (for example if it a key code for the key\n 'S'), a string containing a character representation of the key code is\n returned.\n \n",non-directive
+"@param keyCode\n            the key code to be translated\n ",non-directive
+"@return the string representation of the key code\n ",non-directive
+"@see org.eclipse.swt.SWT\n ",non-directive
+"@since 2.0\n",non-directive
+" Reports the outcome of the running of this action via the\n {@link IAction#RESULT} property.\n \n",non-directive
+"@param success\n            <code>true</code> if the action succeeded and\n            <code>false</code> if the action failed or was not completed\n ",non-directive
+"@see IAction#RESULT\n ",non-directive
+"@since 3.0\n",non-directive
+" Sets the menu creator for this action.\n ",non-directive
+"<p>\n Note that if this method is called, it overrides the check status.\n ",directive
+"</p>\n \n ",non-directive
+"@param creator\n            the menu creator, or <code>null</code> if none\n",null-directive
+" Sets the text for this action.\n ",non-directive
+"<p>\n Fires a property change event for the <code>TEXT</code> property if the\n text actually changes as a consequence.\n ",non-directive
+"</p>\n <p>\n The accelerator is identified by the last index of a tab character. ",non-directive
+"If\n there are no tab characters, then it is identified by the last index of a\n '@' character. ",non-directive
+"If neither, then there is no accelerator text. ",non-directive
+"Note that\n if you want to insert a '@' character into the text (but no accelerator,\n you can simply insert a '@' or a tab at the end of the text.\n ",semi-directive
+"</p>\n \n ",non-directive
+"@param text\n            the text, or <code>null</code> if none\n",null-directive
+" Checks whether the command with the given identifier should be\n considered active. ",non-directive
+"This can be used in systems using some kind of\n user interface filtering (e.g., activities in the Eclipse workbench).\n \n",non-directive
+"@param commandId\n            The identifier for the command; must not be\n            <code>null</code>\n ",null-directive
+"@return <code>true</code> if the command is active;\n         <code>false</code> otherwise.\n",non-directive
+" Fires an execution event before an action is run.\n \n",non-directive
+"@param action\n            The action contribution that requires an\n            execution event to be fired. ",non-directive
+"Cannot be <code>null</code>.\n ",non-directive
+"@param e\n            The SWT Event, may be <code>null</code>.\n \n",null-directive
+" Checks whether the item matching this identifier is active. ",non-directive
+"This is\n used to decide whether a contribution item with this identifier\n should be made visible. ",non-directive
+"An inactive item is not visible.\n \n",non-directive
+"@param identifier\n            The identifier of the item from which the active state\n            should be retrieved; must not be <code>null</code>.\n ",null-directive
+"@return <code>true</code> if the item is active; <code>false</code>\n         otherwise.\n",non-directive
+" Removes a listener from the object referenced by\n <code>identifier</code>. ",non-directive
+"This identifier is specific to mechanism\n being used. ",non-directive
+"In the case of the Eclipse workbench, this is the command\n identifier.\n \n",non-directive
+"@param identifier\n            The identifier of the item to from the listener should be\n            removed; must not be <code>null</code>.\n ",null-directive
+"@param listener\n            The listener to be removed; must not be <code>null</code>.\n",null-directive
+" Creates a contribution item with the given (optional) id.\n ",non-directive
+"The given id is used to find items in a contribution manager,\n and for positioning items relative to other items.\n\n ",non-directive
+"@param id the contribution item identifier, or <code>null</code>\n",null-directive
+" Find out the enablement of the item\n ",non-directive
+"@param item the contribution item for which the enable override value is \n determined\n ",non-directive
+"@return \n 				",non-directive
+"--  <code>Boolean.TRUE</code> if the given contribution item should be enabled\n 				",non-directive
+"--  <code>Boolean.FALSE</code> if the item should be disabled\n 				",non-directive
+"--  <code>null</code> if the item may determine its own enablement\n 			\n ",null-directive
+"@since 2.0 \n",non-directive
+" Returns the menu wrapper for a menu manager.\n ",non-directive
+"<p>\n The sub menus within this menu are wrapped within a <code>SubMenuManager</code> to\n monitor additions and removals.  ",non-directive
+"If the visibility of this menu is modified\n the visibility of the sub menus is also modified.\n ",non-directive
+"<p>\n ",non-directive
+"@param mgr the menu manager to be wrapped\n\n ",non-directive
+"@return the menu wrapper\n",non-directive
+" Returns a progress monitor which reports progress in the status line.\n ",non-directive
+"Note that the returned progress monitor may only be accessed from the UI\n thread.\n \n",directive
+"@return the progress monitor\n \n         Note: There is a delay after a beginTask message before the\n         monitor is shown. ",directive
+"This may not be appropriate for all apps.\n",semi-directive
+" Creates and returns this manager's status line control. \n ",non-directive
+"Does not create a new control if one already exists.\n\n ",non-directive
+"@param parent the parent control\n ",non-directive
+"@param style the style for the control\n ",non-directive
+"@return the status line control\n ",non-directive
+"@since 3.0\n",non-directive
+" Return the widget associated with this contribution item. ",non-directive
+"It should not\n be cached, as it can be disposed and re-created by its containing\n ContributionManager, which controls all of the widgets lifecycle methods.\n ",directive
+"<p>\n This can be used to set layout data on the widget if appropriate. ",non-directive
+"The\n actual type of the widget can be any valid control for this\n ContributionItem's current ContributionManager.\n ",non-directive
+"</p>\n \n ",non-directive
+"@return the widget, or <code>null</code> depending on the lifecycle.\n ",null-directive
+"@since 3.4\n",non-directive
+" Creates a new contribution item from the given action. ",non-directive
+"The id of the\n action is used as the id of the item.\n \n",non-directive
+"@param action\n            the action\n",non-directive
+" Sets the visibility of the manager.  ",non-directive
+"If the visibility is <code>true</code>\n then each item within the manager appears within the parent manager.\n ",non-directive
+"Otherwise, the items are not visible.\n\n ",non-directive
+"@param visible the new visibility\n",non-directive
+" Constructs a new <code>SubContributionManager</code>\n\n ",non-directive
+"@param mgr the parent contribution manager.  ",non-directive
+"All contributions made to the\n      <code>SubContributionManager</code> are forwarded and appear in the\n      parent manager.\n",non-directive
+" Creates a status line contribution item with the given id that displays\n the given number of characters.\n \n",non-directive
+"@param id\n            the contribution item's id, or <code>null</code> if it is to\n            have no id\n ",null-directive
+"@param charWidth\n            the number of characters to display\n",non-directive
+" The drop data is requested.\n ",non-directive
+"Updates the current listener and then forwards the event to it.\n \n",non-directive
+"@param event the drag source event\n ",non-directive
+"@see DragSourceListener#dragSetData(DragSourceEvent)\n",non-directive
+" Returns the time when the selection operation\n this transfer is associated with was started.\n \n",non-directive
+"@return the time when the selection operation has started\n \n ",non-directive
+"@see org.eclipse.swt.events.TypedEvent#time\n",non-directive
+" Asserts that an argument is legal. ",non-directive
+"If the given boolean is\n not <code>true</code>, an <code>IllegalArgumentException</code>\n is thrown.\n\n ",non-directive
+"@param expression the outcome of the check\n ",non-directive
+"@return <code>true</code> if the check passes (does not return\n    if the check fails)\n ",non-directive
+" Asserts that the given boolean is <code>true</code>. ",non-directive
+"If this\n is not the case, some kind of unchecked exception is thrown.\n\n ",non-directive
+"@param expression the outcome of the check\n ",non-directive
+"@return <code>true</code> if the check passes (does not return\n    if the check fails)\n",non-directive
+" Returns the magnitude of the given 2d vector (represented as a Point)\n  \n ",non-directive
+"@param p point representing the 2d vector whose magnitude is being computed\n ",non-directive
+"@return the magnitude of the given 2d vector\n ",non-directive
+"@since 3.0\n",non-directive
+" Returns the dot product of the given vectors (expressed as Points)\n \n ",non-directive
+"@param p1 the first vector\n ",non-directive
+"@param p2 the second vector\n ",non-directive
+"@return the dot product of the two vectors\n ",non-directive
+"@since 3.0\n",non-directive
+" Returns a new point whose coordinates are the maximum of the coordinates\n of the given points\n ",non-directive
+"@param p1 a Point\n ",non-directive
+"@param p2 a Point\n ",non-directive
+"@return point a new point whose coordinates are the maximum of the coordinates\n ",non-directive
+"@since 3.0\n",non-directive
+" Returns the point in the center of the given rectangle.\n \n",non-directive
+"@param rect rectangle being computed\n ",non-directive
+"@return a Point at the center of the given rectangle.\n ",non-directive
+"@since 3.0\n",non-directive
+" Sets result equal to toCopy\n \n ",non-directive
+"@param result object that will be modified\n ",non-directive
+"@param toCopy object that will be copied\n ",non-directive
+"@since 3.1\n",non-directive
+" Adds two points as 2d vectors. ",non-directive
+"Returns a new point whose coordinates are\n the sum of the original two points.\n \n",non-directive
+"@param point1 the first point (not null)\n ",null-directive
+"@param point2 the second point (not null)\n ",null-directive
+"@return a new point whose coordinates are the sum of the given points\n ",non-directive
+"@since 3.0\n",non-directive
+" Returns the x or y coordinates of the given rectangle.\n \n",non-directive
+"@param toMeasure rectangle being measured\n ",non-directive
+"@param width if true, returns x. ",non-directive
+"Otherwise, returns y.\n ",non-directive
+"@return the x or y coordinate\n ",non-directive
+"@since 3.1\n",non-directive
+" Returns the edge of the given rectangle is closest to the given\n point.\n \n",non-directive
+"@param boundary rectangle to test\n ",non-directive
+"@param toTest point to compare\n ",non-directive
+"@return one of SWT.LEFT, SWT.RIGHT, SWT.TOP, or SWT.BOTTOM\n \n ",non-directive
+"@since 3.0\n",non-directive
+" Returns the x,y position of the given rectangle. ",non-directive
+"For normalized rectangles\n (rectangles with positive width and height), this is the upper-left\n corner of the rectangle.\n \n",non-directive
+"@param toQuery rectangle to query\n ",non-directive
+"@return a Point containing the x,y position of the rectangle\n \n ",non-directive
+"@since 3.0\n",non-directive
+" Returns a new rectangle with the given position and dimensions, expressed\n as points.\n \n",non-directive
+"@param position the (x,y) position of the rectangle\n ",non-directive
+"@param size the size of the new rectangle, where (x,y) -> (width, height)\n ",non-directive
+"@return a new Rectangle with the given position and size\n \n ",non-directive
+"@since 3.0\n",non-directive
+" Return the comparator used by JFace to sort strings.\n \n",non-directive
+"@return the comparator used by JFace to sort strings\n ",non-directive
+"@since 3.2\n",non-directive
+" Sets the animator factory used by JFace to create control animator\n instances.\n \n",non-directive
+"@param factory\n            the AnimatorFactory to use.\n ",non-directive
+"@since 3.2\n ",non-directive
+"@deprecated this is no longer in use as of 3.3\n",non-directive
+" Log the Exception to the logger.\n \n",non-directive
+"@param exception\n ",non-directive
+"@since 3.4\n",non-directive
+" Configure the columns of the given tree in a keyboard-accessible way,\n using the given shell provider to parent dialogs.\n \n",non-directive
+"@param table the table\n ",non-directive
+"@param shellProvider a shell provider\n ",non-directive
+"@return <code>false</code> if the user canceled, <code>true</code>\n         otherwise\n",non-directive
+" Flag to avoid interactive error dialogs during automated testing.\n \n",non-directive
+"@param flag\n ",non-directive
+"@return true if errors should be ignored\n ",non-directive
+"@deprecated use getIgnoreErrors()\n",non-directive
+" Returns the safe runnable runner.\n \n",non-directive
+"@return the safe runnable runner\n \n ",non-directive
+"@since 3.1\n",non-directive
+" Verifies that the given object is an instance of the given class.\n \n",non-directive
+"@param object\n            The object to check; may be <code>null</code>.\n ",null-directive
+"@param c\n            The class which the object should be; must not be\n            <code>null</code>.\n",null-directive
+" Provides a hash code for the object -- defending against\n <code>null</code>.\n \n",non-directive
+"@param object\n            The object for which a hash code is required.\n ",non-directive
+"@return <code>object.hashCode</code> or <code>0</code> if\n         <code>object</code> if <code>null</code>.\n",null-directive
+" Provides a translation of a particular key from the resource bundle.\n \n",non-directive
+"@param resourceBundle\n            The key to look up in the resource bundle; should not be\n            <code>null</code>.\n ",null-directive
+"@param key\n            The key to look up in the resource bundle; should not be\n            <code>null</code>.\n ",null-directive
+"@param defaultString\n            The value to return if the resource cannot be found; may be\n            <code>null</code>.\n ",null-directive
+"@return The value of the translated resource at <code>key</code>. ",non-directive
+"If\n         the key cannot be found, then it is simply the\n         <code>defaultString</code>.\n",non-directive
+" Common WS query helper method. \n ",non-directive
+"@return <code>true</code> for linux platform\n ",non-directive
+"@since 3.5\n",non-directive
+" Common WS query helper method. \n ",non-directive
+"@return <code>true</code> for carbon platforms\n ",non-directive
+"@since 3.5\n",non-directive
+" The cursor is moving over the drop target. ",non-directive
+"Updates the current listener and \n forwards this event to that listener. ",non-directive
+"If no listener can handle the drag \n operation the <code>event.detail</code> field is set to <code>DND.DROP_NONE</code> \n to indicate an invalid drop.\n   \n",non-directive
+"@param event the drop target event\n ",non-directive
+"@see DropTargetListener#dragOver(DropTargetEvent)\n",non-directive
+" Forwards this event to the current listener, if there is one. ",non-directive
+"Sets the\n current listener to <code>null</code> afterwards.\n \n",non-directive
+"@param event the drop target event\n ",non-directive
+"@see DropTargetListener#drop(DropTargetEvent)\n",non-directive
+" Return the image shown in the decoration, or <code>null</code> if no\n image is specified.\n \n",null-directive
+"@return the image shown in the decoration. ",non-directive
+"A return value of\n         <code>null</code> signifies a blank decoration.\n",null-directive
+" Removes the listener from the collection of listeners who will be\n notified when the decoration is selected.\n \n",non-directive
+"@param listener\n            the listener which should no longer be notified. ",non-directive
+"This message\n            has no effect if the listener was not previously added to the\n            receiver.\n \n",directive
+"@see org.eclipse.swt.events.SelectionListener\n ",non-directive
+"@see #addSelectionListener\n",non-directive
+" Get the control that is decorated by the receiver.\n \n",non-directive
+"@return the Control decorated by the receiver. ",non-directive
+"May be <code>null</code>\n         if the control has been uninstalled.\n",null-directive
+" Set the image shown in this control decoration. ",non-directive
+"Update the rendered\n decoration.\n \n",non-directive
+"@param text\n            the text to be shown as a description for the decoration, or\n            <code>null</code> if none has been set.\n",null-directive
+" Set the boolean that controls whether the decoration is shown only when\n the control has focus. ",non-directive
+"The default value of this setting is\n <code>false</code>.\n \n",non-directive
+"@param showOnlyOnFocus\n            <code>true</code> if the decoration should only be shown\n            when the control has focus, and <code>false</code> if it\n            should always be shown. ",non-directive
+"Note that if the control is not\n            capable of receiving focus (<code>SWT.NO_FOCUS</code>),\n            then the decoration will never show when this value is\n            <code>true</code>.\n",directive
+" Set the margin width in pixels that should be used between the decorator\n and the horizontal edge of the control. ",non-directive
+"The default value of this setting\n is <code>0</code>.\n \n",non-directive
+"@param marginWidth\n            the number of pixels that should be reserved between the\n            horizontal edge of the control and the adjacent edge of the\n            decoration.\n",non-directive
+" Return the rectangle in which the decoration should be rendered, in\n coordinates relative to the specified control. ",non-directive
+"If the specified control\n is null, return the rectangle in display coordinates.\n \n",null-directive
+"@param targetControl\n            the control whose coordinates should be used\n ",non-directive
+"@return the rectangle in which the decoration should be rendered\n",non-directive
+" Construct a ControlDecoration for decorating the specified control at the\n specified position relative to the control. ",non-directive
+"Render the decoration only on\n the specified Composite or its children. ",non-directive
+"The decoration will be clipped\n if it does not appear within the visible bounds of the composite or its\n child composites.\n ",non-directive
+"<p>\n SWT constants are used to specify the position of the decoration relative\n to the control. ",non-directive
+"The position should include style bits describing both\n the vertical and horizontal orientation. ",non-directive
+"<code>SWT.LEFT</code> and\n <code>SWT.RIGHT</code> describe the horizontal placement of the\n decoration relative to the control, and the constants\n <code>SWT.TOP</code>, <code>SWT.CENTER</code>, and\n <code>SWT.BOTTOM</code> describe the vertical alignment of the\n decoration relative to the control. ",non-directive
+"Decorations always appear on either\n the left or right side of the control, never above or below it. ",directive
+"For\n example, a decoration appearing on the left side of the field, at the\n top, is specified as SWT.LEFT | SWT.TOP. ",non-directive
+"If no position style bits are\n specified, the control decoration will be positioned to the left and\n center of the control (<code>SWT.LEFT | SWT.CENTER</code>).\n ",non-directive
+"</p>\n \n ",non-directive
+"@param control\n            the control to be decorated\n ",non-directive
+"@param position\n            bit-wise or of position constants (<code>SWT.TOP</code>,\n            <code>SWT.BOTTOM</code>, <code>SWT.LEFT</code>,\n            <code>SWT.RIGHT</code>, and <code>SWT.CENTER</code>).\n ",non-directive
+"@param composite\n            The SWT composite within which the decoration should be\n            rendered. ",non-directive
+"The decoration will be clipped to this composite,\n            but it may be rendered on a child of the composite. ",semi-directive
+"The\n            decoration will not be visible if the specified composite or\n            its child composites are not visible in the space relative to\n            the control, where the decoration is to be rendered. ",non-directive
+"If this\n            value is <code>null</code>, then the decoration will be\n            rendered on whichever composite (or composites) are located in\n            the specified position.\n",null-directive
+" Adds an image decoration to the field.\n \n",non-directive
+"@param decoration\n            A FieldDecoration describing the image and description for the\n            decoration\n \n ",non-directive
+"@param position\n            The SWT constant indicating the position of the decoration\n            relative to the field's control. ",non-directive
+"The position should include\n            style bits describing both the vertical and horizontal\n            orientation. ",non-directive
+"<code>SWT.LEFT</code> and\n            <code>SWT.RIGHT</code> describe the horizontal placement of\n            the decoration relative to the field, and the constants\n            <code>SWT.TOP</code> and <code>SWT.BOTTOM</code> describe\n            the vertical alignment of the decoration relative to the\n            field. ",non-directive
+"Decorations always appear on either horizontal side of\n            the field, never above or below it. ",directive
+"For example, a decoration\n            appearing on the left side of the field, at the top, is\n            specified as SWT.LEFT | SWT.TOP. ",non-directive
+"If an image decoration\n            already exists in the specified position, it will be replaced\n            by the one specified.\n ",non-directive
+"@param showOnFocus\n            <code>true</code> if the decoration should only be shown\n            when the associated control has focus, <code>false</code> if\n            it should always be shown.\n \n",non-directive
+" Show the specified text using the same hover dialog as is used to show\n decorator descriptions. ",non-directive
+"Normally, a decoration's description text will be\n shown in an info hover over the field's control whenever the mouse hovers\n over the decoration. ",non-directive
+"This method can be used to show a decoration's\n description text at other times (such as when the control receives\n focus), or to show other text associated with the field.\n \n",non-directive
+" <p>\n If there is currently a hover visible, the hover's text will be replaced\n with the specified text.\n \n",non-directive
+"@param text\n            the text to be shown in the info hover, or <code>null</code>\n            if no text should be shown.\n",null-directive
+" Set a boolean that indicates whether the receiver should use the\n decoration registry's maximum decoration width when allocating space for\n decorations. ",non-directive
+"The default value is <code>true</code>. ",non-directive
+"Using the maximum\n decoration width is useful so that decorated fields on the same dialog\n that have different decoration widths will all align. ",semi-directive
+"This also allows\n client dialogs to align non-decorated fields with decorated fields by\n consulting the maximum decoration width.\n ",non-directive
+"</p>\n <p>\n Clients may wish to set this value to <code>false</code> in cases where\n space usage is more important than alignment of fields. ",semi-directive
+"This value must\n be set before the decorations are added in order to ensure proper\n alignment.\n ",directive
+"</p>\n \n ",non-directive
+"@param useMaximumWidth\n            <code>true</code> if the maximum decoration width should be\n            used as the size for all decorations, <code>false</code> if\n            only the decoration size should be used.\n \n",non-directive
+"@see FieldDecorationRegistry#getMaximumDecorationWidth()\n",non-directive
+" Construct a decorated field which is parented by the specified composite\n and has the given style bits. ",non-directive
+"Use the controlCreator to create the\n specific kind of control that is decorated inside the field.\n \n",non-directive
+"@param parent\n            the parent of the decorated field.\n ",non-directive
+"@param style\n            the desired style bits for the field.\n ",directive
+"@param controlCreator\n            the IControlCreator used to specify the specific kind of\n            control that is to be decorated.\n \n",non-directive
+"@see IControlCreator\n",non-directive
+" Construct an AutoComplete field on the specified control, whose\n completions are characterized by the specified array of Strings.\n \n",non-directive
+"@param control\n            the control for which autocomplete is desired. ",non-directive
+"May not be\n            <code>null</code>.\n ",null-directive
+"@param controlContentAdapter\n            the <code>IControlContentAdapter</code> used to obtain and\n            update the control's contents. ",non-directive
+"May not be <code>null</code>.\n ",null-directive
+"@param proposals\n            the array of Strings representing valid content proposals for\n            the field.\n",non-directive
+" Set the contents of the specified control to the specified text. ",non-directive
+"Must not\n be <code>null</code>.\n \n",null-directive
+"@param control\n            the control whose contents are to be set (replaced).\n ",non-directive
+"@param contents\n            the String specifying the new control content.\n ",non-directive
+"@param cursorPosition\n            the zero-based index representing the desired cursor position\n            in the control's contents after the contents are set.\n",directive
+" Get the text contents of the control.\n \n",non-directive
+"@param control\n            the control whose contents are to be retrieved.\n ",non-directive
+"@return the String contents of the control.\n",non-directive
+" Registers a field decoration using the specified id. ",non-directive
+"The lifecyle of the\n supplied image should be managed by the client. ",directive
+"That is, it will never be\n disposed by this registry and the decoration should be removed from the\n registry if the image is ever disposed elsewhere.\n \n",directive
+"@param id\n            the String id used to identify and access the decoration.\n ",non-directive
+"@param description\n            the String description to be used in the decoration, or\n            <code>null</code> if the decoration has no description.\n ",null-directive
+"@param image\n            the image to be used in the decoration\n",non-directive
+" Set the label provider that is used to show proposals. ",non-directive
+"The lifecycle of\n the specified label provider is not managed by this adapter. ",non-directive
+"Clients must\n dispose the label provider when it is no longer needed.\n \n",directive
+"@param labelProvider\n            the (@link ILabelProvider} used to show proposals.\n",non-directive
+" Set the integer style that indicates how an accepted proposal affects the\n control's content.\n \n",non-directive
+"@param acceptance\n            a constant indicating how an accepted proposal should affect\n            the control's content. ",non-directive
+"Should be one of\n            <code>PROPOSAL_INSERT</code>, <code>PROPOSAL_REPLACE</code>,\n            or <code>PROPOSAL_IGNORE</code>\n",non-directive
+" Add the specified listener to the list of content proposal listeners that\n are notified when content proposals are chosen.\n ",non-directive
+"</p>\n \n ",non-directive
+"@param listener\n            the IContentProposalListener to be added as a listener. ",non-directive
+"Must\n            not be <code>null</code>. ",null-directive
+"If an attempt is made to register\n            an instance which is already registered with this instance,\n            this method has no effect.\n \n",directive
+"@see org.eclipse.jface.fieldassist.IContentProposalListener\n",non-directive
+" Remove the specified listener from the list of content proposal listeners\n that are notified when a content proposal popup is opened or closed.\n ",non-directive
+"</p>\n \n ",non-directive
+"@param listener\n            the IContentProposalListener2 to be removed as a listener.\n            ",non-directive
+"Must not be <code>null</code>. ",null-directive
+"If the listener has not\n            already been registered, this method has no effect.\n \n",directive
+"@since 3.3\n ",non-directive
+"@see org.eclipse.jface.fieldassist.IContentProposalListener2\n",non-directive
+" Open the proposal popup and display the proposals provided by the\n proposal provider. ",non-directive
+"This method returns immediately. ",non-directive
+"That is, it does not\n wait for a proposal to be selected. ",non-directive
+"This method is used by subclasses to\n explicitly invoke the opening of the popup. ",semi-directive
+"If there are no proposals to\n show, the popup will not open and a beep will be sounded.\n",non-directive
+" Returns whether the content proposal popup has the focus. ",non-directive
+"This includes\n both the primary popup and any secondary info popup that may have focus.\n \n",directive
+"@return <code>true</code> if the proposal popup or its secondary info\n         popup has the focus\n ",non-directive
+"@since 3.4\n",non-directive
+" Return an array of Objects representing the valid content proposals for a\n field.\n \n",non-directive
+"@param contents\n            the current contents of the text field\n ",non-directive
+"@param position\n            the current position of the cursor in the contents\n \n ",non-directive
+"@return the array of {@link IContentProposal} that represent valid\n         proposals for the field.\n",non-directive

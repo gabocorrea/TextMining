@@ -1,0 +1,69 @@
+@relation InstanceResultListener
+
+@attribute Key_Dataset {3_Apache_Java_JFace.arff}
+@attribute Key_Run {1}
+@attribute Key_Scheme {weka.classifiers.meta.FilteredClassifier}
+@attribute Key_Scheme_options {'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -stopwords C:\\\\Users\\\\gabo\\\\Documents\\\\U\\\\F\\\\TextMining\\\\stoplists\\\\stop-words-english3-google.txt -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayes --','-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -C -N 0 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -stopwords C:\\\\Users\\\\gabo\\\\Documents\\\\U\\\\F\\\\TextMining\\\\stoplists\\\\stop-words-english3-google.txt -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayes --','-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -stopwords C:\\\\Users\\\\gabo\\\\Documents\\\\U\\\\F\\\\TextMining\\\\stoplists\\\\STOP-WORDS-Google-modified.txt -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayes --','-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -C -N 0 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -stopwords C:\\\\Users\\\\gabo\\\\Documents\\\\U\\\\F\\\\TextMining\\\\stoplists\\\\STOP-WORDS-Google-modified.txt -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayes --','-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -stopwords C:\\\\Users\\\\gabo\\\\Documents\\\\U\\\\F\\\\TextMining\\\\stoplists\\\\stop-words-english3-google.txt -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayesMultinomial','-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -C -N 0 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -stopwords C:\\\\Users\\\\gabo\\\\Documents\\\\U\\\\F\\\\TextMining\\\\stoplists\\\\stop-words-english3-google.txt -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayesMultinomial','-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -stopwords C:\\\\Users\\\\gabo\\\\Documents\\\\U\\\\F\\\\TextMining\\\\stoplists\\\\STOP-WORDS-Google-modified.txt -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayesMultinomial','-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -C -N 0 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -stopwords C:\\\\Users\\\\gabo\\\\Documents\\\\U\\\\F\\\\TextMining\\\\stoplists\\\\STOP-WORDS-Google-modified.txt -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayesMultinomial'}
+@attribute Key_Scheme_version_ID {-4523450618538717400}
+@attribute Date_time numeric
+@attribute Number_of_training_instances numeric
+@attribute Number_of_testing_instances numeric
+@attribute Number_correct numeric
+@attribute Number_incorrect numeric
+@attribute Number_unclassified numeric
+@attribute Percent_correct numeric
+@attribute Percent_incorrect numeric
+@attribute Percent_unclassified numeric
+@attribute Kappa_statistic numeric
+@attribute Mean_absolute_error numeric
+@attribute Root_mean_squared_error numeric
+@attribute Relative_absolute_error numeric
+@attribute Root_relative_squared_error numeric
+@attribute SF_prior_entropy numeric
+@attribute SF_scheme_entropy numeric
+@attribute SF_entropy_gain numeric
+@attribute SF_mean_prior_entropy numeric
+@attribute SF_mean_scheme_entropy numeric
+@attribute SF_mean_entropy_gain numeric
+@attribute KB_information numeric
+@attribute KB_mean_information numeric
+@attribute KB_relative_information numeric
+@attribute True_positive_rate numeric
+@attribute Num_true_positives numeric
+@attribute False_positive_rate numeric
+@attribute Num_false_positives numeric
+@attribute True_negative_rate numeric
+@attribute Num_true_negatives numeric
+@attribute False_negative_rate numeric
+@attribute Num_false_negatives numeric
+@attribute IR_precision numeric
+@attribute IR_recall numeric
+@attribute F_measure numeric
+@attribute Area_under_ROC numeric
+@attribute Weighted_avg_true_positive_rate numeric
+@attribute Weighted_avg_false_positive_rate numeric
+@attribute Weighted_avg_true_negative_rate numeric
+@attribute Weighted_avg_false_negative_rate numeric
+@attribute Weighted_avg_IR_precision numeric
+@attribute Weighted_avg_IR_recall numeric
+@attribute Weighted_avg_F_measure numeric
+@attribute Weighted_avg_area_under_ROC numeric
+@attribute Elapsed_Time_training numeric
+@attribute Elapsed_Time_testing numeric
+@attribute UserCPU_Time_training numeric
+@attribute UserCPU_Time_testing numeric
+@attribute Serialized_Model_Size numeric
+@attribute Serialized_Train_Set_Size numeric
+@attribute Serialized_Test_Set_Size numeric
+@attribute Summary string
+
+@data
+
+3_Apache_Java_JFace.arff,1,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -stopwords C:\\\\Users\\\\gabo\\\\Documents\\\\U\\\\F\\\\TextMining\\\\stoplists\\\\stop-words-english3-google.txt -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayes --',-4523450618538717400,20150824.0509,3993,1910,1572,338,0,82.303665,17.696335,0,0.322672,0.195329,0.377941,81.34019,131.657546,882.685521,1654.963508,-772.277987,0.462139,0.866473,-0.404334,-120.736878,-0.063213,-16901.527123,0.804348,111,0.175508,311,0.824492,1461,0.195652,27,0.263033,0.804348,0.396429,0.900203,0.823037,0.194197,0.805803,0.176963,0.929919,0.823037,0.860201,0.900203,3.129,4.438,3.026419,4.336828,496631,633226,539491,?
+3_Apache_Java_JFace.arff,1,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -C -N 0 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -stopwords C:\\\\Users\\\\gabo\\\\Documents\\\\U\\\\F\\\\TextMining\\\\stoplists\\\\stop-words-english3-google.txt -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayes --',-4523450618538717400,20150824.0509,3993,1910,1612,298,0,84.397906,15.602094,0,0.344384,0.171778,0.362618,71.532744,126.319549,882.685521,8930.693347,-8048.007825,0.462139,4.675756,-4.213617,-3.73823,-0.001957,-523.301604,0.76087,105,0.149549,265,0.850451,1507,0.23913,33,0.283784,0.76087,0.413386,0.878668,0.843979,0.232658,0.767342,0.156021,0.928372,0.843979,0.874141,0.878672,3.328,4.691,3.322821,4.446029,496633,633226,539491,?
+3_Apache_Java_JFace.arff,1,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -stopwords C:\\\\Users\\\\gabo\\\\Documents\\\\U\\\\F\\\\TextMining\\\\stoplists\\\\STOP-WORDS-Google-modified.txt -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayes --',-4523450618538717400,20150824.0509,3993,1910,1592,318,0,83.350785,16.649215,0,0.34246,0.184447,0.363891,76.808742,126.763073,882.685521,1580.172671,-697.48715,0.462139,0.827316,-0.365177,-61.496125,-0.032197,-8608.624334,0.811594,112,0.164786,292,0.835214,1480,0.188406,26,0.277228,0.811594,0.413284,0.902411,0.833508,0.186699,0.813301,0.166492,0.931762,0.833508,0.867608,0.902411,3.165,4.664,3.08882,4.274427,479821,633226,539491,?
+3_Apache_Java_JFace.arff,1,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -C -N 0 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -stopwords C:\\\\Users\\\\gabo\\\\Documents\\\\U\\\\F\\\\TextMining\\\\stoplists\\\\STOP-WORDS-Google-modified.txt -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayes --',-4523450618538717400,20150824.0509,3993,1910,1636,274,0,85.65445,14.34555,0,0.353371,0.158914,0.346317,66.17605,120.641293,882.685521,7321.643661,-6438.95814,0.462139,3.833321,-3.371182,64.016013,0.033516,8961.374514,0.717391,99,0.132619,235,0.867381,1537,0.282609,39,0.296407,0.717391,0.419492,0.875548,0.856545,0.271772,0.728228,0.143455,0.926206,0.856545,0.882131,0.87555,3.09,5.032,2.964019,4.477229,479823,633226,539491,?
+3_Apache_Java_JFace.arff,1,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -stopwords C:\\\\Users\\\\gabo\\\\Documents\\\\U\\\\F\\\\TextMining\\\\stoplists\\\\stop-words-english3-google.txt -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayesMultinomial',-4523450618538717400,20150824.0509,3993,1910,1659,251,0,86.858639,13.141361,0,0.418221,0.17226,0.325895,71.733731,113.52704,882.685521,1122.747324,-240.061803,0.462139,0.587826,-0.125687,-3.217949,-0.001685,-450.469293,0.833333,115,0.128668,228,0.871332,1544,0.166667,23,0.335277,0.833333,0.47817,0.906368,0.868586,0.163921,0.836079,0.131414,0.938356,0.868586,0.892556,0.906368,0.159,0.045,0.156001,0.0156,269509,633226,539491,?
+3_Apache_Java_JFace.arff,1,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -C -N 0 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -stopwords C:\\\\Users\\\\gabo\\\\Documents\\\\U\\\\F\\\\TextMining\\\\stoplists\\\\stop-words-english3-google.txt -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayesMultinomial',-4523450618538717400,20150824.0509,3993,1910,1646,264,0,86.17801,13.82199,0,0.401152,0.177185,0.333601,73.784625,116.211338,882.685521,1202.119487,-319.433966,0.462139,0.629382,-0.167243,-40.471976,-0.02119,-5665.528309,0.826087,114,0.13544,240,0.86456,1532,0.173913,24,0.322034,0.826087,0.463415,0.899904,0.86178,0.171133,0.828867,0.13822,0.936706,0.86178,0.887636,0.899904,0.157,0.043,0.140401,0.0468,269511,633226,539491,?
+3_Apache_Java_JFace.arff,1,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -N 0 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -stopwords C:\\\\Users\\\\gabo\\\\Documents\\\\U\\\\F\\\\TextMining\\\\stoplists\\\\STOP-WORDS-Google-modified.txt -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayesMultinomial',-4523450618538717400,20150824.0509,3993,1910,1651,259,0,86.439791,13.560209,0,0.409053,0.170454,0.319563,70.981445,111.321133,882.685521,1052.980133,-170.294612,0.462139,0.551298,-0.089159,2.287004,0.001197,320.149595,0.833333,115,0.133183,236,0.866817,1536,0.166667,23,0.327635,0.833333,0.470348,0.91104,0.864398,0.164247,0.835753,0.135602,0.937734,0.864398,0.889595,0.91104,0.236,0.032,0.234002,0.0312,260873,633226,539491,?
+3_Apache_Java_JFace.arff,1,weka.classifiers.meta.FilteredClassifier,'-F \"weka.filters.unsupervised.attribute.StringToWordVector -R first -W 1000 -prune-rate -1.0 -C -N 0 -L -S -stemmer weka.core.stemmers.NullStemmer -M 1 -stopwords C:\\\\Users\\\\gabo\\\\Documents\\\\U\\\\F\\\\TextMining\\\\stoplists\\\\STOP-WORDS-Google-modified.txt -tokenizer \\\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\\'\\\\\\\\\\\\\\\"()?!\\\\\\\"\\\"\" -W weka.classifiers.bayes.NaiveBayesMultinomial',-4523450618538717400,20150824.0509,3993,1910,1637,273,0,85.706806,14.293194,0,0.389036,0.176722,0.328917,73.591558,114.579662,882.685521,1133.289744,-250.604223,0.462139,0.593345,-0.131206,-43.306005,-0.022673,-6062.253885,0.818841,113,0.139955,248,0.860045,1524,0.181159,25,0.313019,0.818841,0.452906,0.903687,0.857068,0.178182,0.821818,0.142932,0.935391,0.857068,0.884207,0.903687,0.14,0.035,0.140401,0.0312,260875,633226,539491,?
